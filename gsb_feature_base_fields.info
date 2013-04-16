@@ -137,6 +137,7 @@ features[field_base][] = field_work_in_progress
 features[field_base][] = field_work_in_progress_desc
 features[field_base][] = field_work_in_progress_title
 features[field_base][] = field_working_papers
+features[field_base][] = field_year
 features[field_base][] = field_year_range
 features_exclude[taxonomy][academic_area] = academic_area
 features_exclude[taxonomy][business_insight_topic] = business_insight_topic

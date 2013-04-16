@@ -3435,6 +3435,37 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_year'
+  $field_bases['field_year'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_year',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'date',
+    'settings' => array(
+      'cache_count' => 4,
+      'cache_enabled' => 0,
+      'granularity' => array(
+        'day' => 'day',
+        'hour' => 'hour',
+        'minute' => 'minute',
+        'month' => 'month',
+        'second' => 0,
+        'year' => 'year',
+      ),
+      'repeat' => 0,
+      'timezone_db' => 'UTC',
+      'todate' => '',
+      'tz_handling' => 'site',
+    ),
+    'translatable' => 0,
+    'type' => 'datetime',
+  );
+
   // Exported field_base: 'field_year_range'
   $field_bases['field_year_range'] = array(
     'active' => 1,
