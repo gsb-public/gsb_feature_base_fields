@@ -48,6 +48,7 @@ features[field_base][] = field_email
 features[field_base][] = field_event_category
 features[field_base][] = field_event_date
 features[field_base][] = field_event_series
+features[field_base][] = field_existing_node_fpp_ref
 features[field_base][] = field_facebook
 features[field_base][] = field_faculty_expert
 features[field_base][] = field_feed_source
