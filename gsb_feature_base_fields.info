@@ -17,7 +17,6 @@ dependencies[] = taxonomy
 dependencies[] = telephone
 dependencies[] = text
 features[features_api][] = api:1
-features[field_base][] = body
 features[field_base][] = field_academic_area_single
 features[field_base][] = field_academic_area_unlimited
 features[field_base][] = field_academic_degrees
