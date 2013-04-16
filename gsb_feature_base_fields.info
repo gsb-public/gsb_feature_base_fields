@@ -30,6 +30,7 @@ features[field_base][] = field_business_insight_topic
 features[field_base][] = field_case_study_at_harvard
 features[field_base][] = field_case_study_number
 features[field_base][] = field_centers_research_programs
+features[field_base][] = field_citation
 features[field_base][] = field_club_category
 features[field_base][] = field_company_organization
 features[field_base][] = field_cta_action
