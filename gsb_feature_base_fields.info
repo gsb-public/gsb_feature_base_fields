@@ -104,6 +104,7 @@ features[field_base][] = field_program_single
 features[field_base][] = field_pub_case_rp_ref
 features[field_base][] = field_publication_reviewer
 features[field_base][] = field_publication_reviews
+features[field_base][] = field_publisher
 features[field_base][] = field_quote_author_name_title
 features[field_base][] = field_quote_link_company
 features[field_base][] = field_rank
