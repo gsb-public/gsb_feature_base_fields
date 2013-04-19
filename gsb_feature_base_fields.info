@@ -16,6 +16,7 @@ dependencies[] = number
 dependencies[] = taxonomy
 dependencies[] = telephone
 dependencies[] = text
+datestamp = 1366366919
 features[features_api][] = api:1
 features[field_base][] = field_academic_area_single
 features[field_base][] = field_academic_area_unlimited
