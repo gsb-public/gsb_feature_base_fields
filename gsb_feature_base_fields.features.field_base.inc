@@ -492,7 +492,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         'Request' => 'Request',
         'See' => 'See',
         'Subscribe' => 'Subscribe',
-        'Stay in touch' => 'Stay in touch',
+        'Stay in Touch' => 'Stay in Touch',
         'View' => 'View',
       ),
       'allowed_values_function' => '',
