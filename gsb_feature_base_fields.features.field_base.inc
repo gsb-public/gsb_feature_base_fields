@@ -81,7 +81,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_academic_degrees'
   $field_bases['field_academic_degrees'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_academic_degrees',
@@ -2396,7 +2396,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_professional_experience'
   $field_bases['field_professional_experience'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_professional_experience',
