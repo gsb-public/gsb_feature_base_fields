@@ -2912,6 +2912,41 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_search_field'
+  $field_bases['field_search_field'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_search_field',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'computed_field',
+    'settings' => array(
+      'code' => '$build = entity_view($entity_type, array($entity));
+$output = array(array_pop(array_pop(field_get_items($entity_type, $entity, \'field_editorial_summary\'))));
+foreach (element_children($build) as $key) {
+  $output[] = trim(preg_replace(\'#<[^>]+>#\', \' \', render($build[$key])));
+}
+$entity_field[0][\'value\'] = implode(\' \', array_filter($output));',
+      'database' => array(
+        'data_default' => '',
+        'data_index' => 0,
+        'data_length' => 32,
+        'data_not_NULL' => 0,
+        'data_precision' => 10,
+        'data_scale' => 2,
+        'data_size' => 'normal',
+        'data_type' => 'longtext',
+      ),
+      'display_format' => '$display_output = \'\';',
+      'store' => 1,
+    ),
+    'translatable' => 0,
+    'type' => 'computed',
+  );
+
   // Exported field_base: 'field_sections'
   $field_bases['field_sections'] = array(
     'active' => 1,
