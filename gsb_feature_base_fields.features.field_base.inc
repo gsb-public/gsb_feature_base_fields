@@ -489,7 +489,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        1000 => 'Access Database',
+        1000 => 'Access Databases',
         1010 => 'Apply',
         1020 => 'Ask Us',
         1030 => 'Attend',
@@ -510,6 +510,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         1180 => 'Request',
         1190 => 'See',
         1210 => 'Stay in Touch',
+        1215 => 'Subscribe',
         1220 => 'View',
       ),
       'allowed_values_function' => '',
