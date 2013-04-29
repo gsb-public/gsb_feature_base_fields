@@ -3,3 +3,67 @@
  * @file
  * Drupal needs this blank file.
  */
+
+/**
+ * Implements hook_field_info_alter().
+ */
+function gsb_feature_base_fields_field_info_alter(&$info) {
+  $info['computed']['instance_settings']['gsb_feature_base_fields_selected_fields'] = array();
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter() for field_ui_field_edit_form().
+ */
+function gsb_feature_base_fields_form_field_ui_field_edit_form_alter(&$form, &$form_state, $form_id) {
+  if ($form['#field']['field_name'] == 'field_search_field') {
+    // Allow selection of which fields to use.
+    $options = array();
+    $info = field_info_fields();
+    $types = field_info_field_types();
+    foreach (field_info_instances($form['#instance']['entity_type'], $form['#instance']['bundle']) as $key => $other_instance) {
+      $options[$key] = t('@name (%type)', array('@name' => $other_instance['label'], '%type' => $types[$info[$key]['type']]['label']));
+    }
+    unset($options[$form['#field']['field_name']]);
+    $form['instance']['settings']['gsb_feature_base_fields_selected_fields'] = array(
+      '#type' => 'checkboxes',
+      '#title' => t('Selected fields'),
+      '#description' => t('The display values of these fields will be combined to serve as the value of this field.'),
+      '#options' => $options,
+      '#default_value' => $form['#instance']['settings']['gsb_feature_base_fields_selected_fields'],
+    );
+  }
+}
+
+/**
+ * Computed field callback for field_search_field.
+ */
+function computed_field_field_search_field_compute(&$entity_field, $entity_type, $entity, $field, $instance, $langcode, $items) {
+  $output = array();
+  $fields = array_filter($instance['settings']['gsb_feature_base_fields_selected_fields']);
+  $wrapper = entity_metadata_wrapper($entity_type, $entity);
+  // For each selected field, find the text representation.
+  foreach ($fields as $field) {
+    // Loop through lists.
+    if ($wrapper->$field instanceof EntityListWrapper || $wrapper->$field instanceof EntityStructureWrapper) {
+      foreach ($wrapper->$field as $item) {
+        // Handle referenced entities.
+        if ($item instanceof EntityDrupalWrapper) {
+          $output[] = $item->view();
+        }
+        else {
+          $output[] = $item->value();
+        }
+      }
+    }
+    // Handle simple fields.
+    elseif ($wrapper->$field instanceof EntityValueWrapper) {
+      $output[] = $wrapper->$field->value();
+    }
+  }
+  // Ensure each value is a string containing no HTML.
+  foreach ($output as &$item) {
+    $item = trim(preg_replace('#<[^>]+>#', ' ', render($item)));
+  }
+
+  $entity_field[0]['value'] = implode(' ', array_filter($output));
+}
