@@ -50,7 +50,7 @@ function computed_field_field_search_field_compute(&$entity_field, $entity_type,
         if ($item instanceof EntityDrupalWrapper) {
           $output[] = $item->view();
         }
-        else {
+        elseif ($item->type() != 'token') {
           $output[] = $item->value();
         }
       }
