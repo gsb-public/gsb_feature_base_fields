@@ -3704,7 +3704,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_witl_facts'
   $field_bases['field_witl_facts'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_witl_facts',
@@ -3846,7 +3846,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_witl_under_photo_facts'
   $field_bases['field_witl_under_photo_facts'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_witl_under_photo_facts',
