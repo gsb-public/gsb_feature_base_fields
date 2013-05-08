@@ -2923,24 +2923,10 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'foreign keys' => array(),
     'indexes' => array(),
     'locked' => 0,
-    'module' => 'computed_field',
-    'settings' => array(
-      'code' => '',
-      'database' => array(
-        'data_default' => '',
-        'data_index' => 0,
-        'data_length' => 32,
-        'data_not_NULL' => 0,
-        'data_precision' => 10,
-        'data_scale' => 2,
-        'data_size' => 'normal',
-        'data_type' => 'longtext',
-      ),
-      'display_format' => '$display_output = \'\';',
-      'store' => 1,
-    ),
+    'module' => 'concat_field',
+    'settings' => array(),
     'translatable' => 0,
-    'type' => 'computed',
+    'type' => 'concat_field',
   );
 
   // Exported field_base: 'field_sections'
