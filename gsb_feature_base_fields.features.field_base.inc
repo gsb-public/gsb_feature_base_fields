@@ -3683,7 +3683,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 255,
+      'max_length' => 60,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -3712,7 +3712,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 255,
+      'max_length' => 60,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -3825,7 +3825,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 255,
+      'max_length' => 60,
     ),
     'translatable' => 0,
     'type' => 'text',
