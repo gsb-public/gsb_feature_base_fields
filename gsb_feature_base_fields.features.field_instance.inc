@@ -289,7 +289,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_year',
     'label' => 'Graduation Year',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'default_value' => 'now',
       'default_value2' => 'same',
