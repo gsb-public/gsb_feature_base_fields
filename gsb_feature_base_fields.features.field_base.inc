@@ -97,6 +97,34 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_academic_quarter'
+  $field_bases['field_academic_quarter'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_academic_quarter',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'autumn' => 'Autumn',
+        'winter' => 'Winter',
+        'spring' => 'Spring',
+        'summer' => 'Summer',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_accordion_item'
   $field_bases['field_accordion_item'] = array(
     'active' => 1,
