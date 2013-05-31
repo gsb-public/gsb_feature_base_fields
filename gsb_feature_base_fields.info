@@ -26,6 +26,7 @@ datestamp = 1369071754
 features[features_api][] = api:1
 features[field_base][] = field_academic_area_single
 features[field_base][] = field_academic_area_unlimited
+features[field_base][] = field_academic_calendar_link
 features[field_base][] = field_academic_degrees
 features[field_base][] = field_academic_quarter
 features[field_base][] = field_accordion_item
