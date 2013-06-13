@@ -3274,7 +3274,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'cta' => 'CTA',
+        'cta' => 'Standard',
         'simple' => 'Simple',
       ),
       'allowed_values_function' => '',
