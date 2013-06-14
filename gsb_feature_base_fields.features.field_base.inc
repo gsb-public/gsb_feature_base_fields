@@ -144,10 +144,10 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'autumn' => 'Autumn',
-        'winter' => 'Winter',
-        'spring' => 'Spring',
-        'summer' => 'Summer',
+        1 => 'Summer',
+        2 => 'Autumn',
+        3 => 'Winter',
+        4 => 'Spring',
       ),
       'allowed_values_function' => '',
     ),
