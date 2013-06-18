@@ -2190,6 +2190,22 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_pathauto_title_alias'
+  $field_bases['field_pathauto_title_alias'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_pathauto_title_alias',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'pathauto_title_alias',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'pathauto_title_alias',
+  );
+
   // Exported field_base: 'field_person_description'
   $field_bases['field_person_description'] = array(
     'active' => 1,
