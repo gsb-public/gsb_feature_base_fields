@@ -21,6 +21,7 @@ dependencies[] = link
 dependencies[] = list
 dependencies[] = number
 dependencies[] = options
+dependencies[] = pathauto_title_alias
 dependencies[] = taxonomy
 dependencies[] = telephone
 dependencies[] = text
