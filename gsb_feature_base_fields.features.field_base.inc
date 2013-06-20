@@ -176,7 +176,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         2013 => 'AY-2013',
         2014 => 'AY-2014',
       ),
-      'allowed_values_function' => '',
+      'allowed_values_function' => 'gsb_academic_year_get_allowed_labels',
     ),
     'translatable' => 0,
     'type' => 'list_text',

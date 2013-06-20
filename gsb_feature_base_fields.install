@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the GSB Base Fields module.
+ */
+
+/**
+ * Enable the GSB Academic Year module.
+ */
+function gsb_feature_base_fields_update_7000() {
+  module_enable(array('gsb_academic_year'));
+}
