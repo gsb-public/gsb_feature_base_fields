@@ -755,6 +755,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       'allowed_values' => array(
         'BA' => 'BA',
         'BS' => 'BS',
+        'JD' => 'JD',
         'MA' => 'MA',
         'MBA' => 'MBA',
         'MS' => 'MS',
