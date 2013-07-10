@@ -52,10 +52,11 @@ $config = array(
   'level_labels' => array(
     'status' => 0,
     'labels' => array(
+      0 => '',
     ),
   ),
   'dropbox' => array(
-    'status'    => 0,
+    'status'    => 1,
     'title'     => 'All selections',
     'limit'     => 0,
     'reset_hs'  => 1,
@@ -63,8 +64,10 @@ $config = array(
   'editability' => array(
     'status' => 0,
     'item_types' => array(
+      0 => '',
     ),
     'allowed_levels' => array(
+      0 => 1,
     ),
     'allow_new_levels' => 0,
     'max_levels'       => 3,
