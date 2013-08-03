@@ -1202,8 +1202,8 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'image-float-left' => 'Left',
-        'image-float-right' => 'Right',
+        'caption-left' => 'Left',
+        'caption-right' => 'Right',
       ),
       'allowed_values_function' => '',
     ),
