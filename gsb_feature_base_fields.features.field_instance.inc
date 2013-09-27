@@ -358,7 +358,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 4,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -399,13 +399,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 6,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_job_market_paper-field_link_title'
-  $field_instances['field_collection_item-field_job_market_paper-field_link_title'] = array(
+  // Exported field_instance: 'field_collection_item-field_job_market_paper-field_link_single'
+  $field_instances['field_collection_item-field_job_market_paper-field_link_single'] = array(
     'bundle' => 'field_job_market_paper',
     'default_value' => NULL,
     'deleted' => 0,
@@ -418,12 +418,12 @@ function gsb_feature_base_fields_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 0,
+        'weight' => 3,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_link_title',
+    'field_name' => 'field_link_single',
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
@@ -431,7 +431,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'class' => '',
         'configurable_title' => 0,
         'rel' => '',
-        'target' => '_blank',
+        'target' => 'user',
         'title' => '',
       ),
       'display' => array(
@@ -457,7 +457,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'link_field',
-      'weight' => 2,
+      'weight' => 1,
     ),
     'workbench_access_field' => 0,
   );
@@ -631,73 +631,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_publications-field_link_title'
-  $field_instances['field_collection_item-field_publications-field_link_title'] = array(
-    'bundle' => 'field_publications',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
-        'weight' => 0,
-      ),
-      'full' => array(
-        'label' => 'hidden',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
-        'weight' => 0,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'field_collection_item',
-    'field_name' => 'field_link_title',
-    'label' => 'Title',
-    'required' => 0,
-    'settings' => array(
-      'attributes' => array(
-        'class' => '',
-        'configurable_title' => 0,
-        'rel' => '',
-        'target' => '_blank',
-        'title' => '',
-      ),
-      'display' => array(
-        'url_cutoff' => 80,
-      ),
-      'enable_tokens' => 1,
-      'linkit' => array(
-        'enable' => 0,
-        'insert_plugin' => '',
-      ),
-      'rel_remove' => 'default',
-      'title' => 'required',
-      'title_maxlength' => 128,
-      'title_value' => '',
-      'url' => 'optional',
-      'user_register_form' => FALSE,
-      'validate_url' => 1,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'link',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
-      'type' => 'link_field',
-      'weight' => 0,
-    ),
-    'workbench_access_field' => 0,
-  );
-
   // Exported field_instance: 'field_collection_item-field_publications-field_phd_citation'
   $field_instances['field_collection_item-field_publications-field_phd_citation'] = array(
     'bundle' => 'field_publications',
@@ -807,7 +740,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -848,13 +781,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_work_in_progress-field_link_title'
-  $field_instances['field_collection_item-field_work_in_progress-field_link_title'] = array(
+  // Exported field_instance: 'field_collection_item-field_work_in_progress-field_link_single'
+  $field_instances['field_collection_item-field_work_in_progress-field_link_single'] = array(
     'bundle' => 'field_work_in_progress',
     'default_value' => NULL,
     'deleted' => 0,
@@ -867,12 +800,12 @@ function gsb_feature_base_fields_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 3,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_link_title',
+    'field_name' => 'field_link_single',
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
@@ -880,7 +813,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'class' => '',
         'configurable_title' => 0,
         'rel' => '',
-        'target' => '_blank',
+        'target' => 'user',
         'title' => '',
       ),
       'display' => array(
@@ -906,7 +839,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'link_field',
-      'weight' => 0,
+      'weight' => 1,
     ),
     'workbench_access_field' => 0,
   );
@@ -979,7 +912,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'rows' => 3,
       ),
       'type' => 'text_textarea',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -1047,40 +980,37 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_working_papers-field_link_title'
-  $field_instances['field_collection_item-field_working_papers-field_link_title'] = array(
+  // Exported field_instance: 'field_collection_item-field_working_papers-field_link_single'
+  $field_instances['field_collection_item-field_working_papers-field_link_single'] = array(
     'bundle' => 'field_working_papers',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'hidden',
+        'label' => 'above',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 0,
+        'weight' => 3,
       ),
       'full' => array(
-        'label' => 'hidden',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_link_title',
+    'field_name' => 'field_link_single',
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
@@ -1088,7 +1018,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'class' => '',
         'configurable_title' => 0,
         'rel' => '',
-        'target' => '_blank',
+        'target' => 'user',
         'title' => '',
       ),
       'display' => array(
@@ -1114,7 +1044,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'link_field',
-      'weight' => 0,
+      'weight' => 1,
     ),
     'workbench_access_field' => 0,
   );
