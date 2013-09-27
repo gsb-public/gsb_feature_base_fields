@@ -405,7 +405,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'settings' => array(
       'description_field' => 0,
       'file_directory' => '',
-      'file_extensions' => 'txt',
+      'file_extensions' => 'pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -624,7 +624,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'settings' => array(
       'description_field' => 0,
       'file_directory' => '',
-      'file_extensions' => 'txt',
+      'file_extensions' => 'pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -823,7 +823,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'settings' => array(
       'description_field' => 0,
       'file_directory' => 'working-papers',
-      'file_extensions' => 'txt pdf doc docx xls xlsx ppt pptx',
+      'file_extensions' => 'pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),

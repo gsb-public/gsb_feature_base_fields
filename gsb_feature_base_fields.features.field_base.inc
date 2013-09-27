@@ -1700,9 +1700,9 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
+        'dont_display' => 'Do not display',
         'job_market_page' => 'Display on Job Market Page',
         'placement_page' => 'Display on Placement Page',
-        'dont_display' => 'Do not display',
       ),
       'allowed_values_function' => '',
     ),
