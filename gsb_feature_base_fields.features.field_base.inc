@@ -987,7 +987,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 255,
+      'max_length' => 150,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -1360,6 +1360,37 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_file_job_market_paper'
+  $field_bases['field_file_job_market_paper'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_file_job_market_paper',
+    'foreign keys' => array(
+      'fid' => array(
+        'columns' => array(
+          'fid' => 'fid',
+        ),
+        'table' => 'file_managed',
+      ),
+    ),
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'file',
+    'settings' => array(
+      'display_default' => 0,
+      'display_field' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'file',
+  );
+
   // Exported field_base: 'field_file_single_public'
   $field_bases['field_file_single_public'] = array(
     'active' => 1,
@@ -1679,23 +1710,31 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_job_market_paper'
-  $field_bases['field_job_market_paper'] = array(
+  // Exported field_base: 'field_job_market_paper_desc'
+  $field_bases['field_job_market_paper_desc'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_job_market_paper',
-    'foreign keys' => array(),
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'field_collection',
-    'settings' => array(
-      'hide_blank_items' => 1,
-      'path' => '',
+    'field_name' => 'field_job_market_paper_desc',
+    'foreign keys' => array(
+      'format' => array(
+        'columns' => array(
+          'format' => 'format',
+        ),
+        'table' => 'filter_format',
+      ),
     ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
     'translatable' => 0,
-    'type' => 'field_collection',
+    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_last_name'
