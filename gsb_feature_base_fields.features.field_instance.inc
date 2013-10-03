@@ -325,13 +325,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 3,
       ),
       'full' => array(
         'label' => 'above',
@@ -379,13 +379,14 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'file',
+        'label' => 'hidden',
+        'module' => 'file_entity',
         'settings' => array(
           'conditions' => array(),
+          'text' => 'PDF',
         ),
-        'type' => 'file_default',
-        'weight' => 4,
+        'type' => 'file_download_link',
+        'weight' => 1,
       ),
       'full' => array(
         'label' => 'above',
@@ -430,13 +431,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 5,
+        'weight' => 0,
       ),
       'full' => array(
         'label' => 'above',
@@ -494,13 +495,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 2,
       ),
       'full' => array(
         'label' => 'above',
@@ -544,13 +545,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'ical' => array(
         'label' => 'above',
@@ -607,13 +608,14 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'file',
+        'label' => 'hidden',
+        'module' => 'file_entity',
         'settings' => array(
           'conditions' => array(),
+          'text' => 'PDF',
         ),
-        'type' => 'file_default',
-        'weight' => 2,
+        'type' => 'file_download_link',
+        'weight' => 1,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -649,13 +651,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 4,
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -730,6 +732,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'phd_job_market_candidate' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
       'research_pager' => array(
         'label' => 'above',
         'settings' => array(),
@@ -802,6 +813,16 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'phd_job_market_candidate' => array(
+        'label' => 'hidden',
+        'module' => 'file_entity',
+        'settings' => array(
+          'conditions' => array(),
+          'text' => 'PDF',
+        ),
+        'type' => 'file_download_link',
+        'weight' => 0,
+      ),
       'research_pager' => array(
         'label' => 'above',
         'settings' => array(),
@@ -860,6 +881,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'phd_job_market_candidate' => array(
+        'label' => 'hidden',
+        'module' => 'link',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'link_default',
         'weight' => 0,
       ),
     ),
