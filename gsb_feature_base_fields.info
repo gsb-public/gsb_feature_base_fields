@@ -13,6 +13,7 @@ dependencies[] = entityreference
 dependencies[] = features
 dependencies[] = field_collection
 dependencies[] = file
+dependencies[] = file_entity
 dependencies[] = gsb_academic_year
 dependencies[] = hierarchical_select
 dependencies[] = hs_taxonomy
