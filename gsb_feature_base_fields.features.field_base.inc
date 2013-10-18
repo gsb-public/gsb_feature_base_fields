@@ -150,7 +150,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 100,
+      'max_length' => 255,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -987,7 +987,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 150,
+      'max_length' => 255,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -2643,7 +2643,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(
-      'max_length' => 250,
+      'max_length' => 1000,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -4380,6 +4380,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'translatable' => 0,
     'type' => 'text',
   );
+
 
   // Exported field_base: 'field_working_papers'
   $field_bases['field_working_papers'] = array(
