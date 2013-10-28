@@ -380,12 +380,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'file_entity',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
+          'file_view_mode' => 'default',
           'text' => 'PDF',
         ),
-        'type' => 'file_download_link',
+        'type' => 'gsb_field_formatter_download_link',
         'weight' => 1,
       ),
       'full' => array(
@@ -609,12 +610,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'file_entity',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
+          'file_view_mode' => 'default',
           'text' => 'PDF',
         ),
-        'type' => 'file_download_link',
+        'type' => 'gsb_field_formatter_download_link',
         'weight' => 1,
       ),
     ),
@@ -815,12 +817,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'phd_job_market_candidate' => array(
         'label' => 'hidden',
-        'module' => 'file_entity',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
+          'file_view_mode' => 'default',
           'text' => 'PDF',
         ),
-        'type' => 'file_download_link',
+        'type' => 'gsb_field_formatter_download_link',
         'weight' => 0,
       ),
       'research_pager' => array(
