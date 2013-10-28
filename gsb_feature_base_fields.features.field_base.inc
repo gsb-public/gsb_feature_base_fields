@@ -4381,7 +4381,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-
   // Exported field_base: 'field_working_papers'
   $field_bases['field_working_papers'] = array(
     'active' => 1,
