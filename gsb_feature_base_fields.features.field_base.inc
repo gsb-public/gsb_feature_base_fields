@@ -3747,8 +3747,9 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'default' => 'Default',
-        'mba-highlighted-block' => 'MBA Highlighted block',
+        'default' => 'Container',
+        'mba-highlighted-block' => 'Blue Bar Container',
+        'unstyled' => 'Unstyled',
       ),
       'allowed_values_function' => '',
     ),
