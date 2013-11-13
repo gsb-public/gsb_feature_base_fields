@@ -186,6 +186,7 @@ features[field_base][] = field_tag
 features[field_base][] = field_talks_conferences
 features[field_base][] = field_target_audience
 features[field_base][] = field_teaching_statement
+features[field_base][] = field_temp_citation
 features[field_base][] = field_text_style
 features[field_base][] = field_time
 features[field_base][] = field_title
