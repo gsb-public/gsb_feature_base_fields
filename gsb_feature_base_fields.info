@@ -51,7 +51,6 @@ features[field_base][] = field_case_study_at_harvard
 features[field_base][] = field_case_study_number
 features[field_base][] = field_center_affiliations
 features[field_base][] = field_centers_research_programs
-features[field_base][] = field_citation
 features[field_base][] = field_club_category
 features[field_base][] = field_company_organization
 features[field_base][] = field_conf_presentations_section
@@ -184,7 +183,7 @@ features[field_base][] = field_tag
 features[field_base][] = field_talks_conferences
 features[field_base][] = field_target_audience
 features[field_base][] = field_teaching_statement
-features[field_base][] = field_temp_citation
+features[field_base][] = field_citation
 features[field_base][] = field_text_style
 features[field_base][] = field_time
 features[field_base][] = field_title
@@ -261,3 +260,10 @@ features_exclude[taxonomy][region] = region
 features_exclude[taxonomy][tag] = tag
 features_exclude[taxonomy][target_audience] = target_audience
 features_exclude[taxonomy][workbench_sections] = workbench_sections
+
+
+; Information added by drush on 2013-11-13
+version = "WP-2354-dev"
+project = "gsb_feature_base_fields"
+datestamp = "1384370993"
+
