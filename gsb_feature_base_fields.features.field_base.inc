@@ -651,33 +651,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_citation'
-  $field_bases['field_citation'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_citation',
-    'foreign keys' => array(
-      'format' => array(
-        'columns' => array(
-          'format' => 'format',
-        ),
-        'table' => 'filter_format',
-      ),
-    ),
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'text_long',
-  );
-
   // Exported field_base: 'field_club_category'
   $field_bases['field_club_category'] = array(
     'active' => 1,
@@ -4645,13 +4618,13 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_temp_citation'
-  $field_bases['field_temp_citation'] = array(
+  // Exported field_base: 'field_citation'
+  $field_bases['field_citation'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_temp_citation',
+    'field_name' => 'field_citation',
     'foreign keys' => array(
       'format' => array(
         'columns' => array(
