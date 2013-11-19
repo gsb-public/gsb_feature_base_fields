@@ -156,6 +156,35 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_academic_degrees_unlimited'
+  $field_bases['field_academic_degrees_unlimited'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_academic_degrees_unlimited',
+    'foreign keys' => array(
+      'format' => array(
+        'columns' => array(
+          'format' => 'format',
+        ),
+        'table' => 'filter_format',
+      ),
+    ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_academic_institution'
   $field_bases['field_academic_institution'] = array(
     'active' => 1,
@@ -464,6 +493,35 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_case_study_number',
+    'foreign keys' => array(
+      'format' => array(
+        'columns' => array(
+          'format' => 'format',
+        ),
+        'table' => 'filter_format',
+      ),
+    ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'field_center_affiliations'
+  $field_bases['field_center_affiliations'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_center_affiliations',
     'foreign keys' => array(
       'format' => array(
         'columns' => array(
@@ -1542,6 +1600,35 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_greater_univ_aff_unlimited'
+  $field_bases['field_greater_univ_aff_unlimited'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_greater_univ_aff_unlimited',
+    'foreign keys' => array(
+      'format' => array(
+        'columns' => array(
+          'format' => 'format',
+        ),
+        'table' => 'filter_format',
+      ),
+    ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_house_ads_style'
   $field_bases['field_house_ads_style'] = array(
     'active' => 1,
@@ -1881,7 +1968,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       ),
       'repeat' => 0,
       'timezone_db' => '',
-      'todate' => 'optional',
+      'todate' => 'required',
       'tz_handling' => 'none',
     ),
     'translatable' => 0,
@@ -3028,6 +3115,35 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'telephone',
   );
 
+  // Exported field_base: 'field_position_year'
+  $field_bases['field_position_year'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_position_year',
+    'foreign keys' => array(
+      'format' => array(
+        'columns' => array(
+          'format' => 'format',
+        ),
+        'table' => 'filter_format',
+      ),
+    ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_professional_experience'
   $field_bases['field_professional_experience'] = array(
     'active' => 1,
@@ -3875,6 +3991,25 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_stanford_gsb_affiliation'
+  $field_bases['field_stanford_gsb_affiliation'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_stanford_gsb_affiliation',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'field_collection',
+    'settings' => array(
+      'hide_blank_items' => 1,
+      'path' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'field_collection',
   );
 
   // Exported field_base: 'field_suffix_name'
