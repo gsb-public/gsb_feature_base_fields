@@ -515,35 +515,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_center_affiliations'
-  $field_bases['field_center_affiliations'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_center_affiliations',
-    'foreign keys' => array(
-      'format' => array(
-        'columns' => array(
-          'format' => 'format',
-        ),
-        'table' => 'filter_format',
-      ),
-    ),
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(
-      'max_length' => 255,
-    ),
-    'translatable' => 0,
-    'type' => 'text',
-  );
-
   // Exported field_base: 'field_centers_research_programs'
   $field_bases['field_centers_research_programs'] = array(
     'active' => 1,
