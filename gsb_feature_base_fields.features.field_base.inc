@@ -2547,10 +2547,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         ),
         'view' => array(
           'args' => array(
-            0 => 'faculty',
-            1 => 'staff',
-            2 => 'phd_candidate',
-            3 => 'msx_fellows',
+            0 => 'faculty+staff+phd_candidate+msx_fellows',
           ),
           'display_name' => 'entityreference_1',
           'view_name' => 'gsb_people_autocomplete',
