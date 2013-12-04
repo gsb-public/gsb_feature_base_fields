@@ -1,5 +1,25 @@
 <?php
+
 /**
  * @file
- * Drupal needs this blank file.
+ * Provides generic functions for all fields.
  */
+
+/**
+ * Implements hook_field_widget_WIDGET_TYPE_form_alter() for file_generic.
+ */
+function gsb_feature_base_fields_field_widget_file_generic_form_alter(&$element, &$form_state, $context) {
+  // If the only allowed extension is PDF, set up a #process to change the
+  // button text.
+  if ($context['instance']['settings']['file_extensions'] === 'pdf') {
+    $element[0]['#process'][] = 'gsb_feature_base_fields_pdf_file_process';
+  }
+}
+
+/**
+ * #process callback for changing the remove button text on file widgets.
+ */
+function gsb_feature_base_fields_pdf_file_process($element, &$form_state) {
+  $element['remove_button']['#value'] = t('Remove PDF');
+  return $element;
+}
