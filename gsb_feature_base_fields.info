@@ -150,6 +150,7 @@ features[field_base][] = field_phd_graduation_year
 features[field_base][] = field_phd_research_interests
 features[field_base][] = field_phone
 features[field_base][] = field_position_year
+features[field_base][] = field_product_type
 features[field_base][] = field_professional_experience
 features[field_base][] = field_program
 features[field_base][] = field_program_single
