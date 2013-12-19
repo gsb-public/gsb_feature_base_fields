@@ -340,7 +340,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'description_field' => 0,
-      'file_directory' => 'conf_presentations',
+      'file_directory' => 'conf-presentations',
       'file_extensions' => 'pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
