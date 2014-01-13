@@ -3486,9 +3486,10 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'Paper Case' => 'Paper Case',
-        'Video Case' => 'Video Case',
-        'Online Case' => 'Online Case',
+        'Case' => 'Case',
+        'Video Cases' => 'Video Cases',
+        'Online Cases' => 'Online Cases',
+        'Working Paper' => 'Working Paper',        
       ),
       'allowed_values_function' => '',
     ),
