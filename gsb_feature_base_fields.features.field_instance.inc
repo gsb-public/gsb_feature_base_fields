@@ -664,7 +664,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'enable' => 0,
         'insert_plugin' => '',
       ),
-      'text_processing' => 1,
+      'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -675,7 +675,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'maxlength_js_enforce' => 0,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'maxlength_js_truncate_html' => 0,
-        'rows' => 5,
+        'rows' => 3,
       ),
       'type' => 'text_textarea',
       'weight' => 2,
