@@ -784,6 +784,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         1070 => 'Email',
         1080 => 'Explore',
         1090 => 'Follow',
+        1095 => 'Go To',        
         1100 => 'Learn',
         1110 => 'Log In',
         1120 => 'Make a Reservation',
