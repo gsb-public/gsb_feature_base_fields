@@ -317,6 +317,176 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'field_collection_item-field_authors-field_first_name'
+  $field_instances['field_collection_item-field_authors-field_first_name'] = array(
+    'bundle' => 'field_authors',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_first_name',
+    'label' => 'First Name',
+    'required' => 0,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'maxlength_js' => 0,
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'field_collection_item-field_authors-field_last_name'
+  $field_instances['field_collection_item-field_authors-field_last_name'] = array(
+    'bundle' => 'field_authors',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_last_name',
+    'label' => 'Last Name',
+    'required' => 0,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'maxlength_js' => 0,
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'field_collection_item-field_authors-field_person_fac_or_other'
+  $field_instances['field_collection_item-field_authors-field_person_fac_or_other'] = array(
+    'bundle' => 'field_authors',
+    'default_value' => array(
+      0 => array(
+        'value' => 'Other',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'list_default',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_person_fac_or_other',
+    'label' => 'Author reference',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'options_buttons',
+      'weight' => 0,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'field_collection_item-field_authors-field_person_fac_single_ref'
+  $field_instances['field_collection_item-field_authors-field_person_fac_single_ref'] = array(
+    'bundle' => 'field_authors',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'conditions' => array(),
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 1,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_person_fac_single_ref',
+    'label' => 'Author',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'entityreference',
+      'settings' => array(
+        'match_operator' => 'CONTAINS',
+        'maxlength_js_label' => '',
+        'path' => '',
+        'size' => 60,
+      ),
+      'type' => 'entityreference_autocomplete',
+      'weight' => 1,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'field_collection_item-field_conf_presentations_section-field_file_conf_presentation'
   $field_instances['field_collection_item-field_conf_presentations_section-field_file_conf_presentation'] = array(
     'bundle' => 'field_conf_presentations_section',
@@ -1216,13 +1386,17 @@ function gsb_feature_base_fields_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Author');
+  t('Author reference');
   t('Category');
   t('Conferences and Presentations');
   t('Degree Type');
   t('Description');
+  t('First Name');
   t('Focus');
   t('Graduation Year');
   t('Is the degree from Stanford?');
+  t('Last Name');
   t('PDF');
   t('Paper');
   t('Publication Information');
