@@ -678,6 +678,40 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_bus_website_categories'
+  $field_bases['field_bus_website_categories'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_bus_website_categories',
+    'foreign keys' => array(
+      'tid' => array(
+        'columns' => array(
+          'tid' => 'tid',
+        ),
+        'table' => 'taxonomy_term_data',
+      ),
+    ),
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'business_website_categories',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
   // Exported field_base: 'field_center_affiliations'
   $field_bases['field_center_affiliations'] = array(
     'active' => 1,
