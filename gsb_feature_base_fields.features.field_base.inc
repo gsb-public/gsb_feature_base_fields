@@ -2822,6 +2822,25 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
+  // Exported field_base: 'field_non_degree_course'
+  $field_bases['field_non_degree_course'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_non_degree_course',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'field_collection',
+    'settings' => array(
+      'hide_blank_items' => 1,
+      'path' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'field_collection',
+  );
+
   // Exported field_base: 'field_page_count'
   $field_bases['field_page_count'] = array(
     'active' => 1,

@@ -126,6 +126,7 @@ features[field_base][] = field_middle_name
 features[field_base][] = field_msx_graduation_year
 features[field_base][] = field_news_byline
 features[field_base][] = field_news_type
+features[field_base][] = field_non_degree_course
 features[field_base][] = field_page_count
 features[field_base][] = field_pages
 features[field_base][] = field_paper_copy
