@@ -487,6 +487,171 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'
+  $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'] = array(
+    'bundle' => 'field_book_url_pdf_unlimited',
+    'default_value' => array(
+      0 => array(
+        'value' => 'Link',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'list_default',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_book_url_or_pdf',
+    'label' => 'Link or PDF',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'options_buttons',
+      'weight' => 0,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'
+  $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'] = array(
+    'bundle' => 'field_book_url_pdf_unlimited',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'file_default',
+        'weight' => 2,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_file_single_public',
+    'label' => 'PDF',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => 'book_pdf',
+      'file_extensions' => 'pdf',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'media',
+      'settings' => array(
+        'allowed_schemes' => array(
+          'private' => 'private',
+          'public' => 'public',
+          'vimeo' => 0,
+          'youtube' => 0,
+        ),
+        'allowed_types' => array(
+          'audio' => 0,
+          'document' => 0,
+          'image' => 0,
+          'video' => 0,
+        ),
+        'browser_plugins' => array(
+          'gsb_media_browser--files_and_docs' => 0,
+          'gsb_media_browser--images' => 0,
+          'gsb_media_browser--videos' => 0,
+          'gsb_media_center_document' => 'gsb_media_center_document',
+          'gsb_media_center_image' => 0,
+          'gsb_media_center_video' => 0,
+          'media_default--media_browser_1' => 0,
+          'media_default--media_browser_my_files' => 0,
+          'media_internet' => 0,
+          'upload' => 0,
+          'youtube' => 0,
+        ),
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'media_generic',
+      'weight' => 2,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'field_collection_item-field_book_url_pdf_unlimited-field_link_single'
+  $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_link_single'] = array(
+    'bundle' => 'field_book_url_pdf_unlimited',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'link_default',
+        'weight' => 1,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_link_single',
+    'label' => 'URL',
+    'required' => 0,
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'link_field',
+      'weight' => 1,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'field_collection_item-field_conf_presentations_section-field_file_conf_presentation'
   $field_instances['field_collection_item-field_conf_presentations_section-field_file_conf_presentation'] = array(
     'bundle' => 'field_conf_presentations_section',
@@ -1397,6 +1562,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Graduation Year');
   t('Is the degree from Stanford?');
   t('Last Name');
+  t('Link or PDF');
   t('PDF');
   t('Paper');
   t('Publication Information');
@@ -1404,6 +1570,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Reviewer');
   t('Service');
   t('Title');
+  t('URL');
   t('University');
 
   return $field_instances;
