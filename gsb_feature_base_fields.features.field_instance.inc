@@ -333,6 +333,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'type' => 'text_plain',
         'weight' => 1,
       ),
+      'existing_node_teaser' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_plain',
+        'weight' => 1,
+      ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
@@ -369,6 +378,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_plain',
+        'weight' => 2,
+      ),
+      'existing_node_teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
@@ -422,6 +440,12 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 3,
       ),
+      'existing_node_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
+      ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
@@ -456,6 +480,16 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'link' => 1,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 0,
+      ),
+      'existing_node_teaser' => array(
+        'label' => 'hidden',
+        'module' => 'entityreference',
+        'settings' => array(
+          'conditions' => array(),
+          'link' => 0,
         ),
         'type' => 'entityreference_label',
         'weight' => 0,
