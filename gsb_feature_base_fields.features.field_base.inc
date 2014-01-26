@@ -573,7 +573,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_book_url_pdf_unlimited'
   $field_bases['field_book_url_pdf_unlimited'] = array(
     'active' => 1,
-    'cardinality' => -1,
+    'cardinality' => 2,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_book_url_pdf_unlimited',
@@ -582,7 +582,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'field_collection',
     'settings' => array(
-      'hide_blank_items' => 1,
+      'hide_blank_items' => 0,
       'path' => '',
     ),
     'translatable' => 0,

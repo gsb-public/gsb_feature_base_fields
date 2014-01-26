@@ -531,12 +531,9 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -566,13 +563,23 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'file',
+        'label' => 'hidden',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'PDF',
+                'target' => 'field_book_url_or_pdf',
+              ),
+            ),
+          ),
+          'file_view_mode' => 'default',
+          'text' => '[field_collection_item:field_title]',
         ),
-        'type' => 'file_default',
-        'weight' => 2,
+        'type' => 'gsb_field_formatter_download_link',
+        'weight' => 1,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -582,7 +589,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'description_field' => 0,
-      'file_directory' => 'book_pdf',
+      'file_directory' => 'book-pdf',
       'file_extensions' => 'pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
@@ -592,7 +599,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       'module' => 'media',
       'settings' => array(
         'allowed_schemes' => array(
-          'private' => 'private',
+          'private' => 0,
           'public' => 'public',
           'vimeo' => 0,
           'youtube' => 0,
@@ -620,7 +627,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
@@ -633,13 +640,21 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'Link',
+                'target' => 'field_book_url_or_pdf',
+              ),
+            ),
+          ),
         ),
         'type' => 'link_default',
-        'weight' => 1,
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -652,21 +667,21 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'class' => '',
         'configurable_title' => 0,
         'rel' => '',
-        'target' => 'default',
+        'target' => '_blank',
         'title' => '',
       ),
       'display' => array(
         'url_cutoff' => 80,
       ),
-      'enable_tokens' => 1,
+      'enable_tokens' => 0,
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
       ),
       'rel_remove' => 'default',
-      'title' => 'none',
+      'title' => 'value',
       'title_maxlength' => 128,
-      'title_value' => '',
+      'title_value' => '[field_collection_item:field-title]',
       'url' => 0,
       'user_register_form' => FALSE,
       'validate_url' => 1,
@@ -678,7 +693,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'link_field',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
