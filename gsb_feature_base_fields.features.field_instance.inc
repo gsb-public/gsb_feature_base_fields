@@ -472,7 +472,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'bundle' => 'field_authors',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -1715,6 +1715,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Conferences and Presentations');
   t('Degree Type');
   t('Description');
+  t('Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.');
   t('First Name');
   t('Focus');
   t('Graduation Year');
