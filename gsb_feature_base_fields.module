@@ -23,3 +23,62 @@ function gsb_feature_base_fields_pdf_file_process($element, &$form_state) {
   $element['remove_button']['#value'] = t('Remove PDF');
   return $element;
 }
+
+/**
+ * Implements hook_field_extra_fields().
+ */
+function gsb_feature_base_fields_field_extra_fields() {
+  $extra = array();
+  foreach (module_invoke_all('gsb_feature_base_fields_faculty_author_types') as $node_type) {
+    // Add an extra field for authors.
+    $extra['node'][$node_type]['display']['gsb_feature_base_fields_faculty_authors'] = array(
+      'label' => t('Faculty Authors'),
+      'description' => t('The faculty authors'),
+      'weight' => 0,
+    );
+
+  }
+  return $extra;
+}
+
+/**
+ * Implements hook_node_view().
+ */
+function gsb_feature_base_fields_node_view($node, $view_mode, $langcode) {
+  $node_types = drupal_map_assoc(module_invoke_all('gsb_feature_base_fields_faculty_author_types'));
+  if (!isset($node_types[$node->type]) || !field_info_instance('node', 'field_authors', $node->type)) {
+    return;
+  }
+
+  $wrapper = entity_metadata_wrapper('node', $node);
+  $faculty_authors = array();
+  foreach ($wrapper->field_authors as $key => $author) {
+    if (($faculty = $author->field_person_fac_single_ref) && $id = $faculty->getIdentifier()) {
+      $view = $faculty->view('people_fpp');
+      if (isset($view['node'][$id])) {
+        $faculty_authors[$id] = $view['node'][$id];
+        $faculty_authors[$id]['#weight'] = $key;
+      }
+    }
+  }
+  if (!empty($faculty_authors)) {
+    $node->content['gsb_feature_base_fields_faculty_authors'] = array(
+      '#type' => 'container',
+      '#attributes' => array(
+        'class' => array(
+          'faculty-author-wrapper',
+        ),
+      ),
+      'label' => array(
+        '#type' => 'container',
+        '#attributes' => array(
+          'class' => array(
+            'label-above',
+          ),
+        ),
+        '#children' => t('Faculty Authors'),
+        '#weight' => -100,
+      ),
+    ) + $faculty_authors;
+  }
+}
