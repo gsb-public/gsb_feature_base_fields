@@ -53,6 +53,7 @@ features[field_base][] = field_body
 features[field_base][] = field_book_url_or_pdf
 features[field_base][] = field_book_url_pdf_unlimited
 features[field_base][] = field_bus_website_categories
+features[field_base][] = field_bus_website_description
 features[field_base][] = field_business_insight_topic
 features[field_base][] = field_case_study_at_harvard
 features[field_base][] = field_case_study_number
