@@ -328,7 +328,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'Other',
+                'target' => 'field_person_fac_or_other',
+              ),
+            ),
+          ),
         ),
         'type' => 'text_plain',
         'weight' => 1,
@@ -381,7 +389,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'Other',
+                'target' => 'field_person_fac_or_other',
+              ),
+            ),
+          ),
         ),
         'type' => 'text_plain',
         'weight' => 2,
@@ -478,7 +494,15 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'UseEntityReference',
+                'target' => 'field_person_fac_or_other',
+              ),
+            ),
+          ),
           'link' => 1,
         ),
         'type' => 'entityreference_label',
