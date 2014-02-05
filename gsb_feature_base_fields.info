@@ -131,7 +131,6 @@ features[field_base][] = field_link_twitter
 features[field_base][] = field_link_unlimited
 features[field_base][] = field_link_video_unlimited
 features[field_base][] = field_link_website
-features[field_base][] = field_links_attachments
 features[field_base][] = field_location
 features[field_base][] = field_middle_name
 features[field_base][] = field_msx_graduation_year
