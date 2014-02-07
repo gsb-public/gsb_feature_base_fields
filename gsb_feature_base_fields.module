@@ -50,6 +50,11 @@ function gsb_feature_base_fields_node_view($node, $view_mode, $langcode) {
     return;
   }
 
+  // Do not recursively load the faculty if this entity is being displayed by entityreference.
+  if (isset($node->entityreference_referrer['entity']->type) && $node->entityreference_referrer['entity_type'] == 'node' && $node->entityreference_referrer['entity']->type == 'faculty') {
+    return;
+  }
+
   $wrapper = entity_metadata_wrapper('node', $node);
   $faculty_authors = array();
   foreach ($wrapper->field_authors as $key => $author) {
