@@ -118,6 +118,7 @@ features[field_base][] = field_leave_date
 features[field_base][] = field_leave_statement
 features[field_base][] = field_leave_status
 features[field_base][] = field_link_blog
+features[field_base][] = field_link_center_single
 features[field_base][] = field_link_conf_pres_unlimited
 features[field_base][] = field_link_document
 features[field_base][] = field_link_google_scholar
