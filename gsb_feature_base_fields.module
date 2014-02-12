@@ -50,8 +50,9 @@ function gsb_feature_base_fields_node_view($node, $view_mode, $langcode) {
     return;
   }
 
-  // Do not recursively load the faculty if this entity is being displayed by entityreference.
-  if (isset($node->entityreference_referrer['entity']->type) && $node->entityreference_referrer['entity_type'] == 'node' && $node->entityreference_referrer['entity']->type == 'faculty') {
+  // If this field is not configured for this view mode, skip it.
+  $fields = field_extra_fields_get_display('node', $node->type, $view_mode);
+  if (empty($fields['gsb_feature_base_fields_faculty_authors']['visible'])) {
     return;
   }
 
