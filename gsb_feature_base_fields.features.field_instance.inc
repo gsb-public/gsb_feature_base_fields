@@ -771,11 +771,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'file',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
+          'file_view_mode' => 'default',
+          'text' => 'PDF',
         ),
-        'type' => 'file_default',
+        'type' => 'gsb_field_formatter_download_link',
         'weight' => 1,
       ),
     ),
