@@ -583,7 +583,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       'settings' => array(
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
-      'type' => 'options_buttons',
+      'type' => 'options_select',
       'weight' => 31,
     ),
     'workbench_access_field' => 0,
