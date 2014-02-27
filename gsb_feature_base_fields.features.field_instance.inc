@@ -542,6 +542,53 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'field_collection_item-field_authors-field_profile_visibility'
+  $field_instances['field_collection_item-field_authors-field_profile_visibility'] = array(
+    'bundle' => 'field_authors',
+    'default_value' => array(
+      0 => array(
+        'value' => 1,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'list_default',
+        'weight' => 4,
+      ),
+      'existing_node_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_profile_visibility',
+    'label' => 'Profile Visibility',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'options_buttons',
+      'weight' => 31,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
@@ -1750,6 +1797,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Link or PDF');
   t('PDF');
   t('Paper');
+  t('Profile Visibility');
   t('Publication Information');
   t('Review');
   t('Reviewer');
