@@ -93,6 +93,7 @@ function gsb_feature_base_fields_node_view($node, $view_mode, $langcode) {
  * Implements hook_fields_field_attach_form().
  */
 function gsb_feature_base_fields_field_attach_form($entity_type, $entity, &$form, &$form_state, $langcode) {
+  
   // If this is a field_authors field collection, and the entity reference is set, 
   // setup the states for visibility
   if ($entity_type == 'field_collection_item' && $entity->field_name == 'field_authors') {
@@ -123,25 +124,32 @@ function gsb_feature_base_fields_field_attach_form($entity_type, $entity, &$form
     unset($form['field_person_fac_or_other'][$langcode]['#options']['_none']);
   }
 
-  // If this is a field_authors field collection, and the entity reference is set, 
-  // setup the states for visibility
+  // If this is a field_book_url_pdf_unlimited field collection, then set the visibility to match 
+  // the user's selected value of either 'Link' or 'PDF'
   if ($entity_type == 'field_collection_item' && $entity->field_name == 'field_book_url_pdf_unlimited') {
-    $form['field_link_single']['#states'] = array(
-      'visible' => array(
-        ':input[name="' . 'field_book_url_pdf_unlimited' . '[' . $langcode . '][' . $form['#delta'] . '][field_book_url_or_pdf][' . $langcode . ']"]' => array(
-          array('value' => 'Link'),
-        ),
+    $map = array(
+      'Link' => array(
+        'field_link_single',
       ),
-    );
-
-    $form['field_file_single_public']['#states'] = array(
-      'visible' => array(
-        ':input[name="' . 'field_book_url_pdf_unlimited' . '[' . $langcode . '][' . $form['#delta'] . '][field_book_url_or_pdf][' . $langcode . ']"]' => array(
-          array('value' => 'PDF'),
-        ),
+      'PDF' => array(
+        'field_file_single_public',
       ),
-    );
+    );    
+    // Loop through each possible value for the field_book_url_or_pdf field,
+    // controlling the visibility of the dependent fields.    
+    foreach ($map as $value => $fields) {
+      foreach ($fields as $field) {
+        $form[$field]['#states'] = array(
+          'visible' => array(
+            ':input[name="' . 'field_book_url_pdf_unlimited' . '[' . $langcode . '][' . $form['#delta'] . '][field_book_url_or_pdf][' . $langcode . ']"]' => array(
+              array('value' => $value),
+            ),
+          ),
+        );
+      }
+    }
     // remove "n/a" as an option for the field_book_url_or_pdf
     unset($form['field_book_url_or_pdf'][$langcode]['#options']['_none']);
   }
+
 }
