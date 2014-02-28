@@ -97,9 +97,18 @@ function gsb_feature_base_fields_field_attach_submit($entity_type, $entity, $for
   // reference, clear out the first and last name fields.
   if ($entity_type == 'field_collection_item' && $entity->field_name == 'field_authors') {
     $items = field_get_items($entity_type, $entity, 'field_person_fac_or_other');
-    if ($items[0]['value'] == 'UseEntityReference') {
-      $entity->field_first_name = NULL;
-      $entity->field_last_name = NULL;
+    switch ($items[0]['value']) {
+      // If the author is using a reference, remove the first and last name.
+      case 'UseEntityReference':
+        $entity->field_first_name = NULL;
+        $entity->field_last_name = NULL;
+        break;
+
+      // If the author is entered manually, remove the reference.
+      case 'Other':
+        $entity->field_person_fac_single_ref = NULL;
+        break;
+
     }
   }
 }
