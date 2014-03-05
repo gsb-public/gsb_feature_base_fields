@@ -3815,7 +3815,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         1 => 'Visible',
         2 => 'Featured',
       ),
-      'allowed_values_function' => '',
+      'allowed_values_function' => 'gsb_field_authors_get_allowed_profile_visibility',
     ),
     'translatable' => 0,
     'type' => 'list_text',
