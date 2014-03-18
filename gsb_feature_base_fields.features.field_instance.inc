@@ -667,7 +667,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'media',
+      'module' => 'file',
       'settings' => array(
         'allowed_schemes' => array(
           'private' => 0,
@@ -697,7 +697,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'progress_indicator' => 'throbber',
       ),
-      'type' => 'media_generic',
+      'type' => 'file_generic',
       'weight' => 3,
     ),
     'workbench_access_field' => 0,
