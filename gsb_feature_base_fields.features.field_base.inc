@@ -4799,6 +4799,24 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_submit'
+  $field_bases['field_submit'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_submit',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'submit_field',
+    'settings' => array(
+      'submit_field' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'submit_field',
+  );
+
   // Exported field_base: 'field_suffix_name'
   $field_bases['field_suffix_name'] = array(
     'active' => 1,
