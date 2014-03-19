@@ -444,7 +444,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'bundle' => 'field_authors',
     'default_value' => array(
       0 => array(
-        'value' => 'Other',
+        'value' => 'UseEntityReference',
       ),
     ),
     'deleted' => 0,
