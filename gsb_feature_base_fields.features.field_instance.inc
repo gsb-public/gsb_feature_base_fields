@@ -1934,6 +1934,8 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
   // Exported field_instance: 'field_collection_item-field_teaching_materials-field_link_single'
   $field_instances['field_collection_item-field_teaching_materials-field_link_single'] = array(
     'bundle' => 'field_teaching_materials',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -1951,7 +1953,7 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_link_single',
-    'label' => 'Link',
+    'label' => 'Name',
     'required' => 0,
     'settings' => array(
       'attributes' => array(
@@ -1972,9 +1974,9 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
         'insert_plugin' => '',
       ),
       'rel_remove' => 'default',
-      'title' => 'value',
+      'title' => 'required',
       'title_maxlength' => 128,
-      'title_value' => '[field_collection_item:field_teaching_material_name]',
+      'title_value' => '',
       'url' => 0,
       'user_register_form' => FALSE,
       'validate_url' => 1,
@@ -1987,52 +1989,6 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
       ),
       'type' => 'link_field',
       'weight' => 1,
-    ),
-    'workbench_access_field' => 0,
-  );
-
-  // Exported field_instance: 'field_collection_item-field_teaching_materials-field_teaching_material_name'
-  $field_instances['field_collection_item-field_teaching_materials-field_teaching_material_name'] = array(
-    'bundle' => 'field_teaching_materials',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 1,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'field_collection_item',
-    'field_name' => 'field_teaching_material_name',
-    'label' => 'Name',
-    'required' => 0,
-    'settings' => array(
-      'custom_add_another' => '',
-      'custom_remove' => '',
-      'linkit' => array(
-        'enable' => 0,
-        'insert_plugin' => '',
-      ),
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'maxlength_js' => 0,
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 0,
     ),
     'workbench_access_field' => 0,
   );
@@ -2539,7 +2495,6 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
   t('Graduation Year');
   t('Is the degree from Stanford?');
   t('Last Name');
-  t('Link');
   t('Link or PDF');
   t('Name');
   t('Organization');
