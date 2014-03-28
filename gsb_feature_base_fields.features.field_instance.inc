@@ -456,6 +456,8 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_authors-field_person_fac_or_other'
   $field_instances['field_collection_item-field_authors-field_person_fac_or_other'] = array(
     'bundle' => 'field_authors',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => array(
       0 => array(
         'value' => 'UseEntityReference',
@@ -480,7 +482,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_person_fac_or_other',
-    'label' => 'Author reference',
+    'label' => 'Select Author Type',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -502,6 +504,8 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_authors-field_person_fac_single_ref'
   $field_instances['field_collection_item-field_authors-field_person_fac_single_ref'] = array(
     'bundle' => 'field_authors',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => 'Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.',
@@ -538,7 +542,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_person_fac_single_ref',
-    'label' => 'Author',
+    'label' => 'Faculty Name',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -758,6 +762,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'URL',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -906,6 +911,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Conferences and Presentations',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1152,6 +1158,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Course Name',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1329,6 +1336,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1956,6 +1964,7 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
     'label' => 'Name',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -2127,6 +2136,7 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -2367,6 +2377,7 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -2479,8 +2490,6 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Author');
-  t('Author reference');
   t('Category');
   t('Center Affiliations');
   t('Conferences and Presentations');
@@ -2490,6 +2499,7 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
   t('Description');
   t('Do not include "Stanford Graduate School of Business" or "Stanford" in the organization name. Format: POSITION, ORGANIZATION | e.g. Co-director, Directors\' Consortium Executive Program');
   t('Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.');
+  t('Faculty Name');
   t('First Name');
   t('Focus');
   t('Graduation Year');
@@ -2506,6 +2516,7 @@ STEYER-TAYLOR|STEYER-TAYLOR: Steyer-Taylor Center for Energy Policy and Finance'
   t('Review');
   t('Reviewer');
   t('Role');
+  t('Select Author Type');
   t('Service');
   t('Title');
   t('URL');
