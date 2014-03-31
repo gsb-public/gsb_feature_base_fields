@@ -253,6 +253,7 @@ features[field_instance][] = field_collection_item-field_book_url_pdf_unlimited-
 features[field_instance][] = field_collection_item-field_book_url_pdf_unlimited-field_file_single_public
 features[field_instance][] = field_collection_item-field_book_url_pdf_unlimited-field_link_single
 features[field_instance][] = field_collection_item-field_book_url_pdf_unlimited-field_title
+features[field_instance][] = field_collection_item-field_conf_presentations_section-field_description
 features[field_instance][] = field_collection_item-field_conf_presentations_section-field_file_conf_presentation
 features[field_instance][] = field_collection_item-field_conf_presentations_section-field_link_conf_pres_unlimited
 features[field_instance][] = field_collection_item-field_greater_university_affil-field_organization
