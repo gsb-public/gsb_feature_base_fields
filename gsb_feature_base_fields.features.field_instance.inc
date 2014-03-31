@@ -1563,7 +1563,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       'settings' => array(
         'maxlength_js' => 0,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'size' => 240,
+        'size' => 60,
       ),
       'type' => 'text_textfield',
       'weight' => 31,
@@ -1611,7 +1611,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       'settings' => array(
         'maxlength_js' => 0,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'size' => 240,
+        'size' => 230,
       ),
       'type' => 'text_textfield',
       'weight' => 32,
