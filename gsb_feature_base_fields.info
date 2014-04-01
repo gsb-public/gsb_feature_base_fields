@@ -137,6 +137,7 @@ features[field_base][] = field_link_unlimited
 features[field_base][] = field_link_website
 features[field_base][] = field_location
 features[field_base][] = field_middle_name
+features[field_base][] = field_month
 features[field_base][] = field_msx_graduation_year
 features[field_base][] = field_news_byline
 features[field_base][] = field_news_type
