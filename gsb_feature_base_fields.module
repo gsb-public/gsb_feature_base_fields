@@ -57,3 +57,44 @@ function gsb_feature_base_fields_field_attach_form($entity_type, $entity, &$form
   }
 
 }
+
+/**
+ * Hides the specified groups and all of their nested fields and groups.
+ *
+ * @param array $form
+ *   The form structure.
+ * @param array $groups
+ *   A list of group names to hide.
+ * @param array $field_map
+ *   (optional) A list of additional field names to hide.
+ */
+function gsb_feature_base_fields_hide_fieldgroups(&$form, $groups, $field_map = array()) {
+  $nested_groups = array();
+  foreach ($groups as $group) {
+    // Hide this group.
+    unset($form['#fieldgroups'][$group], $form['#groups'][$group]);
+    if (isset($form['#group_children'])) {
+      foreach ($form['#group_children'] as $field_name => $group_name) {
+        if ($group_name == $group) {
+          // If there are fields in this group, add them to the field map.
+          if (isset($form[$field_name])) {
+            $field_map[] = $field_name;
+          }
+          // If this is a group itself, add it to the list of nested groups.
+          elseif (isset($form['#group_children'][$field_name])) {
+            $nested_groups[] = $field_name;
+          }
+        }
+      }
+    }
+  }
+  // If there are any nested groups, recurse.
+  if (!empty($nested_groups)) {
+    gsb_feature_base_fields_hide_fieldgroups($form, $nested_groups);
+  }
+  foreach ($field_map as $field_name) {
+    if (isset($form[$field_name])) {
+      $form[$field_name]['#access'] = FALSE;
+    }
+  }
+}
