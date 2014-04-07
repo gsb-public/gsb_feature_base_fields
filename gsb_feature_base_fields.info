@@ -277,7 +277,6 @@ features[field_instance][] = field_collection_item-field_work_in_progress-field_
 features[field_instance][] = field_collection_item-field_working_papers-field_body
 features[field_instance][] = field_collection_item-field_working_papers-field_file_single_public
 features[field_instance][] = field_collection_item-field_working_papers-field_link_single
-features[field_instance][] = field_collection_item-field_working_papers-field_title
 features[hierarchical_select][] = taxonomy-101
 features[hierarchical_select][] = taxonomy-106
 features[hierarchical_select][] = taxonomy-116
