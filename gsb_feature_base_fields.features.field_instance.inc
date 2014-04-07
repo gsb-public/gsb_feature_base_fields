@@ -1009,13 +1009,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 3,
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -1695,13 +1695,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 5,
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
