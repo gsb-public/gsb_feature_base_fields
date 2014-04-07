@@ -762,7 +762,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'URL',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -782,6 +781,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'value',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 128,
       'title_value' => '[field_collection_item:field-title]',
       'url' => 0,
@@ -961,7 +961,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Conferences and Presentations',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -981,6 +980,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'optional',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 'optional',
@@ -1024,7 +1024,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1044,7 +1043,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
-      'title_label_use_field_label' => 1,
+      'title_label_use_field_label' => TRUE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 'optional',
@@ -1228,7 +1227,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Course Name',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1407,7 +1405,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1427,6 +1424,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
+      'title_label_use_field_label' => TRUE,
       'title_maxlength' => 255,
       'title_value' => '',
       'url' => 'optional',
@@ -1712,7 +1710,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1732,7 +1729,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
-      'title_label_use_field_label' => 1,
+      'title_label_use_field_label' => TRUE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 'optional',
@@ -1961,7 +1958,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Name',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1981,6 +1977,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 0,
@@ -2133,7 +2130,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -2153,6 +2149,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
+      'title_label_use_field_label' => TRUE,
       'title_maxlength' => 255,
       'title_value' => '',
       'url' => 'optional',
@@ -2374,7 +2371,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
-      0 => 'title_label_use_field_label',
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -2394,6 +2390,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'required',
+      'title_label_use_field_label' => TRUE,
       'title_maxlength' => 255,
       'title_value' => '',
       'url' => 'optional',
