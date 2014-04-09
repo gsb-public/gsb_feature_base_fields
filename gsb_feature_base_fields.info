@@ -103,6 +103,7 @@ features[field_base][] = field_file_research_statement
 features[field_base][] = field_file_single_public
 features[field_base][] = field_file_teaching_statement
 features[field_base][] = field_first_name
+features[field_base][] = field_free_case
 features[field_base][] = field_greater_university_affil
 features[field_base][] = field_house_ads_style
 features[field_base][] = field_icon
