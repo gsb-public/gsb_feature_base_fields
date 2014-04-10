@@ -1224,7 +1224,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_link_single',
-    'label' => 'Course Name',
+    'label' => 'Course or Program',
     'required' => 0,
     'settings' => array(
       'attributes' => array(
@@ -1246,7 +1246,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'optional',
-      'title_label_use_field_label' => 0,
+      'title_label_use_field_label' => 1,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 'optional',
@@ -2414,7 +2414,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Category');
   t('Conferences and Presentations');
   t('Course Description');
-  t('Course Name');
+  t('Course or Program');
   t('Degree Type');
   t('Description');
   t('Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.');
