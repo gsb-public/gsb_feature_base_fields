@@ -1640,7 +1640,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_service_profession_section-field_service_unlimited'
   $field_instances['field_collection_item-field_service_profession_section-field_service_unlimited'] = array(
     'bundle' => 'field_service_profession_section',
-    'custom_add_another' => 'Add Another Service',
+    'custom_add_another' => 'Add another service',
     'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
