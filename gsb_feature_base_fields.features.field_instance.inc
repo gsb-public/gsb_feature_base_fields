@@ -1955,7 +1955,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_link_single',
-    'label' => 'Name',
+    'label' => 'Title',
     'required' => 0,
     'settings' => array(
       'attributes' => array(
