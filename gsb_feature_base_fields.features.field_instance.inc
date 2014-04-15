@@ -941,6 +941,8 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_conf_presentations_section-field_link_conf_pres_unlimited'
   $field_instances['field_collection_item-field_conf_presentations_section-field_link_conf_pres_unlimited'] = array(
     'bundle' => 'field_conf_presentations_section',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -958,7 +960,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_link_conf_pres_unlimited',
-    'label' => 'Conferences and Presentations',
+    'label' => 'Title',
     'required' => 0,
     'settings' => array(
       'attributes' => array(
@@ -980,7 +982,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       ),
       'rel_remove' => 'default',
       'title' => 'optional',
-      'title_label_use_field_label' => FALSE,
+      'title_label_use_field_label' => 1,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 'optional',
@@ -2412,7 +2414,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Category');
-  t('Conferences and Presentations');
   t('Course Description');
   t('Course or Program');
   t('Degree Type');
