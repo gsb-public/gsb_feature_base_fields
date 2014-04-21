@@ -6,6 +6,17 @@
  */
 
 /**
+ * Implements hook_field_widget_form_alter().
+ *   - Replace Remove button label for all Image and File fields with image_image and file_generic widget.
+ */
+function gsb_feature_base_fields_field_widget_form_alter(&$element, &$form_state, $context) {
+  if (in_array($context['field']['type'], array('image', 'file')) &&
+      in_array($context['instance']['widget']['type'], array('file_generic', 'image_image'))) {
+    $element[0]['#process'][] = 'gsb_feature_base_fields_remove_button_label_process';
+  }
+}
+
+/**
  * Implements hook_field_widget_WIDGET_TYPE_form_alter() for file_generic.
  */
 function gsb_feature_base_fields_field_widget_file_generic_form_alter(&$element, &$form_state, $context) {
@@ -15,6 +26,15 @@ function gsb_feature_base_fields_field_widget_file_generic_form_alter(&$element,
     $element[0]['#process'][] = 'gsb_feature_base_fields_pdf_file_process';
   }
 }
+
+/**
+ * #process callback for changing the remove button text on file widgets.
+ */
+function gsb_feature_base_fields_remove_button_label_process($element, &$form_state) {
+  $element['remove_button']['#value'] = t('Replace or remove');
+  return $element;
+}
+
 
 /**
  * #process callback for changing the remove button text on file widgets.
