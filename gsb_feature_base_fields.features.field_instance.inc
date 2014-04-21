@@ -803,9 +803,11 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_book_url_pdf_unlimited-field_title'
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_title'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => '<strong>Link Example</strong>: View Chapter 1  | <strong>PDF Example</strong>: Download Chapter 1',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -1159,6 +1161,8 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_non_degree_course-field_description'
   $field_instances['field_collection_item-field_non_degree_course-field_description'] = array(
     'bundle' => 'field_non_degree_course',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -1500,9 +1504,11 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_selected_reviews-field_review'
   $field_instances['field_collection_item-field_selected_reviews-field_review'] = array(
     'bundle' => 'field_selected_reviews',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Do not include the quotation marks; they are added automatically.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -1548,9 +1554,11 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_selected_reviews-field_reviewer'
   $field_instances['field_collection_item-field_selected_reviews-field_reviewer'] = array(
     'bundle' => 'field_selected_reviews',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Full Name, Title, Organization',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -2413,15 +2421,18 @@ function gsb_feature_base_fields_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('<strong>Link Example</strong>: View Chapter 1  | <strong>PDF Example</strong>: Download Chapter 1');
   t('Category');
   t('Course Description');
   t('Course or Program');
   t('Degree Type');
   t('Description');
+  t('Do not include the quotation marks; they are added automatically.');
   t('Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.');
   t('Faculty Name');
   t('First Name');
   t('Focus');
+  t('Full Name, Title, Organization ');
   t('Graduation Year');
   t('Is the degree from Stanford?');
   t('Last Name');
