@@ -594,7 +594,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_profile_visibility',
-    'label' => 'Profile Visibility',
+    'label' => 'Display on Profile',
     'required' => 1,
     'settings' => array(
       'custom_add_another' => '',
@@ -2441,7 +2441,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Organization');
   t('PDF');
   t('Paper');
-  t('Profile Visibility');
+  t('Display on Profile');
   t('Publication Information');
   t('Review');
   t('Reviewer');
