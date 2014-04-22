@@ -3295,6 +3295,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       'allowed_values' => array(
         'Yes' => 'Yes',
         'No' => 'No',
+        'Abstract Only' => 'Abstract Only',
       ),
       'allowed_values_function' => '',
     ),
