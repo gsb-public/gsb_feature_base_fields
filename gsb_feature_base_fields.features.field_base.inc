@@ -322,6 +322,32 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'addthis',
   );
 
+  // Exported field_base: 'field_affiliations_help'
+  $field_bases['field_affiliations_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_affiliations_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>We recommend listing items in reverse chronological order.</strong></p>
+<ul>
+	<li>Use the <strong>Affiliations</strong> sections below to display organizations and committees with which you are involved at Stanford GSB and Stanford University.</li>
+	<li>Use <strong>Service to the Profession</strong> for affiliations with other organizations, such as board memberships and editorial roles.</li>
+</ul>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_affiliations_position'
   $field_bases['field_affiliations_position'] = array(
     'active' => 1,
@@ -587,6 +613,28 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'field_collection',
+  );
+
+  // Exported field_base: 'field_books_help'
+  $field_bases['field_books_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_books_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>Enter book chapters on the "Journal Articles, Book Chapters, etc." tab.</strong></p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_bus_website_categories'
@@ -1295,6 +1343,34 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_deleting_items'
+  $field_bases['field_deleting_items'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_deleting_items',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>Removing Items</h2>
+<p>You can remove items from your profile one of three ways:</p>
+<ol>
+	<li><strong>Remove button</strong>: A few fields, such as "Programs and Non-degree Courses" and "Stanford GSB Affiliation," have a remove button. Click this button, then click "Save &amp; Publish."</li>
+	<li><strong>Clear the text</strong>: Many fields, like "Teaching Statement" and "Academic Degrees" do not have a remove button. Clear the text for that item, then click "Save &amp; Publish."</li>
+	<li><strong>Change the visibility</strong>: All items on the "Publications" tab, such as journal articles and working papers, have a "Profile Visibility" setting. Select "Hidden," then click "Save &amp; Publish."</li>
+</ol>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_department'
@@ -2081,6 +2157,34 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_formatting_help'
+  $field_bases['field_formatting_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_formatting_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>Formatting Your Entries</h2>
+<p>To improve the quality and readability of your profile — and increase uniformity across faculty profiles — be sure to format your entries consistently. For example, if you enter multiple academic degrees, enter the information about each degree the same way. In this case, we recommend using:</p>
+<ul>
+	<li><strong>Format</strong>: Degree in Area, Minor in Area, University, YYYY.</li>
+	<li><strong>Example</strong>: PhD in Marketing, Minor in Organizational Behavior, Stanford GSB, 2014</li>
+</ul>
+<p>For more information on formatting your profile information, contact <a href="mailto:bfisher2@stanford.edu">Blake Fisher</a>.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_free_case'
   $field_bases['field_free_case'] = array(
     'active' => 1,
@@ -2405,6 +2509,29 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_introduction'
+  $field_bases['field_introduction'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_introduction',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>Through this authoring tool, you have complete control over your Stanford GSB faculty profile.</strong></p>
+<p>Editing your profile is now easier and faster than before. We\'ve provided some tips below, as well as <a href="http://onegsb.stanford.edu/group/gsb-web-authors" target="_blank">training videos</a>, to get you on your way, just in case.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_issue_number'
@@ -3077,6 +3204,27 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_medias_item_tab_help'
+  $field_bases['field_medias_item_tab_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_medias_item_tab_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>Media items are non-scholarly articles written by or about you in magazines, newspapers, or other non-academic periodicals.</strong></p>',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_middle_name'
   $field_bases['field_middle_name'] = array(
     'active' => 1,
@@ -3245,6 +3393,28 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'field_collection',
+  );
+
+  // Exported field_base: 'field_order_help_text'
+  $field_bases['field_order_help_text'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_order_help_text',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>We recommend listing items in reverse chronological order.</strong></p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_page_count'
@@ -4133,6 +4303,55 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_publications_help'
+  $field_bases['field_publications_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_publications_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>Add articles from non-academic periodicals on the News tab.</strong></p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
+  // Exported field_base: 'field_publications_tab_help'
+  $field_bases['field_publications_tab_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_publications_tab_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>You can control which publications display on your profile here.</strong></p>
+<ul>
+	<li>Add and edit all publication types except cases.</li>
+	<li>Choose which publications are visible or hidden on your profile (including cases).</li>
+</ul>
+<p>Items are listed in reverse chronological order. Changing how items are sorted here will not affect how they are listed on your profile.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_publisher'
   $field_bases['field_publisher'] = array(
     'active' => 1,
@@ -4306,6 +4525,29 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'link_field',
+  );
+
+  // Exported field_base: 'field_required_fields'
+  $field_bases['field_required_fields'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_required_fields',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>Required Fields</h2>
+<p>While you have maximum control over the information displayed on your profile, certain fields must have content to display your profile on the site. These fields are indicated by a red asterisk.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_research_databases'
@@ -4539,6 +4781,30 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'text',
+  );
+
+  // Exported field_base: 'field_saving_your_changes'
+  $field_bases['field_saving_your_changes'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_saving_your_changes',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>Saving and Viewing Your Changes</h2>
+<p>Save your changes by clicking the "Save &amp; Publish" button, located at top and bottom of the authoring tabs. You can make multiple changes across tabs without saving; however, we recommend that you save your changes frequently.</p>
+<p>Your changes will display <em>immediately</em> on your published profile once you save. To verify your changes, click the "View Published" tab in the top-right corner.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_search_field'
@@ -5114,6 +5380,33 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'field_teaching_talks_help'
+  $field_bases['field_teaching_talks_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_teaching_talks_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>We recommend listing items in reverse chronological order.</strong></p>
+<ul>
+	<li><strong>Degree courses</strong> are displayed automatically on your profile from Explore Courses and are not editable in this tool. If they are incorrect, <a href="https://remedyweb.stanford.edu/helpsu/gsb" target="_blank">submit a HelpSU ticket</a> to have them updated.</li>
+	<li><strong>Programs and non-degree courses</strong> can include Executive Education, online certificate courses, and Stanford Ignite, etc.</li>
+	<li><strong>Cases</strong> are displayed automatically on your profile by the Case Writing office. Go to the "Publications" tab to manage their visibility on your profile.</li>
+</ul>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_text_style'
   $field_bases['field_text_style'] = array(
     'active' => 1,
@@ -5317,6 +5610,53 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_update_your_photo'
+  $field_bases['field_update_your_photo'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_update_your_photo',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>About Your Photo</h2>
+<p>Be sure to <a href="http://stnfd.biz/thL3O" target="_blank">optimize your photo</a> before uploading it to your profile. If you need help with photo cropping, resizing, or optimizing for the web, <a href="https://remedyweb.stanford.edu/helpsu/gsb" target="_blank">submit a HelpSU ticket</a>, attention Jenny Hutchinson.</p>
+<p>Photos should be a minimum size of 270x270 pixels.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
+  // Exported field_base: 'field_upload_pdfs'
+  $field_bases['field_upload_pdfs'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_upload_pdfs',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>About PDFs (including CVs)</h2>
+<p>Be sure to <a href="http://stnfd.biz/tND11" target="_blank">optimize your PDF</a> before uploading it. Doing so helps improve the searchability, accessibility, and readability of the document. If you need help, <a href="https://remedyweb.stanford.edu/helpsu/gsb">submit a HelpSU ticket</a> attention Jenny Hutchinson.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_use_profile_img'
   $field_bases['field_use_profile_img'] = array(
     'active' => 1,
@@ -5370,6 +5710,33 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'text',
+  );
+
+  // Exported field_base: 'field_who_to_contact'
+  $field_bases['field_who_to_contact'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_who_to_contact',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h2>How to Get Help</h2>
+<ul>
+<li><strong>Faculty members</strong>: contact your faculty assistant</li>
+<li><strong>Faculty assistants</strong>: contact <a href="mailto:bfisher2@stanford.edu">Blake Fisher</a></li>
+</ul>
+<p>If you have trouble getting an answer, you can also submit a <a href="https://remedyweb.stanford.edu/helpsu/gsb" target="_blank">HelpSU ticket</a>, attention Jenny Hutchinson.</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
   );
 
   // Exported field_base: 'field_witl_archive'
