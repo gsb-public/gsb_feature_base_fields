@@ -182,6 +182,7 @@ features[field_base][] = field_pub_book_title
 features[field_base][] = field_pub_case_rp_ref
 features[field_base][] = field_pub_date_day
 features[field_base][] = field_pub_date_month
+features[field_base][] = field_publication_type
 features[field_base][] = field_publications
 features[field_base][] = field_publications_help
 features[field_base][] = field_publications_tab_help
