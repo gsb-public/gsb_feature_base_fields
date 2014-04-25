@@ -569,7 +569,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'bundle' => 'field_authors',
     'default_value' => array(
       0 => array(
-        'value' => 1,
+        'value' => 0,
       ),
     ),
     'deleted' => 0,
