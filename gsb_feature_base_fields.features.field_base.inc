@@ -4022,7 +4022,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'settings' => array(
       'markup' => array(
         'format' => 'gsb_wysiwyg_text',
-        'value' => '<p>Markup for&nbsp;Programs and non-degree courses</p>
+        'value' => '<p>Degree courses are displayed automatically on your profile from Explore Courses and are not editable in this tool. If they are incorrect, submit a HelpSU ticket to report the issue.</p>
 ',
       ),
     ),
@@ -4044,7 +4044,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'settings' => array(
       'markup' => array(
         'format' => 'gsb_wysiwyg_text',
-        'value' => '<p>Markup for Teaching Materials</p>
+        'value' => '<p>Cases are displayed automatically on your profile by the Case Writing office. Go to the “Publications” tab to manage their visibility on your profile.</p>
 ',
       ),
     ),
