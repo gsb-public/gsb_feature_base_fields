@@ -1990,7 +1990,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
       'title_label_use_field_label' => 1,
       'title_maxlength' => 128,
       'title_value' => '',
-      'url' => 0,
+      'url' => 'optional',
       'user_register_form' => FALSE,
       'validate_url' => 1,
     ),
@@ -2419,12 +2419,51 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'taxonomy_term-research_databases-field_default_checkbox_status'
+  $field_instances['taxonomy_term-research_databases-field_default_checkbox_status'] = array(
+    'bundle' => 'research_databases',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'list_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'taxonomy_term',
+    'field_name' => 'field_default_checkbox_status',
+    'label' => 'Default Checkbox Status',
+    'required' => TRUE,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => -4,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('<strong>Link Example</strong>: View Chapter 1  | <strong>PDF Example</strong>: Download Chapter 1');
   t('Category');
   t('Course Description');
   t('Course or Program');
+  t('Default Checkbox Status');
   t('Degree Type');
   t('Description');
   t('Display on Profile');
