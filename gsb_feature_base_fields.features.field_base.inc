@@ -3580,8 +3580,8 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'UseEntityReference' => 'Faculty',
-        'Other' => 'Other',
+        'UseEntityReference' => 'GSB faculty author',
+        'Other' => 'Other author (not GSB Faculty)',
       ),
       'allowed_values_function' => '',
     ),
