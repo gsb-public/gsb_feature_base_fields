@@ -4008,50 +4008,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_prefix_non_degree_course'
-  $field_bases['field_prefix_non_degree_course'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_prefix_non_degree_course',
-    'foreign keys' => array(),
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'markup',
-    'settings' => array(
-      'markup' => array(
-        'format' => 'gsb_wysiwyg_text',
-        'value' => '<p>Degree courses are displayed automatically on your profile from Explore Courses and are not editable in this tool. If they are incorrect, submit a HelpSU ticket to report the issue.</p>
-',
-      ),
-    ),
-    'translatable' => 0,
-    'type' => 'markup',
-  );
-
-  // Exported field_base: 'field_prefix_teaching_materials'
-  $field_bases['field_prefix_teaching_materials'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_prefix_teaching_materials',
-    'foreign keys' => array(),
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'markup',
-    'settings' => array(
-      'markup' => array(
-        'format' => 'gsb_wysiwyg_text',
-        'value' => '<p>Cases are displayed automatically on your profile by the Case Writing office. Go to the “Publications” tab to manage their visibility on your profile.</p>
-',
-      ),
-    ),
-    'translatable' => 0,
-    'type' => 'markup',
-  );
-
   // Exported field_base: 'field_product_type'
   $field_bases['field_product_type'] = array(
     'active' => 1,
