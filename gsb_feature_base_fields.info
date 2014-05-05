@@ -280,6 +280,7 @@ features[field_instance][] = field_collection_item-field_greater_university_affi
 features[field_instance][] = field_collection_item-field_greater_university_affil-field_years
 features[field_instance][] = field_collection_item-field_non_degree_course-field_description
 features[field_instance][] = field_collection_item-field_non_degree_course-field_link_single
+features[field_instance][] = field_collection_item-field_person_description-field_person_fields_visibility
 features[field_instance][] = field_collection_item-field_person_description-field_person_title
 features[field_instance][] = field_collection_item-field_publications-field_description
 features[field_instance][] = field_collection_item-field_publications-field_file_single_public
