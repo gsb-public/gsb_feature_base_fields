@@ -3786,6 +3786,35 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
+  // Exported field_base: 'field_person_fields_visibility'
+  $field_bases['field_person_fields_visibility'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_person_fields_visibility',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'photo' => 'Photo',
+        'phone' => 'Phone',
+        'email' => 'Email',
+        'rank' => 'Rank (Faculty Only)',
+        'academic area' => 'Academic Area (Faculty Only)',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_person_ref'
   $field_bases['field_person_ref'] = array(
     'active' => 1,
@@ -3872,6 +3901,35 @@ function gsb_feature_base_fields_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'entityreference',
+  );
+
+  // Exported field_base: 'field_person_title'
+  $field_bases['field_person_title'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_person_title',
+    'foreign keys' => array(
+      'format' => array(
+        'columns' => array(
+          'format' => 'format',
+        ),
+        'table' => 'filter_format',
+      ),
+    ),
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
   );
 
   // Exported field_base: 'field_persons_display_style'

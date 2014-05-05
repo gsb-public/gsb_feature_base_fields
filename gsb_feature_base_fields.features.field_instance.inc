@@ -1271,6 +1271,108 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'field_collection_item-field_person_description-field_person_fields_visibility'
+  $field_instances['field_collection_item-field_person_description-field_person_fields_visibility'] = array(
+    'bundle' => 'field_person_description',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => array(
+      0 => array(
+        'value' => 'photo',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_person_fields_visibility',
+    'label' => 'Fields to show',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'options_buttons',
+      'weight' => 3,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'field_collection_item-field_person_description-field_person_title'
+  $field_instances['field_collection_item-field_person_description-field_person_title'] = array(
+    'bundle' => 'field_person_description',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_person_title',
+    'label' => 'Title, Role, or Program',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'maxlength_js' => 0,
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 1,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'field_collection_item-field_publications-field_description'
   $field_instances['field_collection_item-field_publications-field_description'] = array(
     'bundle' => 'field_publications',
@@ -2470,6 +2572,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Do not include the quotation marks; they are added automatically.');
   t('Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.');
   t('Faculty Name');
+  t('Fields to show');
   t('First Name');
   t('Focus');
   t('Full Name, Title, Organization');
@@ -2487,6 +2590,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Select Author Type');
   t('Service');
   t('Title');
+  t('Title, Role, or Program');
   t('URL');
   t('University');
   t('Year(s)');
