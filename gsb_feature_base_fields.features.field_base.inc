@@ -2578,7 +2578,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       'markup' => array(
         'format' => 'gsb_wysiwyg_text',
         'value' => '<p><strong>Through this authoring tool, you have complete control over your Stanford GSB faculty profile.</strong></p>
-<p>Editing your profile is now easier and faster than before. We\'ve provided some tips below, as well as <a href="http://onegsb.stanford.edu/group/gsb-web-authors" target="_blank">training videos</a>, to get you on your way, just in case.</p>
+<p>Editing your profile is now easier and faster than before. We\'ve provided some tips below, as well as <a href="https://www.youtube.com/playlist?list=PLmBTW6yunfwCBgPN8zKiygFOmBnAZLMSA" target="_blank">training videos</a>, to get you on your way, just in case.</p>
 ',
       ),
     ),
@@ -5718,7 +5718,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       'markup' => array(
         'format' => 'gsb_wysiwyg_text',
         'value' => '<h2>About Your Photo</h2>
-<p>Be sure to <a href="http://stnfd.biz/thL3O" target="_blank">optimize your photo</a> before uploading it to your profile. If you need help with photo cropping, resizing, or optimizing for the web, <a href="https://remedyweb.stanford.edu/helpsu/gsb" target="_blank">submit a HelpSU ticket</a>, attention Jenny Hutchinson.</p>
+<p>Be sure to <a href="http://www.gsb.stanford.edu/system/files/instructions-faculty-photos-profiles.pdf" target="_blank">optimize your photo</a> before uploading it to your profile. If you need help with photo cropping, resizing, or optimizing for the web, <a href="https://remedyweb.stanford.edu/helpsu/gsb" target="_blank">submit a HelpSU ticket</a>, attention Jenny Hutchinson.</p>
 <p>Photos should be a minimum size of 270x270 pixels.</p>
 ',
       ),
@@ -5742,7 +5742,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       'markup' => array(
         'format' => 'gsb_wysiwyg_text',
         'value' => '<h2>About PDFs (including CVs)</h2>
-<p>Be sure to <a href="http://stnfd.biz/tND11" target="_blank">optimize your PDF</a> before uploading it. Doing so helps improve the searchability, accessibility, and readability of the document. If you need help, <a href="https://remedyweb.stanford.edu/helpsu/gsb">submit a HelpSU ticket</a> attention Jenny Hutchinson.</p>
+<p>Be sure to <a href="http://www.gsb.stanford.edu/system/files/best-practices-pdf-cv.pdf" target="_blank">optimize your PDF</a> before uploading it. Doing so helps improve the searchability, accessibility, and readability of the document. If you need help, <a href="https://remedyweb.stanford.edu/helpsu/gsb">submit a HelpSU ticket</a> attention Jenny Hutchinson.</p>
 ',
       ),
     ),
