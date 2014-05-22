@@ -3804,10 +3804,10 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         'photo' => 'Photo',
-        'phone' => 'Phone',
-        'email' => 'Email',
         'rank' => 'Rank (Faculty Only)',
         'academic area' => 'Academic Area (Faculty Only)',
+        'phone' => 'Phone',
+        'email' => 'Email',
       ),
       'allowed_values_function' => '',
     ),
