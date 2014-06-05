@@ -307,7 +307,6 @@ features[field_instance][] = field_collection_item-field_work_in_progress-field_
 features[field_instance][] = field_collection_item-field_working_papers-field_body
 features[field_instance][] = field_collection_item-field_working_papers-field_file_single_public
 features[field_instance][] = field_collection_item-field_working_papers-field_link_single
-features[field_instance][] = fieldable_panels_pane-slideshow-field_slideshow_slides
 features[field_instance][] = taxonomy_term-research_databases-field_default_checkbox_status
 features[hierarchical_select][] = taxonomy-101
 features[hierarchical_select][] = taxonomy-106

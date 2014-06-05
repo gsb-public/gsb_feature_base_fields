@@ -2753,58 +2753,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-slideshow-field_slideshow_slides'
-  $field_instances['fieldable_panels_pane-slideshow-field_slideshow_slides'] = array(
-    'bundle' => 'slideshow',
-    'custom_add_another' => '',
-    'custom_remove' => '',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'field_collection',
-        'settings' => array(
-          'add' => 'Add',
-          'conditions' => array(),
-          'delete' => 'Delete',
-          'description' => TRUE,
-          'edit' => 'Edit',
-          'view_mode' => 'full',
-        ),
-        'type' => 'field_collection_view',
-        'weight' => 3,
-      ),
-      'ical' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'fieldable_panels_pane',
-    'field_name' => 'field_slideshow_slides',
-    'label' => 'Slides',
-    'required' => 0,
-    'settings' => array(
-      'custom_add_another' => '',
-      'custom_remove' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'field_collection',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
-      'type' => 'field_collection_embed',
-      'weight' => -4,
-    ),
-    'workbench_access_field' => 0,
-  );
-
   // Exported field_instance: 'taxonomy_term-research_databases-field_default_checkbox_status'
   $field_instances['taxonomy_term-research_databases-field_default_checkbox_status'] = array(
     'bundle' => 'research_databases',
@@ -2876,7 +2824,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
   t('Role');
   t('Select Author Type');
   t('Service');
-  t('Slides');
   t('Superhead');
   t('Superhead Link');
   t('Text');
