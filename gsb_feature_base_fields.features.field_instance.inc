@@ -1758,7 +1758,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '<strong>Dimensions</strong>: 565px by 260px',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
@@ -1811,7 +1811,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
@@ -1875,7 +1875,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
@@ -1939,7 +1939,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '<strong>Recommended length</strong>: approx. 75 characters',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -1989,7 +1989,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'description' => '<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the <strong> tag or force text to wrap in specific places using the <br /> tag',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
