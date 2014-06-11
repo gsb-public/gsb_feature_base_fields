@@ -2497,7 +2497,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         'purple' => 'Purple',
         'pink' => 'Pink',
         'green' => 'Green',
-        'dark-teal' => 'Dark Teal',    
+        'dark-teal' => 'Dark Teal',
       ),
       'allowed_values_function' => '',
     ),
