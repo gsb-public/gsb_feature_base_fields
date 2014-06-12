@@ -1755,7 +1755,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'custom_add_another' => '',
     'custom_remove' => '',
     'deleted' => 0,
-    'description' => '<strong>Dimensions</strong>: 565px by 260px',
+    'description' => '<strong>Dimensions</strong>: 1130px by 520px',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
