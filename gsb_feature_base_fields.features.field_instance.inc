@@ -1930,7 +1930,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '<strong>Recommended length</strong>: approx. 75 characters',
+    'description' => '<strong>Recommended length</strong>: approx. 75 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -2010,7 +2010,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the <strong> tag or force text to wrap in specific places using the <br /> tag',
+    'description' => '<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -2857,8 +2857,8 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('<strong>Dimensions</strong>: 565px by 260px');
   t('<strong>Link Example</strong>: View Chapter 1  | <strong>PDF Example</strong>: Download Chapter 1');
-  t('<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the <strong> tag or force text to wrap in specific places using the <br /> tag');
-  t('<strong>Recommended length</strong>: approx. 75 characters');
+  t('<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag');
+  t('<strong>Recommended length</strong>: approx. 75 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag');
   t('Category');
   t('Course Description');
   t('Course or Program');
