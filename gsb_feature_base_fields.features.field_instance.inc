@@ -1948,6 +1948,36 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Superhead',
     'required' => 0,
     'settings' => array(
+      'better_formats' => array(
+        'allowed_formats' => array(
+          'full_html' => 0,
+          'gsb_html_text' => 0,
+          'gsb_wysiwyg_text' => 0,
+          'plain_text' => 0,
+          'slideshow' => 'slideshow',
+        ),
+        'allowed_formats_toggle' => 1,
+        'default_order_toggle' => 0,
+        'default_order_wrapper' => array(
+          'formats' => array(
+            'full_html' => array(
+              'weight' => 1,
+            ),
+            'gsb_html_text' => array(
+              'weight' => -9,
+            ),
+            'gsb_wysiwyg_text' => array(
+              'weight' => -10,
+            ),
+            'plain_text' => array(
+              'weight' => 10,
+            ),
+            'slideshow' => array(
+              'weight' => 0,
+            ),
+          ),
+        ),
+      ),
       'custom_add_another' => '',
       'custom_remove' => '',
       'linkit' => array(
@@ -1998,6 +2028,44 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'label' => 'Text',
     'required' => 1,
     'settings' => array(
+      'better_formats' => array(
+        'allowed_formats' => array(
+          'filtered_html' => 0,
+          'full_html' => 0,
+          'gsb_html_text' => 0,
+          'gsb_wysiwyg_text' => 0,
+          'markdown' => 0,
+          'plain_text' => 0,
+          'slideshow' => 'slideshow',
+        ),
+        'allowed_formats_toggle' => 1,
+        'default_order_toggle' => 0,
+        'default_order_wrapper' => array(
+          'formats' => array(
+            'filtered_html' => array(
+              'weight' => 0,
+            ),
+            'full_html' => array(
+              'weight' => 1,
+            ),
+            'gsb_html_text' => array(
+              'weight' => -9,
+            ),
+            'gsb_wysiwyg_text' => array(
+              'weight' => -10,
+            ),
+            'markdown' => array(
+              'weight' => 0,
+            ),
+            'plain_text' => array(
+              'weight' => 10,
+            ),
+            'slideshow' => array(
+              'weight' => 0,
+            ),
+          ),
+        ),
+      ),
       'custom_add_another' => '',
       'custom_remove' => '',
       'linkit' => array(
