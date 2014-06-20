@@ -2485,10 +2485,10 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
+        'written' => 'Written',
+        'video' => 'Video',
         'audio' => 'Audio',
         'infographic' => 'Infographic',
-        'video' => 'Video',
-        'written' => 'Written',
       ),
       'allowed_values_function' => '',
     ),
