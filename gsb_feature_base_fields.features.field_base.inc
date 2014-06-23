@@ -2773,11 +2773,11 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_key_taxonomy',
     'foreign keys' => array(
-      'taxonomy_vocabulary' => array(
+      'taxonomy_term_data' => array(
         'columns' => array(
-          'target_id' => 'vid',
+          'target_id' => 'tid',
         ),
-        'table' => 'taxonomy_vocabulary',
+        'table' => 'taxonomy_term_data',
       ),
     ),
     'indexes' => array(
@@ -2798,9 +2798,13 @@ function gsb_feature_base_fields_field_default_field_bases() {
         'sort' => array(
           'type' => 'none',
         ),
-        'target_bundles' => array(),
+        'target_bundles' => array(
+          'academic_area' => 'academic_area',
+          'business_insight_topic' => 'business_insight_topic',
+          'region_interest' => 'region_interest',
+        ),
       ),
-      'target_type' => 'taxonomy_vocabulary',
+      'target_type' => 'taxonomy_term',
     ),
     'translatable' => 0,
     'type' => 'entityreference',
