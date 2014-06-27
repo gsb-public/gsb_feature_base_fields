@@ -4845,7 +4845,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_region_of_interest'
   $field_bases['field_region_of_interest'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_region_of_interest',
