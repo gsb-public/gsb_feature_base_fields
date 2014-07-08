@@ -5001,7 +5001,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
   // Exported field_base: 'field_related_other_content'
   $field_bases['field_related_other_content'] = array(
     'active' => 1,
-    'cardinality' => -1,
+    'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_related_other_content',
