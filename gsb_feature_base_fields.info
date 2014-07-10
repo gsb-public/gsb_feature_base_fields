@@ -340,6 +340,7 @@ features[hierarchical_select][] = taxonomy-156
 features[hierarchical_select][] = taxonomy-166
 features[hierarchical_select][] = taxonomy-181
 features[hierarchical_select][] = taxonomy-196
+>>>>>>> WP-3810 add field region of interest to base fields
 features_exclude[field][taxonomy_term-workbench_sections-field_workbench_section_path] = taxonomy_term-workbench_sections-field_workbench_section_path
 features_exclude[field][taxonomy_term-workbench_sections-field_workbench_section_use_menu] = taxonomy_term-workbench_sections-field_workbench_section_use_menu
 features_exclude[field_base][field_workbench_section_path] = field_workbench_section_path
