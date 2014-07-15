@@ -1718,7 +1718,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
           'view_mode' => 'idea_story_related',
         ),
         'type' => 'entityreference_entity_view',
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
