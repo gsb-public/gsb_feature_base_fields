@@ -320,18 +320,19 @@ $config = array(
 $configs['taxonomy-181'] = $config;
 $config = array(
   'config_id'       => 'taxonomy-196',
-  'save_lineage'    => 0,
+  'save_lineage'    => 1,
   'enforce_deepest' => 0,
   'entity_count'    => 0,
   'require_entity'  => 0,
-  'resizable'       => 1,
+  'resizable'       => 0,
   'level_labels' => array(
     'status' => 0,
     'labels' => array(
+      0 => '',
     ),
   ),
   'dropbox' => array(
-    'status'    => 0,
+    'status'    => 1,
     'title'     => 'All selections',
     'limit'     => 0,
     'reset_hs'  => 1,
@@ -339,8 +340,10 @@ $config = array(
   'editability' => array(
     'status' => 0,
     'item_types' => array(
+      0 => '',
     ),
     'allowed_levels' => array(
+      0 => 1,
     ),
     'allow_new_levels' => 0,
     'max_levels'       => 3,
