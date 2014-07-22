@@ -1,4 +1,10 @@
 <?php
+/**
+ * @file
+ * Code for the GSB Feature Base Fields feature.
+ */
+
+include_once 'gsb_feature_base_fields.features.inc';
 
 /**
  * @file
