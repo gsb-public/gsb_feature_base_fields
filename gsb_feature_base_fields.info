@@ -101,6 +101,7 @@ features[field_base][] = field_event_series
 features[field_base][] = field_existing_node_fpp_ref
 features[field_base][] = field_faculty_advisor_other
 features[field_base][] = field_faculty_advisors
+features[field_base][] = field_featured_insight_card_ref
 features[field_base][] = field_featured_publication_ref
 features[field_base][] = field_feed_source
 features[field_base][] = field_file_conf_presentation
