@@ -1755,7 +1755,6 @@ function gsb_feature_base_fields_field_default_field_instances() {
     ),
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1773,7 +1772,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_profile_visibility',
     'label' => 'Display on Profile',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'custom_add_another' => '',
       'custom_remove' => '',
