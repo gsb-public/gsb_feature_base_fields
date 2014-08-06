@@ -1750,7 +1750,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
     'bundle' => 'field_related_faculty',
     'default_value' => array(
       0 => array(
-        'value' => 0,
+        'value' => 1,
       ),
     ),
     'custom_add_another' => '',
