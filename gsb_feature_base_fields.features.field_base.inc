@@ -5141,7 +5141,11 @@ function gsb_feature_base_fields_field_default_field_bases() {
           'type' => 'none',
         ),
         'target_bundles' => array(
+          'announcement' => 'announcement',
           'idea_story' => 'idea_story',
+          'offsite_idea_story' => 'offsite_idea_story',
+          'offsite_school_story' => 'offsite_school_story',
+          'school_story' => 'school_story',
         ),
       ),
       'target_type' => 'node',
