@@ -5388,6 +5388,37 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'field_rethink_date'
+  $field_bases['field_rethink_date'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_rethink_date',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'date',
+    'settings' => array(
+      'cache_count' => 4,
+      'cache_enabled' => 0,
+      'granularity' => array(
+        'day' => 'day',
+        'hour' => 0,
+        'minute' => 0,
+        'month' => 'month',
+        'second' => 0,
+        'year' => 'year',
+      ),
+      'repeat' => 0,
+      'timezone_db' => '',
+      'todate' => '',
+      'tz_handling' => 'none',
+    ),
+    'translatable' => 0,
+    'type' => 'datetime',
+  );
+
   // Exported field_base: 'field_review'
   $field_bases['field_review'] = array(
     'active' => 1,
@@ -5540,6 +5571,34 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'settings' => array(),
     'translatable' => 0,
     'type' => 'concat_field',
+  );
+
+  // Exported field_base: 'field_season'
+  $field_bases['field_season'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_season',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'winter' => 'Winter',
+        'spring' => 'Spring',
+        'summer' => 'Summer',
+        'fall' => 'Fall',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
   );
 
   // Exported field_base: 'field_sections'

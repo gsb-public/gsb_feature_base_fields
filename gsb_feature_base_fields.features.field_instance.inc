@@ -1748,13 +1748,13 @@ function gsb_feature_base_fields_field_default_field_instances() {
   // Exported field_instance: 'field_collection_item-field_related_faculty-field_profile_visibility'
   $field_instances['field_collection_item-field_related_faculty-field_profile_visibility'] = array(
     'bundle' => 'field_related_faculty',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => array(
       0 => array(
         'value' => 1,
       ),
     ),
-    'custom_add_another' => '',
-    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
