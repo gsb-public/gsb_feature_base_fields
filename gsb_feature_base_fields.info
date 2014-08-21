@@ -360,6 +360,7 @@ features[hierarchical_select][] = taxonomy-196
 features[variable][] = field_bundle_settings_field_collection_item__field_authors
 features[variable][] = field_bundle_settings_field_collection_item__field_conf_presentations_section
 features[variable][] = field_bundle_settings_field_collection_item__field_publications
+features[variable][] = field_bundle_settings_field_collection_item__field_related_faculty
 features[variable][] = field_bundle_settings_field_collection_item__field_related_other_unlimited
 features[variable][] = field_bundle_settings_field_collection_item__field_service_profession_section
 features[variable][] = field_bundle_settings_field_collection_item__field_work_in_progress
