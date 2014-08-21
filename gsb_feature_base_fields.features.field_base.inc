@@ -2848,6 +2848,27 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_insights_tab_help'
+  $field_bases['field_insights_tab_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_insights_tab_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>Idea Stories are added to the site by Marketing. Contact them to edit or add an Idea Story to your profile.</strong></p>',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_introduction'
   $field_bases['field_introduction'] = array(
     'active' => 1,
@@ -5652,6 +5673,27 @@ function gsb_feature_base_fields_field_default_field_bases() {
 <p>Save your changes by clicking the "Save &amp; Publish" button, located at top and bottom of the authoring tabs. You can make multiple changes across tabs without saving; however, we recommend that you save your changes frequently.</p>
 <p>Your changes will display <em>immediately</em> on your published profile once you save. To verify your changes, click the "View Published" tab in the top-right corner.</p>
 ',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
+  // Exported field_base: 'field_school_news_tab_help'
+  $field_bases['field_school_news_tab_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_school_news_tab_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong>School News is added to the site by Marketing. Contact them to edit or add School News to your profile.</strong></p>',
       ),
     ),
     'translatable' => 0,
