@@ -3517,7 +3517,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'red-bar' => 'Red bar',
+        'black-bar' => 'Black bar',        
         'green-bar' => 'Green with Header',
         'stanford-links' => 'Stanford University Links',
       ),
