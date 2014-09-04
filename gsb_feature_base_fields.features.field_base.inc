@@ -2598,33 +2598,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_house_ads_style'
-  $field_bases['field_house_ads_style'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_house_ads_style',
-    'foreign keys' => array(),
-    'indexes' => array(
-      'value' => array(
-        0 => 'value',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'list',
-    'settings' => array(
-      'allowed_values' => array(
-        'white' => 'White',
-        'taupe' => 'Taupe',
-        'grey' => 'Dark Grey',
-      ),
-      'allowed_values_function' => '',
-    ),
-    'translatable' => 0,
-    'type' => 'list_text',
-  );
-
   // Exported field_base: 'field_icon'
   $field_bases['field_icon'] = array(
     'active' => 1,
@@ -3546,7 +3519,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'black-bar' => 'Black bar',        
+        'black-bar' => 'Black bar',
         'green-bar' => 'Green with Header',
         'stanford-links' => 'Stanford University Links',
       ),
