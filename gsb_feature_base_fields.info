@@ -137,6 +137,7 @@ features[field_base][] = field_image_cta_text
 features[field_base][] = field_image_key_image
 features[field_base][] = field_image_single_public
 features[field_base][] = field_industry
+features[field_base][] = field_insights_bus_tab_help
 features[field_base][] = field_introduction
 features[field_base][] = field_issue_number
 features[field_base][] = field_item_id

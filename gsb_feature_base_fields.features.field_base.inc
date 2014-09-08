@@ -2879,6 +2879,27 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_insights_bus_tab_help'
+  $field_bases['field_insights_bus_tab_help'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_insights_bus_tab_help',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p><strong style="line-height: 20.0063037872314px;">Insights are ...</strong></p>',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_introduction'
   $field_bases['field_introduction'] = array(
     'active' => 1,
