@@ -1407,54 +1407,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_degree_type'
-  $field_bases['field_degree_type'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_degree_type',
-    'foreign keys' => array(),
-    'indexes' => array(
-      'value' => array(
-        0 => 'value',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'list',
-    'settings' => array(
-      'allowed_values' => array(
-        'BA' => 'BA',
-        'BBA' => 'BBA',
-        'BCOM' => 'BCOM',
-        'BECON' => 'BECON',
-        'BENG' => 'BENG',
-        'BLAW' => 'BLAW',
-        'BS' => 'BS',
-        'BTech' => 'BTech',
-        'DBA' => 'DBA',
-        'D.Laws' => 'D.Laws',
-        'JD' => 'JD',
-        'MA' => 'MA',
-        'MBA' => 'MBA',
-        'MD' => 'MD',
-        'MENG' => 'MENG',
-        'MFA' => 'MFA',
-        'MFin' => 'MFin',
-        'MPA' => 'MPA',
-        'MPhil' => 'MPhil',
-        'MPP' => 'MPP',
-        'MS' => 'MS',
-        'PhD' => 'PhD',
-        'PMD' => 'PMD',
-        'ScD' => 'ScD',
-      ),
-      'allowed_values_function' => '',
-    ),
-    'translatable' => 0,
-    'type' => 'list_text',
-  );
-
   // Exported field_base: 'field_degree_type_other'
   $field_bases['field_degree_type_other'] = array(
     'active' => 1,
