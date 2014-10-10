@@ -705,6 +705,8 @@ ScD|ScD
   // Exported field_instance: 'field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -739,6 +741,25 @@ ScD|ScD
       'description_field' => 0,
       'file_directory' => 'book-pdf',
       'file_extensions' => 'pdf',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 0,
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -746,31 +767,6 @@ ScD|ScD
       'active' => 1,
       'module' => 'file',
       'settings' => array(
-        'allowed_schemes' => array(
-          'private' => 0,
-          'public' => 'public',
-          'vimeo' => 0,
-          'youtube' => 0,
-        ),
-        'allowed_types' => array(
-          'audio' => 0,
-          'document' => 0,
-          'image' => 0,
-          'video' => 0,
-        ),
-        'browser_plugins' => array(
-          'gsb_media_browser--files_and_docs' => 0,
-          'gsb_media_browser--images' => 0,
-          'gsb_media_browser--videos' => 0,
-          'gsb_media_center_document' => 'gsb_media_center_document',
-          'gsb_media_center_image' => 0,
-          'gsb_media_center_video' => 0,
-          'media_default--media_browser_1' => 0,
-          'media_default--media_browser_my_files' => 0,
-          'media_internet' => 0,
-          'upload' => 0,
-          'youtube' => 0,
-        ),
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'progress_indicator' => 'throbber',
       ),
@@ -947,6 +943,8 @@ ScD|ScD
   // Exported field_instance: 'field_collection_item-field_conf_presentations_section-field_file_conf_presentation'
   $field_instances['field_collection_item-field_conf_presentations_section-field_file_conf_presentation'] = array(
     'bundle' => 'field_conf_presentations_section',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -973,6 +971,25 @@ ScD|ScD
       'description_field' => 0,
       'file_directory' => 'conf-presentations',
       'file_extensions' => 'pdf',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 0,
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -1579,6 +1596,8 @@ ScD|ScD
   // Exported field_instance: 'field_collection_item-field_publications-field_file_single_public'
   $field_instances['field_collection_item-field_publications-field_file_single_public'] = array(
     'bundle' => 'field_publications',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1612,8 +1631,27 @@ ScD|ScD
       'custom_add_another' => '',
       'custom_remove' => '',
       'description_field' => 0,
-      'file_directory' => '',
+      'file_directory' => 'publications',
       'file_extensions' => 'pdf',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 0,
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -2708,6 +2746,8 @@ ScD|ScD
   // Exported field_instance: 'field_collection_item-field_teaching_materials-field_file_single_public'
   $field_instances['field_collection_item-field_teaching_materials-field_file_single_public'] = array(
     'bundle' => 'field_teaching_materials',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2734,6 +2774,25 @@ ScD|ScD
       'description_field' => 0,
       'file_directory' => 'teaching-materials',
       'file_extensions' => 'pdf',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 0,
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -2882,6 +2941,8 @@ ScD|ScD
   // Exported field_instance: 'field_collection_item-field_work_in_progress-field_file_single_public'
   $field_instances['field_collection_item-field_work_in_progress-field_file_single_public'] = array(
     'bundle' => 'field_work_in_progress',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2906,8 +2967,27 @@ ScD|ScD
       'custom_add_another' => '',
       'custom_remove' => '',
       'description_field' => 0,
-      'file_directory' => '',
+      'file_directory' => 'work-in-progress',
       'file_extensions' => 'pdf',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 0,
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -3072,6 +3152,8 @@ ScD|ScD
   // Exported field_instance: 'field_collection_item-field_working_papers-field_file_single_public'
   $field_instances['field_collection_item-field_working_papers-field_file_single_public'] = array(
     'bundle' => 'field_working_papers',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -3134,6 +3216,25 @@ ScD|ScD
       'description_field' => 0,
       'file_directory' => 'working-papers',
       'file_extensions' => 'pdf',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 0,
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
