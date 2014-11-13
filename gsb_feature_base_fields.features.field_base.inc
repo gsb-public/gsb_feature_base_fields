@@ -2374,6 +2374,58 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'file',
   );
 
+  // Exported field_base: 'field_files_private_setting'
+  $field_bases['field_files_private_setting'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_files_private_setting',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'alumni' => 'Alumni',
+        'stanford' => 'Stanford',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_files_style'
+  $field_bases['field_files_style'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_files_style',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'container' => 'Container',
+        'unstyled' => 'Unstyled',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_first_name'
   $field_bases['field_first_name'] = array(
     'active' => 1,
