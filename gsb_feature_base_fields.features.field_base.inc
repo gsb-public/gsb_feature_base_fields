@@ -4415,10 +4415,11 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         'photo' => 'Photo',
-        'phone' => 'Phone',
-        'email' => 'Email',
         'rank' => 'Rank (Faculty Only)',
         'academic area' => 'Academic Area (Faculty Only)',
+        'alumni title organization location' => 'Alumni Title & Organization, Location',
+        'email' => 'Email',
+        'phone' => 'Phone',
       ),
       'allowed_values_function' => '',
     ),
@@ -4458,7 +4459,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         ),
         'view' => array(
           'args' => array(
-            0 => 'faculty+staff+phd_candidate+msx_fellows',
+            0 => 'faculty+staff+phd_candidate+msx_fellows+alumni',
           ),
           'display_name' => 'entityreference_1',
           'view_name' => 'gsb_people_autocomplete',
