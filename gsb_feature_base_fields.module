@@ -18,7 +18,11 @@ include_once 'gsb_feature_base_fields.features.inc';
 function gsb_feature_base_fields_field_widget_form_alter(&$element, &$form_state, $context) {
   if (in_array($context['field']['type'], array('image', 'file')) &&
       in_array($context['instance']['widget']['type'], array('file_generic', 'image_image'))) {
-    $element[0]['#process'][] = 'gsb_feature_base_fields_remove_button_label_process';
+    foreach($element as $key => $value) {
+      if (is_numeric($key)) {
+        $element[$key]['#process'][] = 'gsb_feature_base_fields_remove_button_label_process';
+      }
+    }
   }
 }
 
