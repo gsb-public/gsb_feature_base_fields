@@ -4417,7 +4417,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
         'photo' => 'Photo',
         'rank' => 'Rank (Faculty Only)',
         'academic area' => 'Academic Area (Faculty Only)',
-        'alumni title organization location' => 'Alumni Title & Organization, Location',
+        'alumni title organization location' => 'Title & Organization, Location (Alumni Only)',
         'email' => 'Email',
         'phone' => 'Phone',
       ),
