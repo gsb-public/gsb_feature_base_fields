@@ -6334,13 +6334,13 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => 'Off',
-        1 => 'On',
+        0 => 'No',
+        1 => 'Yes',
       ),
       'allowed_values_function' => '',
     ),
     'translatable' => 0,
-    'type' => 'list_text',
+    'type' => 'list_boolean',
   );
 
   // Exported field_base: 'field_stanford_gsb_affiliation'
