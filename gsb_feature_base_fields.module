@@ -108,3 +108,14 @@ function gsb_feature_base_fields_hide_fieldgroups(&$form, $groups, $field_map = 
     }
   }
 }
+
+/**
+ * Computed field function for field_chute_javascript.
+ */
+function computed_field_field_chute_javascript_compute(&$entity_field, $entity_type, $entity, $field, $instance, $langcode, $items) {
+  $name = field_get_items($entity_type, $entity, 'field_chute_name')[0]['value'];
+  $id = field_get_items($entity_type, $entity, 'field_chute_id')[0]['value'];
+  $campaign_id = field_get_items($entity_type, $entity, 'field_chute_campaign_id')[0]['value'];
+  $entity_field[0]['value'] = '<script src="http://static.getchute.com/display-runners/' . $name . '/' . $name . '.js" data-chute-' . $name . '="http://s3.amazonaws.com/store.getchute.com/' . $id . '"></script>';
+  $entity_field[0]['value'] .= '<img src="http://pixel.getchute.com/?dID=' . $id . '&cID=' . $campaign_id . '&eTp=view_served" style="width:0; height: 0" />';
+}
