@@ -2212,6 +2212,50 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
+  // Exported field_base: 'field_featured_content_fpp_ref'
+  $field_bases['field_featured_content_fpp_ref'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_featured_content_fpp_ref',
+    'foreign keys' => array(
+      'node' => array(
+        'columns' => array(
+          'target_id' => 'nid',
+        ),
+        'table' => 'node',
+      ),
+    ),
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'views',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'view' => array(
+          'args' => array(
+            0 => 'announcement+book+event+idea_story+offsite_idea_story+offsite_school_story+school_story',
+          ),
+          'display_name' => 'entityreference_1',
+          'view_name' => 'gsb_related_other_content_autocomplete',
+        ),
+      ),
+      'target_type' => 'node',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
   // Exported field_base: 'field_featured_insight_card_ref'
   $field_bases['field_featured_insight_card_ref'] = array(
     'active' => 1,
