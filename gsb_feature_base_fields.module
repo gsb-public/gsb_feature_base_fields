@@ -122,6 +122,5 @@ function computed_field_field_chute_javascript_compute(&$entity_field, $entity_t
   $campaign_id_element = field_get_items($entity_type, $entity, 'field_chute_campaign_id');
   $campaign_id = $campaign_id_element[0]['value'];
 
-  $entity_field[0]['value'] = '<script src="http://static.getchute.com/display-runners/' . $name . '/' . $name . '.js" data-chute-' . $name . '="http://s3.amazonaws.com/store.getchute.com/' . $id . '"></script>';
-  $entity_field[0]['value'] .= '<img src="http://pixel.getchute.com/?dID=' . $id . '&cID=' . $campaign_id . '&eTp=view_served" style="width:0; height: 0" />';
+  $entity_field[0]['value'] = '<div class="gsb-feature-chute-fpp-placeholder" data-chute-name="' . $name . '" data-chute-id="' . $id . '" data-chute-campaign-id="' . $campaign_id . '">';
 }
