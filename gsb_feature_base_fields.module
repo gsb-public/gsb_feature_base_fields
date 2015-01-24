@@ -119,8 +119,11 @@ function computed_field_field_chute_javascript_compute(&$entity_field, $entity_t
   $id_element = field_get_items($entity_type, $entity, 'field_chute_id');
   $id = $id_element[0]['value'];
 
+  $environment_element = field_get_items($entity_type, $entity, 'field_chute_environment');
+  $environment = $environment_element[0]['value'];
+
   $campaign_id_element = field_get_items($entity_type, $entity, 'field_chute_campaign_id');
   $campaign_id = $campaign_id_element[0]['value'];
 
-  $entity_field[0]['value'] = '<div class="gsb-feature-chute-fpp-placeholder" data-chute-name="' . $name . '" data-chute-id="' . $id . '" data-chute-campaign-id="' . $campaign_id . '"></div>';
+  $entity_field[0]['value'] = '<div class="gsb-feature-chute-fpp-placeholder" data-chute-environment="' . $environment . '" data-chute-name="' . $name . '" data-chute-id="' . $id . '" data-chute-campaign-id="' . $campaign_id . '"></div>';
 }
