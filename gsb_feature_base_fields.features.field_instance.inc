@@ -403,7 +403,7 @@ ScD|ScD
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_act_alumni_other',
     'label' => 'Alumni Other',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
       'custom_remove' => '',
