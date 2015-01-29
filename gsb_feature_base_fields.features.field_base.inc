@@ -305,7 +305,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'alumni' => 'Alumni',
+        'alumni' => 'GSB Alumni',
         'other' => 'Other',
       ),
       'allowed_values_function' => '',
