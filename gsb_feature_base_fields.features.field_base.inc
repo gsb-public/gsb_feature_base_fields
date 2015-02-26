@@ -6236,6 +6236,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         'Dean Emeritus' => 'Dean Emeritus',
         'Dean Emerita' => 'Dean Emerita',
         'Hoover Senior Fellow' => 'Hoover Senior Fellow',
+        'Instructor' => 'Instructor',
         'Lecturer' => 'Lecturer',
         'Professor' => 'Professor',
         'Professor (by courtesy)' => 'Professor (by courtesy)',
