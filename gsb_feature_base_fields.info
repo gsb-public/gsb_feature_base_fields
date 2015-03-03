@@ -33,6 +33,7 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = pathauto_title_alias
 dependencies[] = select_or_other
+dependencies[] = smart_trim
 dependencies[] = strongarm
 dependencies[] = submit_field
 dependencies[] = taxonomy
