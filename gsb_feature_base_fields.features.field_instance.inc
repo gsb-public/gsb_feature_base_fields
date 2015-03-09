@@ -1094,6 +1094,7 @@ ScD|ScD
     'label' => 'URL',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1318,6 +1319,7 @@ ScD|ScD
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1381,6 +1383,7 @@ ScD|ScD
     'label' => 'Full faculty name',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
@@ -1526,6 +1529,7 @@ ScD|ScD
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1731,6 +1735,7 @@ ScD|ScD
     'label' => 'Course or Program',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -1984,6 +1989,7 @@ ScD|ScD
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -2491,7 +2497,7 @@ ScD|ScD
     'custom_add_another' => '',
     'custom_remove' => '',
     'deleted' => 0,
-    'description' => '<strong>Dimensions</strong>:  1140px by 640px',
+    'description' => '1140 x 640 px',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -2517,6 +2523,26 @@ ScD|ScD
       'default_image' => 0,
       'file_directory' => 'slideshow',
       'file_extensions' => 'png gif jpg jpeg',
+      'filefield_paths' => array(
+        'active_updating' => 0,
+        'file_name' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
+        ),
+        'file_path' => array(
+          'options' => array(
+            'pathauto' => 0,
+            'transliterate' => 0,
+          ),
+          'value' => '',
+        ),
+        'replace_existing_files' => 0,
+        'retroactive_update' => 0,
+      ),
+      'filefield_paths_enabled' => 1,
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
@@ -2527,7 +2553,6 @@ ScD|ScD
       'active' => 1,
       'module' => 'image',
       'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'preview_image_style' => 'thumbnail',
         'progress_indicator' => 'throbber',
       ),
@@ -2559,6 +2584,7 @@ ScD|ScD
     'label' => 'Text Link',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
@@ -2620,6 +2646,7 @@ ScD|ScD
     'label' => 'Superhead Link',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
@@ -2852,6 +2879,7 @@ ScD|ScD
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -3121,6 +3149,7 @@ ScD|ScD
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -3314,6 +3343,7 @@ ScD|ScD
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -3576,6 +3606,7 @@ ScD|ScD
     'label' => 'Title',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
@@ -3654,7 +3685,7 @@ ScD|ScD
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('<strong>Dimensions</strong>:  1140px by 640px');
+  t('1140 x 640 px');
   t('<strong>Link Example</strong>: View Chapter 1  | <strong>PDF Example</strong>: Download Chapter 1');
   t('<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag');
   t('<strong>Recommended length</strong>: approx. 75 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag');
