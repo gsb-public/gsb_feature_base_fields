@@ -381,11 +381,7 @@ ScD|ScD
     'bundle' => 'field_act_project_team_role',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => array(
-      0 => array(
-        'value' => 'alumni',
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
