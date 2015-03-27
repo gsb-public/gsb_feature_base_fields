@@ -1505,6 +1505,37 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_case_access'
+  $field_bases['field_case_access'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_case_access',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'Not for distribution' => 'Not for distribution',
+        'Stanford GSB classes only, restricted' => 'Stanford GSB classes only, restricted',
+        'Stanford GSB classes only, accessible' => 'Stanford GSB classes only, accessible',
+        'Instructors only' => 'Instructors only',
+        'Educational use only' => 'Educational use only',
+        'Education and Corporate use' => 'Education and Corporate use',
+        'Free' => 'Free',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_case_study_at_harvard'
   $field_bases['field_case_study_at_harvard'] = array(
     'active' => 1,
