@@ -2183,7 +2183,7 @@ ScD|ScD
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_related_other_content',
-    'label' => 'Publication',
+    'label' => 'Existing Node Title',
     'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
@@ -2195,7 +2195,6 @@ ScD|ScD
       'module' => 'entityreference',
       'settings' => array(
         'match_operator' => 'CONTAINS',
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'path' => '',
         'size' => 120,
       ),
@@ -3689,6 +3688,7 @@ ScD|ScD
   t('Display on Profile');
   t('Do not include the quotation marks; they are added automatically.');
   t('Enter the first few characters of the Stanford GSB author\'s name to lookup and select the desired person.');
+  t('Existing Node Title');
   t('Faculty Name');
   t('First Name');
   t('Focus');
@@ -3704,7 +3704,6 @@ ScD|ScD
   t('Organization');
   t('PDF');
   t('Paper');
-  t('Publication');
   t('Publication Information');
   t('Review');
   t('Reviewer');
