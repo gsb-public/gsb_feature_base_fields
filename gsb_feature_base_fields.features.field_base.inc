@@ -1090,6 +1090,24 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'field_book_review_url_or_pdf'
+  $field_bases['field_book_review_url_or_pdf'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_book_review_url_or_pdf',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'field_collection',
+    'settings' => array(
+      'hide_blank_items' => 1,
+      'path' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'field_collection',
+  );
+
   // Exported field_base: 'field_book_url_or_pdf'
   $field_bases['field_book_url_or_pdf'] = array(
     'active' => 1,
