@@ -2340,7 +2340,15 @@ ScD|ScD
         'label' => 'hidden',
         'module' => 'gsb_field_formatter',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'PDF',
+                'target' => 'field_book_url_or_pdf',
+              ),
+            ),
+          ),
           'file_view_mode' => 'default',
           'text' => 'See full review',
         ),
@@ -2407,7 +2415,15 @@ ScD|ScD
         'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_no_string',
+              'configuration' => array(
+                'string' => 'Link',
+                'target' => 'field_book_url_or_pdf',
+              ),
+            ),
+          ),
         ),
         'type' => 'link_default',
         'weight' => 2,
