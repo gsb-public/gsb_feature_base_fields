@@ -4694,8 +4694,9 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
       'allowed_values' => array(
         'photo' => 'Photo',
         'rank' => 'Rank (Faculty Only)',
-        'academic area' => 'Academic Area (Faculty Only)',
+        'academic area' => 'Academic Area (Faculty and PhD Only)',
         'alumni title organization location' => 'Title & Organization, Location (Alumni Only)',
+        'title staff' => 'Title/Position (Staff Only)',
         'phone' => 'Phone',
         'email' => 'Email',
       ),
