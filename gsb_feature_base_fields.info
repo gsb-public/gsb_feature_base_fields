@@ -293,6 +293,7 @@ features[field_base][] = field_service_unlimited
 features[field_base][] = field_slideshow_slides
 features[field_base][] = field_social_display_num
 features[field_base][] = field_social_twitter_title
+features[field_base][] = field_soundcloud_url
 features[field_base][] = field_spotlight_person_fid
 features[field_base][] = field_spotlight_person_nid
 features[field_base][] = field_spotlight_person_type
