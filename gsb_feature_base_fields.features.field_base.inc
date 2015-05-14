@@ -4768,6 +4768,42 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
+  // Exported field_base: 'field_person_ref_unlimited'
+  $field_bases['field_person_ref_unlimited'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_person_ref_unlimited',
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'views',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'view' => array(
+          'args' => array(
+            0 => 'faculty+staff+phd_candidate+msx_fellows+alumni',
+          ),
+          'display_name' => 'entityreference_1',
+          'view_name' => 'gsb_people_autocomplete',
+        ),
+      ),
+      'target_type' => 'node',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
   // Exported field_base: 'field_person_staff_ref'
   $field_bases['field_person_staff_ref'] = array(
     'active' => 1,
