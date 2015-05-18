@@ -314,6 +314,7 @@ features[field_base][] = field_taxonomy_markup
 features[field_base][] = field_teaching_materials
 features[field_base][] = field_teaching_statement
 features[field_base][] = field_teaching_talks_help
+features[field_base][] = field_text_equivalent
 features[field_base][] = field_text_slide
 features[field_base][] = field_text_style
 features[field_base][] = field_time
