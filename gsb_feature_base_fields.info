@@ -17,7 +17,6 @@ dependencies[] = field_collection
 dependencies[] = file
 dependencies[] = file_entity
 dependencies[] = filefield_paths
-dependencies[] = gsb_academic_year
 dependencies[] = gsb_feature_act_ct
 dependencies[] = gsb_feature_pr_contact
 dependencies[] = gsb_feature_taxonomy
