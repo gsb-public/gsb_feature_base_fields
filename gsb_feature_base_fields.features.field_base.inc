@@ -2172,13 +2172,13 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => 'Compact view',
-        1 => 'Expanded view',
+        'compact' => 'Compact view',
+        'expanded' => 'Expanded view',
       ),
       'allowed_values_function' => '',
     ),
     'translatable' => 0,
-    'type' => 'list_boolean',
+    'type' => 'list_text',
   );
 
   // Exported field_base: 'field_dissertation'
