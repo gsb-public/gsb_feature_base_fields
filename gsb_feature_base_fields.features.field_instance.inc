@@ -607,7 +607,7 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'gsb_feature_existing_node_list_fpp',
+        'module' => 'entityreference',
         'settings' => array(
           'conditions' => array(),
           'links' => 1,
@@ -2127,7 +2127,7 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'gsb_feature_existing_node_list_fpp',
+        'module' => 'entityreference',
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
@@ -2218,7 +2218,7 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'gsb_feature_existing_node_list_fpp',
+        'module' => 'entityreference',
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
