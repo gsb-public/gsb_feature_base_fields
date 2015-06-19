@@ -129,3 +129,12 @@ function computed_field_field_chute_javascript_compute(&$entity_field, $entity_t
 
   $entity_field[0]['value'] = '<div class="gsb-feature-chute-fpp-placeholder" data-chute-environment="' . $environment . '" data-chute-name="' . $name . '" data-chute-id="' . $id . '" data-chute-campaign-id="' . $campaign_id . '"></div>';
 }
+
+/**
+ * Implements hook_form_alter().
+ */
+function gsb_feature_base_fields_form_alter(&$form, &$form_state) {
+  if ($form['#form_id']  == 'views_content_views_panes_content_type_edit_form') {
+    $form['override_title_heading']['#access'] = FALSE;
+  }
+}
