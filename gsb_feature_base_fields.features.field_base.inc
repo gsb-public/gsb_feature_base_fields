@@ -2418,7 +2418,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         ),
         'view' => array(
           'args' => array(),
-          'display_name' => 'entityreference_1',
+          'display_name' => 'entityreference_2',
           'view_name' => 'existing_node_fpp_reference',
         ),
       ),
