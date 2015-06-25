@@ -295,6 +295,7 @@ features[field_base][] = field_reviewer
 features[field_base][] = field_role
 features[field_base][] = field_salutation
 features[field_base][] = field_saving_your_changes
+features[field_base][] = field_schedule
 features[field_base][] = field_school_news_tab_help
 features[field_base][] = field_search_field
 features[field_base][] = field_season
