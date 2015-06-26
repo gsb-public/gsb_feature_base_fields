@@ -5780,13 +5780,13 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_registration_deadline_date'
-  $field_bases['field_registration_deadline_date'] = array(
+  // Exported field_base: 'field_date_time'
+  $field_bases['field_date_time'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_registration_deadline_date',
+    'field_name' => 'field_date_time',
     'indexes' => array(),
     'locked' => 0,
     'module' => 'date',
