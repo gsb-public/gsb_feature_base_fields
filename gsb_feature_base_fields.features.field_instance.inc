@@ -1385,6 +1385,175 @@ ScD|ScD
   );
 
   // Exported field_instance:
+  // 'field_collection_item-field_event_location-field_address'
+  $field_instances['field_collection_item-field_event_location-field_address'] = array(
+    'bundle' => 'field_event_location',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'addressfield',
+        'settings' => array(
+          'conditions' => array(),
+          'format_handlers' => array(
+            0 => 'address',
+          ),
+          'use_widget_handlers' => 1,
+        ),
+        'type' => 'addressfield_default',
+        'weight' => 1,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_address',
+    'label' => 'Address',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'addressfield',
+      'settings' => array(
+        'available_countries' => array(),
+        'default_country' => 'site_default',
+        'format_handlers' => array(
+          'address' => 'address',
+          'address-hide-postal-code' => 0,
+          'address-hide-street' => 0,
+          'address-hide-country' => 0,
+          'organisation' => 0,
+          'name-full' => 0,
+          'name-oneline' => 0,
+          'address-optional' => 0,
+        ),
+      ),
+      'type' => 'addressfield_standard',
+      'weight' => 34,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_event_location-field_event_location_type'
+  $field_instances['field_collection_item-field_event_location-field_event_location_type'] = array(
+    'bundle' => 'field_event_location',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'list_default',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_event_location_type',
+    'label' => 'Location Type',
+    'required' => 1,
+    'settings' => array(
+      'checkall' => array(
+        'checkall' => 0,
+        'checkall-check-all' => 1,
+        'checkall-toggle' => 1,
+        'checkall-uncheck-all' => 1,
+      ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'checkall' => FALSE,
+      ),
+      'type' => 'options_buttons',
+      'weight' => 32,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_event_location-field_link_map'
+  $field_instances['field_collection_item-field_event_location-field_link_map'] = array(
+    'bundle' => 'field_event_location',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'link_default',
+        'weight' => 2,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_link_map',
+    'label' => 'View Map',
+    'required' => 0,
+    'settings' => array(
+      'absolute_url' => 1,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'user',
+        'title' => '',
+      ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 36,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance:
   // 'field_collection_item-field_event_speakers-field_description'
   $field_instances['field_collection_item-field_event_speakers-field_description'] = array(
     'bundle' => 'field_event_speakers',
@@ -1748,9 +1917,11 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_person_fac_single_ref'
-  $field_instances['field_collection_item-field_event_speakers-field_person_fac_single_ref'] = array(
+  // 'field_collection_item-field_event_speakers-field_person_ref'
+  $field_instances['field_collection_item-field_event_speakers-field_person_ref'] = array(
     'bundle' => 'field_event_speakers',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -1763,19 +1934,21 @@ ScD|ScD
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 6,
+        'weight' => 1,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_person_fac_single_ref',
+    'field_name' => 'field_person_ref',
     'label' => 'Name',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
       'custom_add_another' => '',
       'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'entityreference',
       'settings' => array(
         'match_operator' => 'CONTAINS',
@@ -1785,15 +1958,20 @@ ScD|ScD
       'type' => 'entityreference_autocomplete',
       'weight' => 1,
     ),
+    'workbench_access_field' => 0,
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_speaker_type'
-  $field_instances['field_collection_item-field_event_speakers-field_speaker_type'] = array(
+  // 'field_collection_item-field_event_speakers-field_speakers_person_type'
+  $field_instances['field_collection_item-field_event_speakers-field_speakers_person_type'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1809,7 +1987,7 @@ ScD|ScD
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_speaker_type',
+    'field_name' => 'field_speakers_person_type',
     'label' => 'Speaker Type',
     'required' => 1,
     'settings' => array(
@@ -4759,6 +4937,7 @@ ScD|ScD
   t('<strong>Link Example</strong>: View Chapter 1  | <strong>PDF Example</strong>: Download Chapter 1');
   t('<strong>Recommended length</strong>: approx. 105 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag');
   t('<strong>Recommended length</strong>: approx. 75 characters <strong>Optional</strong>: Bold specific phrases of your text using the &lt;strong&gt; tag or force text to wrap in specific places using the &lt;br /&gt; tag');
+  t('Address');
   t('Alumni Team Member');
   t('Category');
   t('Course Description');
@@ -4783,6 +4962,7 @@ ScD|ScD
   t('Label');
   t('Last Name');
   t('Link or PDF');
+  t('Location Type');
   t('Name');
   t('Organization');
   t('PDF');
@@ -4809,6 +4989,7 @@ ScD|ScD
   t('Title/Position');
   t('URL');
   t('University');
+  t('View Map');
   t('Year(s)');
 
   return $field_instances;
