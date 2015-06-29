@@ -2325,7 +2325,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'academic_area',
+          'vocabulary' => 'event_attendance_statement',
           'parent' => 0,
         ),
       ),

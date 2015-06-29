@@ -495,3 +495,4 @@ features_exclude[taxonomy][organization_type] = organization_type
 features_exclude[taxonomy][project_focus] = project_focus
 features_exclude[taxonomy][project_type] = project_type
 features_exclude[taxonomy][department_office] = department_office
+features_exclude[taxonomy][event_attendance_statement] = event_attendance_statement
