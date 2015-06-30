@@ -2449,8 +2449,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'On-campus' => 'On-campus',
-        'Off-campus' => 'Off-campus',
+        'On campus' => 'On-campus',
+        'Off campus' => 'Off-campus',
         'Online' => 'Online',
       ),
       'allowed_values_function' => '',
