@@ -1447,7 +1447,11 @@ ScD|ScD
     'bundle' => 'field_event_location',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 'On-campus',
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -2119,7 +2123,7 @@ ScD|ScD
     'custom_add_another' => '',
     'custom_remove' => '',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Min. width: 200px',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -2233,7 +2237,7 @@ ScD|ScD
       'title' => 'optional',
       'title_label_use_field_label' => 0,
       'title_maxlength' => 128,
-      'title_value' => '',
+      'title_value' => 'Sponsor Name',
       'url' => 'optional',
       'user_register_form' => FALSE,
       'validate_url' => 1,
@@ -4963,6 +4967,7 @@ ScD|ScD
   t('Last Name');
   t('Link or PDF');
   t('Location Type');
+  t('Min. width: 200px');
   t('Name');
   t('Organization');
   t('PDF');
