@@ -1449,7 +1449,7 @@ ScD|ScD
     'custom_remove' => '',
     'default_value' => array(
       0 => array(
-        'value' => 'On-campus',
+        'value' => 'On campus',
       ),
     ),
     'deleted' => 0,
