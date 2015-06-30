@@ -283,7 +283,6 @@ features[field_base][] = field_region
 features[field_base][] = field_region_of_interest
 features[field_base][] = field_register_url
 features[field_base][] = field_registration
-features[field_base][] = field_registration_deadline_date
 features[field_base][] = field_related_faculty
 features[field_base][] = field_related_idea_story
 features[field_base][] = field_related_other_content
