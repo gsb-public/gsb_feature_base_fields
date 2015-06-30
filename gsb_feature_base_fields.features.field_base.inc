@@ -2535,9 +2535,11 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'locked' => 0,
     'module' => 'text',
-    'settings' => array(),
+    'settings' => array(
+      'max_length' => 255,
+    ),
     'translatable' => 0,
-    'type' => 'text_long',
+    'type' => 'text',
   );
 
   // Exported field_base: 'field_existing_node_fpp_ref'
@@ -5842,6 +5844,27 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_register_time_zone'
+  $field_bases['field_register_time_zone'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_register_time_zone',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'tzfield',
+    'settings' => array(
+      'exclude' => array(),
+    ),
+    'translatable' => 0,
+    'type' => 'tzfield',
   );
 
   // Exported field_base: 'field_register_url'
