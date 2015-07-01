@@ -2449,8 +2449,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'On campus' => 'On-campus',
-        'Off campus' => 'Off-campus',
+        'On-campus' => 'On-campus',
+        'Off-campus' => 'Off-campus',
         'Online' => 'Online',
       ),
       'allowed_values_function' => '',
@@ -2535,11 +2535,9 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'locked' => 0,
     'module' => 'text',
-    'settings' => array(
-      'max_length' => 255,
-    ),
+    'settings' => array(),
     'translatable' => 0,
-    'type' => 'text',
+    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_existing_node_fpp_ref'
