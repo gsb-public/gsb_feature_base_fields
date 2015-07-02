@@ -1396,19 +1396,11 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'addressfield',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
-          'conditions' => array(
-            0 => array(
-              'condition' => '',
-            ),
-          ),
-          'format_handlers' => array(
-            'address' => 'address',
-          ),
-          'use_widget_handlers' => 1,
+          'conditions' => array(),
         ),
-        'type' => 'addressfield_default',
+        'type' => 'gsb_field_formatter_address_no_country',
         'weight' => 1,
       ),
     ),
@@ -1543,10 +1535,10 @@ ScD|ScD
         'insert_plugin' => '',
       ),
       'rel_remove' => 'default',
-      'title' => 'none',
+      'title' => 'value',
       'title_label_use_field_label' => 0,
       'title_maxlength' => 128,
-      'title_value' => '',
+      'title_value' => 'View Map',
       'url' => 0,
       'user_register_form' => FALSE,
       'validate_url' => 1,
