@@ -1993,7 +1993,7 @@ ScD|ScD
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_speakers_person_type',
     'label' => 'Speaker Type',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'checkall' => array(
         'checkall' => 0,
