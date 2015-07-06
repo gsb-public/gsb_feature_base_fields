@@ -1422,6 +1422,7 @@ ScD|ScD
         'default_country' => 'site_default',
         'format_handlers' => array(
           'address' => 'address',
+          'gsb_feature_event_address' => 'gsb_feature_event_address',
           'address-hide-postal-code' => 0,
           'address-hide-street' => 0,
           'address-hide-country' => 0,
