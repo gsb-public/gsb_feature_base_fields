@@ -6000,7 +6000,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         ),
         'view' => array(
           'args' => array(
-            0 => 'publication+book+case+working_paper+event',
+            0 => 'publication+book+case+working_paper+event+admission_event',
           ),
           'display_name' => 'entityreference_1',
           'view_name' => 'gsb_related_other_content_autocomplete',
