@@ -151,6 +151,7 @@ features[field_base][] = field_event_location_type
 features[field_base][] = field_event_series
 features[field_base][] = field_event_speakers
 features[field_base][] = field_event_sponsors
+features[field_base][] = field_event_status
 features[field_base][] = field_event_who_attend
 features[field_base][] = field_existing_node_fpp_ref
 features[field_base][] = field_existing_node_list_ref

@@ -2521,6 +2521,33 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_event_status'
+  $field_bases['field_event_status'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_event_status',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'Active' => 'Active',
+        'Pending' => 'Pending',
+        'Cancelled' => 'Cancelled',
+        'Completed' => 'Completed',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_event_who_attend'
   $field_bases['field_event_who_attend'] = array(
     'active' => 1,
