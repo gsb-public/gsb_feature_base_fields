@@ -127,6 +127,7 @@ features[field_base][] = field_cta_action
 features[field_base][] = field_cta_action_item
 features[field_base][] = field_cta_item
 features[field_base][] = field_cta_style
+features[field_base][] = field_cvent_timezone
 features[field_base][] = field_date
 features[field_base][] = field_date_published
 features[field_base][] = field_date_time
