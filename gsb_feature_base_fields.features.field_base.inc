@@ -2566,6 +2566,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         'Pending' => 'Pending',
         'Cancelled' => 'Cancelled',
         'Completed' => 'Completed',
+        'Closed' => 'Closed',
       ),
       'allowed_values_function' => '',
     ),
