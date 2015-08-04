@@ -2588,7 +2588,9 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'locked' => 0,
     'module' => 'text',
-    'settings' => array(),
+    'settings' => array(
+      'max_length' => 255,
+    ),
     'translatable' => 0,
     'type' => 'text_long',
   );
