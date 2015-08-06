@@ -459,6 +459,7 @@ features[field_instance][] = taxonomy_term-research_databases-field_default_chec
 features[variable][] = field_bundle_settings_field_collection_item__field_act_project_team_role
 features[variable][] = field_bundle_settings_field_collection_item__field_authors
 features[variable][] = field_bundle_settings_field_collection_item__field_conf_presentations_section
+features[variable][] = field_bundle_settings_field_collection_item__field_event_location
 features[variable][] = field_bundle_settings_field_collection_item__field_event_speakers
 features[variable][] = field_bundle_settings_field_collection_item__field_event_sponsors
 features[variable][] = field_bundle_settings_field_collection_item__field_publications
