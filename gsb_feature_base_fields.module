@@ -190,9 +190,36 @@ function gsb_feature_base_fields_remove_file_submit($form, &$form_state) {
     if ($value == null) {
       continue;
     }
-    if ($form_state['values'][$field_name][$language][0]['fid'] == 0) {
-      $file = file_load($value['fid']);
-      file_delete($file);
+    if (!empty($value['fid'])) {
+      if ($form_state['values'][$field_name][$language][0]['fid'] == 0) {
+        $file = file_load($value['fid']);
+      }
+      if ($file) {
+        file_delete($file, TRUE);
+      }
+    }
+    else {
+      // run thru the list of files in value
+      // getting the current list of fids
+      $current_fids = array();
+      foreach($value as $file_item) {
+        $current_fids[] = $file_item['fid'];
+      }
+      // now run thru the list of new files being saved
+      $new_fids = array();
+      foreach($form_state['values'][$field_name][$language] as $file_item) {
+        $new_fids[] = $file_item['fid'];
+      }
+      // if any files in the current list are not in the new list
+      // then delete that file - since it has been removed
+      foreach($current_fids as $fid) {
+        if (!in_array($fid, $new_fids)) {
+          $file = file_load($fid);
+          if ($file) {
+            file_delete($file, TRUE);
+          }
+        }
+      }
     }
   }
   foreach($fc_field_names as $field_name) {
@@ -217,7 +244,9 @@ function gsb_feature_base_fields_remove_file_submit($form, &$form_state) {
       }
       foreach($fids as $fid) {
         $file = file_load($fid);
-        file_delete($file);
+        if ($file) {
+          file_delete($file, TRUE);
+        }
       }
     }
   }
