@@ -142,6 +142,9 @@ function gsb_feature_base_fields_form_alter(&$form, &$form_state) {
 
   $has_files = FALSE;
   foreach (field_info_instances('node', $node->type) as $instance) {
+    if (empty($instance['field_id'])) {
+      continue;
+    }
     $field = field_info_field_by_id($instance['field_id']);
     if ($field['type'] == 'file') {
       $has_files = TRUE;
