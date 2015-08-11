@@ -134,6 +134,11 @@ function computed_field_field_chute_javascript_compute(&$entity_field, $entity_t
  * Implements hook_form_alter().
  */
 function gsb_feature_base_fields_form_alter(&$form, &$form_state) {
+
+  if (empty($form_state['node'])) {
+    return;
+  }
+
   $node = $form_state['node'];
 
   if ($form['#form_id']  == 'views_content_views_panes_content_type_edit_form') {
@@ -143,7 +148,7 @@ function gsb_feature_base_fields_form_alter(&$form, &$form_state) {
   $has_files = FALSE;
   foreach (field_info_instances('node', $node->type) as $instance) {
     $field = field_info_field_by_id($instance['field_id']);
-    if ($field['type'] == 'file') {
+    if ($field['type'] == 'file' || $field['type'] == 'image') {
       $has_files = TRUE;
       break;
     }
@@ -151,7 +156,7 @@ function gsb_feature_base_fields_form_alter(&$form, &$form_state) {
       $fc_field_name = $field['field_name'];
       foreach (field_info_instances('field_collection_item', $fc_field_name) as $fc_instance) {
         $field = field_info_field_by_id($fc_instance['field_id']);
-        if ($field['type'] == 'file') {
+        if ($field['type'] == 'file' || $field['type'] == 'image') {
           $has_files = TRUE;
           break;
         }
@@ -172,7 +177,7 @@ function gsb_feature_base_fields_remove_file_submit($form, &$form_state) {
   $fc_field_names = array();
   foreach (field_info_instances('node', $node->type) as $instance) {
     $field = field_info_field_by_id($instance['field_id']);
-    if ($field['type'] == 'file') {
+    if ($field['type'] == 'file' || $field['type'] == 'image') {
       $field_names[] = $field['field_name'];
     }
     if ($field['type'] == 'field_collection') {
