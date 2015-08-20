@@ -1625,7 +1625,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -1721,9 +1721,19 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 5,
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_not_empty',
+              'configuration' => array(
+                'target' => 'field_link_single',
+              ),
+            ),
+          ),
+        ),
+        'type' => 'text_default',
+        'weight' => 1,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -1817,9 +1827,19 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 6,
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_not_empty',
+              'configuration' => array(
+                'target' => 'field_link_single',
+              ),
+            ),
+          ),
+        ),
+        'type' => 'text_default',
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -1918,7 +1938,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -1951,7 +1971,7 @@ ScD|ScD
       'title_label_use_field_label' => 0,
       'title_maxlength' => 128,
       'title_value' => '[field_collection_item:field_first_name] [field_collection_item:field_last_name]',
-      'url' => 0,
+      'url' => 'optional',
       'user_register_form' => FALSE,
       'validate_url' => 1,
     ),
@@ -2029,7 +2049,7 @@ ScD|ScD
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 7,
+        'weight' => 6,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2077,7 +2097,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
