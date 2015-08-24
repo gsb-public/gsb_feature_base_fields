@@ -1477,6 +1477,32 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_circle_topics'
+  $field_bases['field_circle_topics'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_circle_topics',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'circle_topics',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
   // Exported field_base: 'field_citation'
   $field_bases['field_citation'] = array(
     'active' => 1,
@@ -5657,9 +5683,16 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'journal_article' => 'Journal Article',
+        'book' => 'Book',
         'book_chapter' => 'Book Chapter',
-        'other_acad_publication' => 'Other Academic Publication',
+        'case' => 'Case',
+        'journal_article' => 'Journal Article',
+        'quick_guide' => 'Quick Guide',
+        'research_spotlight' => 'Research Spotlight',
+        'stanford_closer_look' => 'Stanford Closer Look',
+        'survey' => 'Survey',
+        'working_paper' => 'Working Paper',
+        'other_acad_publication' => 'Academic Publication',
       ),
       'allowed_values_function' => '',
     ),
