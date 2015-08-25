@@ -1480,7 +1480,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
   // Exported field_base: 'field_circle_topics'
   $field_bases['field_circle_topics'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_circle_topics',
