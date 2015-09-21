@@ -199,6 +199,7 @@ function gsb_feature_base_fields_remove_file_submit($form, &$form_state) {
       continue;
     }
     if (!empty($value['fid'])) {
+      $file = null;
       if ($form_state['values'][$field_name][$language][0]['fid'] == 0) {
         $file = file_load($value['fid']);
       }
