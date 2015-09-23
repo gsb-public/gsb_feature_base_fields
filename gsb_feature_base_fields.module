@@ -135,7 +135,13 @@ function computed_field_field_chute_javascript_compute(&$entity_field, $entity_t
  */
 function gsb_feature_base_fields_form_alter(&$form, &$form_state) {
 
-  if ($form['#form_id']  == 'views_content_views_panes_content_type_edit_form' || $form['#form_id'] == 'ctools_block_content_type_edit_form') {
+  $form_ids = array(
+    'views_content_views_panes_content_type_edit_form',
+    'views_content_exposed_form_pane_edit',
+    'ctools_block_content_type_edit_form',
+  );
+
+  if (in_array($form['#form_id'], $form_ids)) {
     $form['override_title_heading']['#access'] = FALSE;
   }
 
