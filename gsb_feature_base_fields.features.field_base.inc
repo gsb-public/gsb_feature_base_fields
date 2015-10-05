@@ -7603,6 +7603,21 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_video_url'
+  $field_bases['field_video_url'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_video_url',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'video_embed_field',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'video_embed_field',
+  );
+
   // Exported field_base: 'field_volume_number'
   $field_bases['field_volume_number'] = array(
     'active' => 1,
