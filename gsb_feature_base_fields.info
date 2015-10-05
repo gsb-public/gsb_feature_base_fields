@@ -356,6 +356,7 @@ features[field_base][] = field_university
 features[field_base][] = field_update_your_photo
 features[field_base][] = field_upload_pdfs
 features[field_base][] = field_use_profile_img
+features[field_base][] = field_video
 features[field_base][] = field_volume_number
 features[field_base][] = field_who_to_contact
 features[field_base][] = field_witl_archive
