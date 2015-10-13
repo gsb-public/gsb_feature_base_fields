@@ -76,6 +76,9 @@ function gsb_feature_base_fields_strongarm() {
       'phd_job_market_candidate' => array(
         'custom_settings' => FALSE,
       ),
+      'teaser' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
