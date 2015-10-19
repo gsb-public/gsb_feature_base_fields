@@ -5303,6 +5303,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
       'allowed_values' => array(
         'person-list-view' => 'List',
         'person-grid-view' => 'Grid',
+        'person-grid-view-container' => 'Grid with container',
       ),
       'allowed_values_function' => '',
     ),
