@@ -245,16 +245,21 @@ function gsb_feature_base_fields_remove_file_submit($form, &$form_state) {
     $fids = array();
     foreach($items as $item) {
       $field = $item->$field_name;
-      if ($field[$language][0]['fid']) {
+      if (!empty($field[$language][0]['fid']) && $field[$language][0]['fid']) {
         $fids[] = $field[$language][0]['fid'];
+        $item_field_names[] = $field_name;
       }
     }
     if (!empty($fids)) {
       foreach($form_state['values'][$fc_field_name]['und'] as $item) {
-        $fid = $item['field_file_single_public']['und'][0]['fid'];
-        if (in_array($fid, $fids)) {
-          $key = array_search($fid, $fids);
-          unset($fids[$key]);
+        foreach($item_field_names as $item_field_name) {
+          if (!empty($item[$item_field_name])) {
+            $fid = $item[$item_field_name]['und'][0]['fid'];
+            if (in_array($fid, $fids)) {
+              $key = array_search($fid, $fids);
+              unset($fids[$key]);
+            }
+          }
         }
       }
       foreach($fids as $fid) {
