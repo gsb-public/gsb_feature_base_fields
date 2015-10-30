@@ -6488,8 +6488,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'Yes' => 'yes',
-        'No' => 'no',
+        'yes' => 'Yes',
+        'no' => 'No',
       ),
       'allowed_values_function' => '',
     ),
