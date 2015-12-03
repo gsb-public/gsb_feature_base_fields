@@ -4033,7 +4033,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'key_program_topic',
+          'vocabulary' => 'program_topic',
           'parent' => 0,
         ),
       ),
