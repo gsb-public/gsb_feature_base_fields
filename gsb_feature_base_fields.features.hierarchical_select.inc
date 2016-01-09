@@ -316,7 +316,7 @@ $config = array(
 
 $configs['taxonomy-196'] = $config;
 $config = array(
-  'config_id'       => 'taxonomy-216',
+  'config_id'       => 'taxonomy-261',
   'save_lineage'    => 1,
   'enforce_deepest' => 0,
   'entity_count'    => 0,
