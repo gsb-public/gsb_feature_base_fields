@@ -11,7 +11,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'field_collection_item-field_academic_degrees-field_degree_focus'
+  // 'field_collection_item-field_academic_degrees-field_degree_focus'.
   $field_instances['field_collection_item-field_academic_degrees-field_degree_focus'] = array(
     'bundle' => 'field_academic_degrees',
     'default_value' => NULL,
@@ -76,7 +76,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_academic_degrees-field_degree_from_stanford'
+  // 'field_collection_item-field_academic_degrees-field_degree_from_stanford'.
   $field_instances['field_collection_item-field_academic_degrees-field_degree_from_stanford'] = array(
     'bundle' => 'field_academic_degrees',
     'default_value' => NULL,
@@ -135,7 +135,7 @@ function gsb_feature_base_fields_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_academic_degrees-field_degree_type_other'
+  // 'field_collection_item-field_academic_degrees-field_degree_type_other'.
   $field_instances['field_collection_item-field_academic_degrees-field_degree_type_other'] = array(
     'bundle' => 'field_academic_degrees',
     'custom_add_another' => '',
@@ -242,7 +242,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_academic_degrees-field_university'
+  // 'field_collection_item-field_academic_degrees-field_university'.
   $field_instances['field_collection_item-field_academic_degrees-field_university'] = array(
     'bundle' => 'field_academic_degrees',
     'default_value' => NULL,
@@ -307,7 +307,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_academic_degrees-field_year'
+  // 'field_collection_item-field_academic_degrees-field_year'.
   $field_instances['field_collection_item-field_academic_degrees-field_year'] = array(
     'bundle' => 'field_academic_degrees',
     'deleted' => 0,
@@ -383,7 +383,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_act_project_team_role-field_act_alumni_other'
+  // 'field_collection_item-field_act_project_team_role-field_act_alumni_other'.
   $field_instances['field_collection_item-field_act_project_team_role-field_act_alumni_other'] = array(
     'bundle' => 'field_act_project_team_role',
     'custom_add_another' => '',
@@ -423,7 +423,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_act_project_team_role-field_act_full_name'
+  // 'field_collection_item-field_act_project_team_role-field_act_full_name'.
   $field_instances['field_collection_item-field_act_project_team_role-field_act_full_name'] = array(
     'bundle' => 'field_act_project_team_role',
     'custom_add_another' => '',
@@ -510,7 +510,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_act_project_team_role-field_act_role'
+  // 'field_collection_item-field_act_project_team_role-field_act_role'.
   $field_instances['field_collection_item-field_act_project_team_role-field_act_role'] = array(
     'bundle' => 'field_act_project_team_role',
     'custom_add_another' => '',
@@ -597,7 +597,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_act_project_team_role-field_alumni_team_member'
+  // 'field_collection_item-field_act_project_team_role-field_alumni_team_member'.
   $field_instances['field_collection_item-field_act_project_team_role-field_alumni_team_member'] = array(
     'bundle' => 'field_act_project_team_role',
     'custom_add_another' => '',
@@ -644,7 +644,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_authors-field_first_name'
+  // 'field_collection_item-field_authors-field_first_name'.
   $field_instances['field_collection_item-field_authors-field_first_name'] = array(
     'bundle' => 'field_authors',
     'default_value' => NULL,
@@ -719,7 +719,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_authors-field_last_name'
+  // 'field_collection_item-field_authors-field_last_name'.
   $field_instances['field_collection_item-field_authors-field_last_name'] = array(
     'bundle' => 'field_authors',
     'default_value' => NULL,
@@ -805,7 +805,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_authors-field_person_fac_or_other'
+  // 'field_collection_item-field_authors-field_person_fac_or_other'.
   $field_instances['field_collection_item-field_authors-field_person_fac_or_other'] = array(
     'bundle' => 'field_authors',
     'custom_add_another' => '',
@@ -855,7 +855,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_authors-field_person_fac_single_ref'
+  // 'field_collection_item-field_authors-field_person_fac_single_ref'.
   $field_instances['field_collection_item-field_authors-field_person_fac_single_ref'] = array(
     'bundle' => 'field_authors',
     'custom_add_another' => '',
@@ -919,7 +919,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_authors-field_profile_visibility'
+  // 'field_collection_item-field_authors-field_profile_visibility'.
   $field_instances['field_collection_item-field_authors-field_profile_visibility'] = array(
     'bundle' => 'field_authors',
     'default_value' => array(
@@ -966,7 +966,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'
+  // 'field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'.
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_book_url_or_pdf'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
     'default_value' => array(
@@ -1008,7 +1008,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'
+  // 'field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'.
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_file_single_public'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
     'custom_add_another' => '',
@@ -1083,7 +1083,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_book_url_pdf_unlimited-field_link_single'
+  // 'field_collection_item-field_book_url_pdf_unlimited-field_link_single'.
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_link_single'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
     'default_value' => NULL,
@@ -1154,7 +1154,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_book_url_pdf_unlimited-field_title'
+  // 'field_collection_item-field_book_url_pdf_unlimited-field_title'.
   $field_instances['field_collection_item-field_book_url_pdf_unlimited-field_title'] = array(
     'bundle' => 'field_book_url_pdf_unlimited',
     'custom_add_another' => '',
@@ -1200,7 +1200,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_conf_presentations_section-field_description'
+  // 'field_collection_item-field_conf_presentations_section-field_description'.
   $field_instances['field_collection_item-field_conf_presentations_section-field_description'] = array(
     'bundle' => 'field_conf_presentations_section',
     'custom_add_another' => '',
@@ -1251,7 +1251,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_conf_presentations_section-field_file_conf_presentation'
+  // 'field_collection_item-field_conf_presentations_section-field_file_conf_presentation'.
   $field_instances['field_collection_item-field_conf_presentations_section-field_file_conf_presentation'] = array(
     'bundle' => 'field_conf_presentations_section',
     'custom_add_another' => '',
@@ -1318,7 +1318,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_conf_presentations_section-field_link_conf_pres_unlimited'
+  // 'field_collection_item-field_conf_presentations_section-field_link_conf_pres_unlimited'.
   $field_instances['field_collection_item-field_conf_presentations_section-field_link_conf_pres_unlimited'] = array(
     'bundle' => 'field_conf_presentations_section',
     'custom_add_another' => '',
@@ -1383,7 +1383,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_location-field_address'
+  // 'field_collection_item-field_event_location-field_address'.
   $field_instances['field_collection_item-field_event_location-field_address'] = array(
     'bundle' => 'field_event_location',
     'custom_add_another' => '',
@@ -1476,7 +1476,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_location-field_event_location_type'
+  // 'field_collection_item-field_event_location-field_event_location_type'.
   $field_instances['field_collection_item-field_event_location-field_event_location_type'] = array(
     'bundle' => 'field_event_location',
     'custom_add_another' => '',
@@ -1537,7 +1537,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_location-field_link_map'
+  // 'field_collection_item-field_event_location-field_link_map'.
   $field_instances['field_collection_item-field_event_location-field_link_map'] = array(
     'bundle' => 'field_event_location',
     'custom_add_another' => '',
@@ -1607,7 +1607,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_description'
+  // 'field_collection_item-field_event_speakers-field_description'.
   $field_instances['field_collection_item-field_event_speakers-field_description'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -1708,7 +1708,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_first_name'
+  // 'field_collection_item-field_event_speakers-field_first_name'.
   $field_instances['field_collection_item-field_event_speakers-field_first_name'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -1814,7 +1814,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_last_name'
+  // 'field_collection_item-field_event_speakers-field_last_name'.
   $field_instances['field_collection_item-field_event_speakers-field_last_name'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -1920,7 +1920,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_link_single'
+  // 'field_collection_item-field_event_speakers-field_link_single'.
   $field_instances['field_collection_item-field_event_speakers-field_link_single'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -1984,7 +1984,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_person_ref'
+  // 'field_collection_item-field_event_speakers-field_person_ref'.
   $field_instances['field_collection_item-field_event_speakers-field_person_ref'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -2030,7 +2030,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_speakers_person_type'
+  // 'field_collection_item-field_event_speakers-field_speakers_person_type'.
   $field_instances['field_collection_item-field_event_speakers-field_speakers_person_type'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -2079,7 +2079,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_speakers-field_title'
+  // 'field_collection_item-field_event_speakers-field_title'.
   $field_instances['field_collection_item-field_event_speakers-field_title'] = array(
     'bundle' => 'field_event_speakers',
     'custom_add_another' => '',
@@ -2178,7 +2178,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_sponsors-field_image_logo_single_public'
+  // 'field_collection_item-field_event_sponsors-field_image_logo_single_public'.
   $field_instances['field_collection_item-field_event_sponsors-field_image_logo_single_public'] = array(
     'bundle' => 'field_event_sponsors',
     'custom_add_another' => '',
@@ -2250,7 +2250,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_event_sponsors-field_sponsor'
+  // 'field_collection_item-field_event_sponsors-field_sponsor'.
   $field_instances['field_collection_item-field_event_sponsors-field_sponsor'] = array(
     'bundle' => 'field_event_sponsors',
     'custom_add_another' => '',
@@ -2314,7 +2314,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_faculty_advisors-field_faculty_advisor_other'
+  // 'field_collection_item-field_faculty_advisors-field_faculty_advisor_other'.
   $field_instances['field_collection_item-field_faculty_advisors-field_faculty_advisor_other'] = array(
     'bundle' => 'field_faculty_advisors',
     'custom_add_another' => '',
@@ -2380,7 +2380,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_faculty_advisors-field_person_fac_or_other'
+  // 'field_collection_item-field_faculty_advisors-field_person_fac_or_other'.
   $field_instances['field_collection_item-field_faculty_advisors-field_person_fac_or_other'] = array(
     'bundle' => 'field_faculty_advisors',
     'custom_add_another' => '',
@@ -2419,7 +2419,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_faculty_advisors-field_person_fac_single_ref'
+  // 'field_collection_item-field_faculty_advisors-field_person_fac_single_ref'.
   $field_instances['field_collection_item-field_faculty_advisors-field_person_fac_single_ref'] = array(
     'bundle' => 'field_faculty_advisors',
     'default_value' => NULL,
@@ -2459,7 +2459,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_greater_university_affil-field_link_single'
+  // 'field_collection_item-field_greater_university_affil-field_link_single'.
   $field_instances['field_collection_item-field_greater_university_affil-field_link_single'] = array(
     'bundle' => 'field_greater_university_affil',
     'custom_add_another' => '',
@@ -2524,7 +2524,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_greater_university_affil-field_role'
+  // 'field_collection_item-field_greater_university_affil-field_role'.
   $field_instances['field_collection_item-field_greater_university_affil-field_role'] = array(
     'bundle' => 'field_greater_university_affil',
     'default_value' => NULL,
@@ -2571,7 +2571,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_greater_university_affil-field_years'
+  // 'field_collection_item-field_greater_university_affil-field_years'.
   $field_instances['field_collection_item-field_greater_university_affil-field_years'] = array(
     'bundle' => 'field_greater_university_affil',
     'default_value' => NULL,
@@ -2618,7 +2618,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_non_degree_course-field_description'
+  // 'field_collection_item-field_non_degree_course-field_description'.
   $field_instances['field_collection_item-field_non_degree_course-field_description'] = array(
     'bundle' => 'field_non_degree_course',
     'custom_add_another' => '',
@@ -2669,7 +2669,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_non_degree_course-field_link_single'
+  // 'field_collection_item-field_non_degree_course-field_link_single'.
   $field_instances['field_collection_item-field_non_degree_course-field_link_single'] = array(
     'bundle' => 'field_non_degree_course',
     'custom_add_another' => '',
@@ -2734,7 +2734,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_person_description-field_person_title'
+  // 'field_collection_item-field_person_description-field_person_title'.
   $field_instances['field_collection_item-field_person_description-field_person_title'] = array(
     'bundle' => 'field_person_description',
     'custom_add_another' => '',
@@ -3032,7 +3032,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_publications-field_file_single_public'
+  // 'field_collection_item-field_publications-field_file_single_public'.
   $field_instances['field_collection_item-field_publications-field_file_single_public'] = array(
     'bundle' => 'field_publications',
     'custom_add_another' => '',
@@ -3108,7 +3108,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_publications-field_link_single'
+  // 'field_collection_item-field_publications-field_link_single'.
   $field_instances['field_collection_item-field_publications-field_link_single'] = array(
     'bundle' => 'field_publications',
     'default_value' => NULL,
@@ -3177,7 +3177,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_publications-field_phd_citation'
+  // 'field_collection_item-field_publications-field_phd_citation'.
   $field_instances['field_collection_item-field_publications-field_phd_citation'] = array(
     'bundle' => 'field_publications',
     'default_value' => NULL,
@@ -3230,7 +3230,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_related_faculty-field_person_fac_single_ref'
+  // 'field_collection_item-field_related_faculty-field_person_fac_single_ref'.
   $field_instances['field_collection_item-field_related_faculty-field_person_fac_single_ref'] = array(
     'bundle' => 'field_related_faculty',
     'custom_add_another' => '',
@@ -3277,7 +3277,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_related_faculty-field_profile_visibility'
+  // 'field_collection_item-field_related_faculty-field_profile_visibility'.
   $field_instances['field_collection_item-field_related_faculty-field_profile_visibility'] = array(
     'bundle' => 'field_related_faculty',
     'custom_add_another' => '',
@@ -3321,7 +3321,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_related_other_unlimited-field_related_other_content'
+  // 'field_collection_item-field_related_other_unlimited-field_related_other_content'.
   $field_instances['field_collection_item-field_related_other_unlimited-field_related_other_content'] = array(
     'bundle' => 'field_related_other_unlimited',
     'custom_add_another' => '',
@@ -3367,7 +3367,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_related_other_unlimited-field_related_other_label'
+  // 'field_collection_item-field_related_other_unlimited-field_related_other_label'.
   $field_instances['field_collection_item-field_related_other_unlimited-field_related_other_label'] = array(
     'bundle' => 'field_related_other_unlimited',
     'custom_add_another' => '',
@@ -3450,7 +3450,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_selected_reviews-field_book_url_or_pdf'
+  // 'field_collection_item-field_selected_reviews-field_book_url_or_pdf'.
   $field_instances['field_collection_item-field_selected_reviews-field_book_url_or_pdf'] = array(
     'bundle' => 'field_selected_reviews',
     'custom_add_another' => '',
@@ -3489,7 +3489,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_selected_reviews-field_file_single_public'
+  // 'field_collection_item-field_selected_reviews-field_file_single_public'.
   $field_instances['field_collection_item-field_selected_reviews-field_file_single_public'] = array(
     'bundle' => 'field_selected_reviews',
     'custom_add_another' => '',
@@ -3564,7 +3564,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_selected_reviews-field_link_single'
+  // 'field_collection_item-field_selected_reviews-field_link_single'.
   $field_instances['field_collection_item-field_selected_reviews-field_link_single'] = array(
     'bundle' => 'field_selected_reviews',
     'custom_add_another' => '',
@@ -3636,7 +3636,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_selected_reviews-field_review'
+  // 'field_collection_item-field_selected_reviews-field_review'.
   $field_instances['field_collection_item-field_selected_reviews-field_review'] = array(
     'bundle' => 'field_selected_reviews',
     'custom_add_another' => '',
@@ -3687,7 +3687,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_selected_reviews-field_reviewer'
+  // 'field_collection_item-field_selected_reviews-field_reviewer'.
   $field_instances['field_collection_item-field_selected_reviews-field_reviewer'] = array(
     'bundle' => 'field_selected_reviews',
     'custom_add_another' => '',
@@ -3736,7 +3736,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_service_profession_section-field_service_prof_category'
+  // 'field_collection_item-field_service_profession_section-field_service_prof_category'.
   $field_instances['field_collection_item-field_service_profession_section-field_service_prof_category'] = array(
     'bundle' => 'field_service_profession_section',
     'custom_add_another' => '',
@@ -3785,7 +3785,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_service_profession_section-field_service_unlimited'
+  // 'field_collection_item-field_service_profession_section-field_service_unlimited'.
   $field_instances['field_collection_item-field_service_profession_section-field_service_unlimited'] = array(
     'bundle' => 'field_service_profession_section',
     'custom_add_another' => 'Add another service',
@@ -3834,7 +3834,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_slideshow_slides-field_image_single_public'
+  // 'field_collection_item-field_slideshow_slides-field_image_single_public'.
   $field_instances['field_collection_item-field_slideshow_slides-field_image_single_public'] = array(
     'bundle' => 'field_slideshow_slides',
     'custom_add_another' => '',
@@ -3906,7 +3906,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_slideshow_slides-field_link_single'
+  // 'field_collection_item-field_slideshow_slides-field_link_single'.
   $field_instances['field_collection_item-field_slideshow_slides-field_link_single'] = array(
     'bundle' => 'field_slideshow_slides',
     'custom_add_another' => '',
@@ -3969,7 +3969,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_slideshow_slides-field_link_superhead'
+  // 'field_collection_item-field_slideshow_slides-field_link_superhead'.
   $field_instances['field_collection_item-field_slideshow_slides-field_link_superhead'] = array(
     'bundle' => 'field_slideshow_slides',
     'custom_add_another' => '',
@@ -4032,7 +4032,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_slideshow_slides-field_superhead'
+  // 'field_collection_item-field_slideshow_slides-field_superhead'.
   $field_instances['field_collection_item-field_slideshow_slides-field_superhead'] = array(
     'bundle' => 'field_slideshow_slides',
     'custom_add_another' => '',
@@ -4113,7 +4113,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_slideshow_slides-field_text_slide'
+  // 'field_collection_item-field_slideshow_slides-field_text_slide'.
   $field_instances['field_collection_item-field_slideshow_slides-field_text_slide'] = array(
     'bundle' => 'field_slideshow_slides',
     'custom_add_another' => '',
@@ -4202,7 +4202,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_staff_item-field_department_office'
+  // 'field_collection_item-field_staff_item-field_department_office'.
   $field_instances['field_collection_item-field_staff_item-field_department_office'] = array(
     'bundle' => 'field_staff_item',
     'custom_add_another' => '',
@@ -4243,7 +4243,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_staff_item-field_title_position_single'
+  // 'field_collection_item-field_staff_item-field_title_position_single'.
   $field_instances['field_collection_item-field_staff_item-field_title_position_single'] = array(
     'bundle' => 'field_staff_item',
     'custom_add_another' => '',
@@ -4338,7 +4338,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_stanford_gsb_affiliation-field_link_single'
+  // 'field_collection_item-field_stanford_gsb_affiliation-field_link_single'.
   $field_instances['field_collection_item-field_stanford_gsb_affiliation-field_link_single'] = array(
     'bundle' => 'field_stanford_gsb_affiliation',
     'custom_add_another' => '',
@@ -4403,7 +4403,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_stanford_gsb_affiliation-field_role'
+  // 'field_collection_item-field_stanford_gsb_affiliation-field_role'.
   $field_instances['field_collection_item-field_stanford_gsb_affiliation-field_role'] = array(
     'bundle' => 'field_stanford_gsb_affiliation',
     'default_value' => NULL,
@@ -4450,7 +4450,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_stanford_gsb_affiliation-field_years'
+  // 'field_collection_item-field_stanford_gsb_affiliation-field_years'.
   $field_instances['field_collection_item-field_stanford_gsb_affiliation-field_years'] = array(
     'bundle' => 'field_stanford_gsb_affiliation',
     'default_value' => NULL,
@@ -4497,7 +4497,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_teaching_materials-field_description'
+  // 'field_collection_item-field_teaching_materials-field_description'.
   $field_instances['field_collection_item-field_teaching_materials-field_description'] = array(
     'bundle' => 'field_teaching_materials',
     'default_value' => NULL,
@@ -4546,7 +4546,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_teaching_materials-field_file_single_public'
+  // 'field_collection_item-field_teaching_materials-field_file_single_public'.
   $field_instances['field_collection_item-field_teaching_materials-field_file_single_public'] = array(
     'bundle' => 'field_teaching_materials',
     'custom_add_another' => '',
@@ -4613,7 +4613,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_teaching_materials-field_link_single'
+  // 'field_collection_item-field_teaching_materials-field_link_single'.
   $field_instances['field_collection_item-field_teaching_materials-field_link_single'] = array(
     'bundle' => 'field_teaching_materials',
     'custom_add_another' => '',
@@ -4677,7 +4677,7 @@ ScD|ScD
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_video-field_body'
+  // Exported field_instance: 'field_collection_item-field_video-field_body'.
   $field_instances['field_collection_item-field_video-field_body'] = array(
     'bundle' => 'field_video',
     'custom_add_another' => '',
@@ -4781,7 +4781,7 @@ ScD|ScD
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_video-field_title'
+  // Exported field_instance: 'field_collection_item-field_video-field_title'.
   $field_instances['field_collection_item-field_video-field_title'] = array(
     'bundle' => 'field_video',
     'custom_add_another' => '',
@@ -4884,7 +4884,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_video-field_video_url'
+  // 'field_collection_item-field_video-field_video_url'.
   $field_instances['field_collection_item-field_video-field_video_url'] = array(
     'bundle' => 'field_video',
     'custom_add_another' => '',
@@ -4932,7 +4932,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_work_in_progress-field_body'
+  // 'field_collection_item-field_work_in_progress-field_body'.
   $field_instances['field_collection_item-field_work_in_progress-field_body'] = array(
     'bundle' => 'field_work_in_progress',
     'default_value' => NULL,
@@ -4999,7 +4999,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_work_in_progress-field_file_single_public'
+  // 'field_collection_item-field_work_in_progress-field_file_single_public'.
   $field_instances['field_collection_item-field_work_in_progress-field_file_single_public'] = array(
     'bundle' => 'field_work_in_progress',
     'custom_add_another' => '',
@@ -5066,7 +5066,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_work_in_progress-field_link_single'
+  // 'field_collection_item-field_work_in_progress-field_link_single'.
   $field_instances['field_collection_item-field_work_in_progress-field_link_single'] = array(
     'bundle' => 'field_work_in_progress',
     'default_value' => NULL,
@@ -5129,7 +5129,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_working_papers-field_body'
+  // 'field_collection_item-field_working_papers-field_body'.
   $field_instances['field_collection_item-field_working_papers-field_body'] = array(
     'bundle' => 'field_working_papers',
     'default_value' => NULL,
@@ -5214,7 +5214,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_working_papers-field_file_single_public'
+  // 'field_collection_item-field_working_papers-field_file_single_public'.
   $field_instances['field_collection_item-field_working_papers-field_file_single_public'] = array(
     'bundle' => 'field_working_papers',
     'custom_add_another' => '',
@@ -5317,7 +5317,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_working_papers-field_link_single'
+  // 'field_collection_item-field_working_papers-field_link_single'.
   $field_instances['field_collection_item-field_working_papers-field_link_single'] = array(
     'bundle' => 'field_working_papers',
     'default_value' => NULL,
@@ -5395,7 +5395,7 @@ ScD|ScD
   );
 
   // Exported field_instance:
-  // 'taxonomy_term-research_databases-field_default_checkbox_status'
+  // 'taxonomy_term-research_databases-field_default_checkbox_status'.
   $field_instances['taxonomy_term-research_databases-field_default_checkbox_status'] = array(
     'bundle' => 'research_databases',
     'default_value' => array(

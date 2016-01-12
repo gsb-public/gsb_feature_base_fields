@@ -76,9 +76,6 @@ function gsb_feature_base_fields_strongarm() {
       'phd_job_market_candidate' => array(
         'custom_settings' => FALSE,
       ),
-      'teaser' => array(
-        'custom_settings' => FALSE,
-      ),
     ),
     'extra_fields' => array(
       'form' => array(),
@@ -437,6 +434,153 @@ function gsb_feature_base_fields_strongarm() {
     ),
   );
   $export['field_bundle_settings_field_collection_item__field_work_in_progress'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_academic_area_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_academic_area_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_business_insight_topic_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_business_insight_topic_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_business_website_categories_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_business_website_categories_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_centers_research_programs_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_centers_research_programs_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_club_category_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_club_category_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_company_organization_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_company_organization_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_cta_action_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_cta_action_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_department_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_department_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_event_category_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_event_category_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_industry_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_industry_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_organization_type_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_organization_type_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_program_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_program_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_project_focus_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_project_focus_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_project_type_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_project_type_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_pr_contact_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_pr_contact_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_region_interest_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_region_interest_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_region_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_region_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_research_databases_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_research_databases_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_tag_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_tag_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_target_audience_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_target_audience_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_taxonomy_term_workbench_sections_pattern';
+  $strongarm->value = '';
+  $export['pathauto_taxonomy_term_workbench_sections_pattern'] = $strongarm;
 
   return $export;
 }

@@ -10,7 +10,7 @@
 function gsb_feature_base_fields_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_academic_aptmts_unlimited'
+  // Exported field_base: 'field_academic_aptmts_unlimited'.
   $field_bases['field_academic_aptmts_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -31,7 +31,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_academic_area_single'
+  // Exported field_base: 'field_academic_area_single'.
   $field_bases['field_academic_area_single'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -57,7 +57,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_academic_area_unlimited'
+  // Exported field_base: 'field_academic_area_unlimited'.
   $field_bases['field_academic_area_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -83,7 +83,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_academic_calendar_display'
+  // Exported field_base: 'field_academic_calendar_display'.
   $field_bases['field_academic_calendar_display'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -109,7 +109,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_academic_calendar_link'
+  // Exported field_base: 'field_academic_calendar_link'.
   $field_bases['field_academic_calendar_link'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -138,7 +138,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_academic_degrees'
+  // Exported field_base: 'field_academic_degrees'.
   $field_bases['field_academic_degrees'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -160,7 +160,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_academic_degrees_unlimited'
+  // Exported field_base: 'field_academic_degrees_unlimited'.
   $field_bases['field_academic_degrees_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -181,7 +181,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_academic_institution'
+  // Exported field_base: 'field_academic_institution'.
   $field_bases['field_academic_institution'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -202,7 +202,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_academic_quarter'
+  // Exported field_base: 'field_academic_quarter'.
   $field_bases['field_academic_quarter'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -229,7 +229,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_academic_year'
+  // Exported field_base: 'field_academic_year'.
   $field_bases['field_academic_year'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -255,7 +255,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_accordion_item'
+  // Exported field_base: 'field_accordion_item'.
   $field_bases['field_accordion_item'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -277,7 +277,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_act_alumni_other'
+  // Exported field_base: 'field_act_alumni_other'.
   $field_bases['field_act_alumni_other'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -302,7 +302,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_act_final_report_outline'
+  // Exported field_base: 'field_act_final_report_outline'.
   $field_bases['field_act_final_report_outline'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -321,7 +321,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_full_name'
+  // Exported field_base: 'field_act_full_name'.
   $field_bases['field_act_full_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -342,7 +342,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_act_issue'
+  // Exported field_base: 'field_act_issue'.
   $field_bases['field_act_issue'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -361,7 +361,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_key_conclusions'
+  // Exported field_base: 'field_act_key_conclusions'.
   $field_bases['field_act_key_conclusions'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -380,7 +380,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_key_recommendations'
+  // Exported field_base: 'field_act_key_recommendations'.
   $field_bases['field_act_key_recommendations'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -399,7 +399,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_org_location'
+  // Exported field_base: 'field_act_org_location'.
   $field_bases['field_act_org_location'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -420,7 +420,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_act_organization'
+  // Exported field_base: 'field_act_organization'.
   $field_bases['field_act_organization'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -439,7 +439,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_organization_type'
+  // Exported field_base: 'field_act_organization_type'.
   $field_bases['field_act_organization_type'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -465,7 +465,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_act_project_details_markup'
+  // Exported field_base: 'field_act_project_details_markup'.
   $field_bases['field_act_project_details_markup'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -486,7 +486,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_act_project_focus'
+  // Exported field_base: 'field_act_project_focus'.
   $field_bases['field_act_project_focus'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -512,7 +512,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_act_project_objectives'
+  // Exported field_base: 'field_act_project_objectives'.
   $field_bases['field_act_project_objectives'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -531,7 +531,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_project_overview'
+  // Exported field_base: 'field_act_project_overview'.
   $field_bases['field_act_project_overview'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -550,7 +550,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_project_team_role'
+  // Exported field_base: 'field_act_project_team_role'.
   $field_bases['field_act_project_team_role'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -572,7 +572,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_act_project_type'
+  // Exported field_base: 'field_act_project_type'.
   $field_bases['field_act_project_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -598,7 +598,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_act_role'
+  // Exported field_base: 'field_act_role'.
   $field_bases['field_act_role'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -619,7 +619,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_act_round'
+  // Exported field_base: 'field_act_round'.
   $field_bases['field_act_round'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -640,7 +640,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_act_situation'
+  // Exported field_base: 'field_act_situation'.
   $field_bases['field_act_situation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -659,7 +659,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_act_status'
+  // Exported field_base: 'field_act_status'.
   $field_bases['field_act_status'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -685,7 +685,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_act_useful_item'
+  // Exported field_base: 'field_act_useful_item'.
   $field_bases['field_act_useful_item'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -704,7 +704,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_action'
+  // Exported field_base: 'field_action'.
   $field_bases['field_action'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -725,7 +725,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_address'
+  // Exported field_base: 'field_address'.
   $field_bases['field_address'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -740,7 +740,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'addressfield',
   );
 
-  // Exported field_base: 'field_affiliations_help'
+  // Exported field_base: 'field_affiliations_help'.
   $field_bases['field_affiliations_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -765,7 +765,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_affiliations_position'
+  // Exported field_base: 'field_affiliations_position'.
   $field_bases['field_affiliations_position'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -786,7 +786,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_affilitations'
+  // Exported field_base: 'field_affilitations'.
   $field_bases['field_affilitations'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -808,7 +808,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_alumni_program'
+  // Exported field_base: 'field_alumni_program'.
   $field_bases['field_alumni_program'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -829,7 +829,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_alumni_ref'
+  // Exported field_base: 'field_alumni_ref'.
   $field_bases['field_alumni_ref'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -864,7 +864,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_alumni_session_ref'
+  // Exported field_base: 'field_alumni_session_ref'.
   $field_bases['field_alumni_session_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -899,7 +899,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_alumni_story'
+  // Exported field_base: 'field_alumni_story'.
   $field_bases['field_alumni_story'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -924,7 +924,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_alumni_team_member'
+  // Exported field_base: 'field_alumni_team_member'.
   $field_bases['field_alumni_team_member'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -959,7 +959,61 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_attribution'
+  // Exported field_base: 'field_application_open'.
+  $field_bases['field_application_open'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_application_open',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => '',
+        1 => '',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_boolean',
+  );
+
+  // Exported field_base: 'field_application_requirements'.
+  $field_bases['field_application_requirements'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_application_requirements',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'link',
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'rel' => '',
+        'target' => 'default',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'link_field',
+  );
+
+  // Exported field_base: 'field_attribution'.
   $field_bases['field_attribution'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -980,7 +1034,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_author'
+  // Exported field_base: 'field_author'.
   $field_bases['field_author'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1001,7 +1055,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_author_sunet_id_reference'
+  // Exported field_base: 'field_author_sunet_id_reference'.
   $field_bases['field_author_sunet_id_reference'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1037,7 +1091,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_authors'
+  // Exported field_base: 'field_authors'.
   $field_bases['field_authors'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1059,7 +1113,26 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_awards_honors'
+  // Exported field_base: 'field_awarded_upon_completion'.
+  $field_bases['field_awarded_upon_completion'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_awarded_upon_completion',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
+  // Exported field_base: 'field_awards_honors'.
   $field_bases['field_awards_honors'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1080,7 +1153,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_body'
+  // Exported field_base: 'field_body'.
   $field_bases['field_body'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1099,7 +1172,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_book_url_or_pdf'
+  // Exported field_base: 'field_book_url_or_pdf'.
   $field_bases['field_book_url_or_pdf'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1124,7 +1197,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_book_url_pdf_unlimited'
+  // Exported field_base: 'field_book_url_pdf_unlimited'.
   $field_bases['field_book_url_pdf_unlimited'] = array(
     'active' => 1,
     'cardinality' => 2,
@@ -1146,7 +1219,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_books_help'
+  // Exported field_base: 'field_books_help'.
   $field_bases['field_books_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1167,7 +1240,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_bus_website_categories'
+  // Exported field_base: 'field_bus_website_categories'.
   $field_bases['field_bus_website_categories'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1193,7 +1266,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_bus_website_description'
+  // Exported field_base: 'field_bus_website_description'.
   $field_bases['field_bus_website_description'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1214,7 +1287,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_business_insight_topic'
+  // Exported field_base: 'field_business_insight_topic'.
   $field_bases['field_business_insight_topic'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1240,7 +1313,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_calendar_display'
+  // Exported field_base: 'field_calendar_display'.
   $field_bases['field_calendar_display'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1321,7 +1394,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_case_study_at_harvard'
+  // Exported field_base: 'field_case_study_at_harvard'.
   $field_bases['field_case_study_at_harvard'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1346,7 +1419,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_case_study_number'
+  // Exported field_base: 'field_case_study_number'.
   $field_bases['field_case_study_number'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1367,7 +1440,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_centers_research_programs'
+  // Exported field_base: 'field_centers_research_programs'.
   $field_bases['field_centers_research_programs'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1393,7 +1466,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_chute_campaign_id'
+  // Exported field_base: 'field_chute_campaign_id'.
   $field_bases['field_chute_campaign_id'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1408,7 +1481,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'number_integer',
   );
 
-  // Exported field_base: 'field_chute_environment'
+  // Exported field_base: 'field_chute_environment'.
   $field_bases['field_chute_environment'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1429,7 +1502,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_chute_id'
+  // Exported field_base: 'field_chute_id'.
   $field_bases['field_chute_id'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1450,7 +1523,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_chute_javascript'
+  // Exported field_base: 'field_chute_javascript'.
   $field_bases['field_chute_javascript'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1482,7 +1555,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'computed',
   );
 
-  // Exported field_base: 'field_chute_name'
+  // Exported field_base: 'field_chute_name'.
   $field_bases['field_chute_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1503,7 +1576,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_circle_topics'
+  // Exported field_base: 'field_circle_topics'.
   $field_bases['field_circle_topics'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1529,7 +1602,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_citation'
+  // Exported field_base: 'field_citation'.
   $field_bases['field_citation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1548,7 +1621,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_click_to_expand'
+  // Exported field_base: 'field_click_to_expand'.
   $field_bases['field_click_to_expand'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1573,7 +1646,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_club_category'
+  // Exported field_base: 'field_club_category'.
   $field_bases['field_club_category'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1599,7 +1672,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_company_organization'
+  // Exported field_base: 'field_company_organization'.
   $field_bases['field_company_organization'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1625,7 +1698,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_conf_presentations_section'
+  // Exported field_base: 'field_conf_presentations_section'.
   $field_bases['field_conf_presentations_section'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1647,7 +1720,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_cost'
+  // Exported field_base: 'field_cost'.
   $field_bases['field_cost'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1668,7 +1741,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_course_code'
+  // Exported field_base: 'field_course_code'.
   $field_bases['field_course_code'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1689,7 +1762,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_course_end_acad_year'
+  // Exported field_base: 'field_course_end_acad_year'.
   $field_bases['field_course_end_acad_year'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1719,7 +1792,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_course_id'
+  // Exported field_base: 'field_course_id'.
   $field_bases['field_course_id'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1740,7 +1813,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_course_start_acad_year'
+  // Exported field_base: 'field_course_start_acad_year'.
   $field_bases['field_course_start_acad_year'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1770,7 +1843,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_course_subject'
+  // Exported field_base: 'field_course_subject'.
   $field_bases['field_course_subject'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1791,7 +1864,65 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_cta_action'
+  // Exported field_base: 'field_cta1'.
+  $field_bases['field_cta1'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_cta1',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'link',
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'rel' => '',
+        'target' => 'default',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'link_field',
+  );
+
+  // Exported field_base: 'field_cta2'.
+  $field_bases['field_cta2'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_cta2',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'link',
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'rel' => '',
+        'target' => 'default',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'link_field',
+  );
+
+  // Exported field_base: 'field_cta_action'.
   $field_bases['field_cta_action'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1838,7 +1969,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_cta_action_item'
+  // Exported field_base: 'field_cta_action_item'.
   $field_bases['field_cta_action_item'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1864,7 +1995,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_cta_item'
+  // Exported field_base: 'field_cta_item'.
   $field_bases['field_cta_item'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -1886,7 +2017,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_cta_style'
+  // Exported field_base: 'field_cta_style'.
   $field_bases['field_cta_style'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1912,7 +2043,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_date'
+  // Exported field_base: 'field_date'.
   $field_bases['field_date'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1942,7 +2073,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_date_published'
+  // Exported field_base: 'field_date_published'.
   $field_bases['field_date_published'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -1972,7 +2103,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_date_time'
+  // Exported field_base: 'field_date_time'.
   $field_bases['field_date_time'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2002,7 +2133,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_default_checkbox_status'
+  // Exported field_base: 'field_default_checkbox_status'.
   $field_bases['field_default_checkbox_status'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2027,7 +2158,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_degree_focus'
+  // Exported field_base: 'field_degree_focus'.
   $field_bases['field_degree_focus'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2048,7 +2179,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_degree_from_stanford'
+  // Exported field_base: 'field_degree_from_stanford'.
   $field_bases['field_degree_from_stanford'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2073,7 +2204,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_degree_type_other'
+  // Exported field_base: 'field_degree_type_other'.
   $field_bases['field_degree_type_other'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2094,7 +2225,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_deleting_items'
+  // Exported field_base: 'field_deleting_items'.
   $field_bases['field_deleting_items'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2121,7 +2252,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_department'
+  // Exported field_base: 'field_department'.
   $field_bases['field_department'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2147,7 +2278,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_department_office'
+  // Exported field_base: 'field_department_office'.
   $field_bases['field_department_office'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2173,7 +2304,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_description'
+  // Exported field_base: 'field_description'.
   $field_bases['field_description'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2192,7 +2323,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_diptych_right_cta_link'
+  // Exported field_base: 'field_diptych_right_cta_link'.
   $field_bases['field_diptych_right_cta_link'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2221,7 +2352,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_diptych_style'
+  // Exported field_base: 'field_diptych_style'.
   $field_bases['field_diptych_style'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2246,7 +2377,29 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_display_option'
+  // Exported field_base: 'field_display_image'.
+  $field_bases['field_display_image'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_display_image',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'image',
+    'settings' => array(
+      'default_image' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'image',
+  );
+
+  // Exported field_base: 'field_display_option'.
   $field_bases['field_display_option'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2271,7 +2424,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_dissertation'
+  // Exported field_base: 'field_dissertation'.
   $field_bases['field_dissertation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2292,7 +2445,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_document_name'
+  // Exported field_base: 'field_document_name'.
   $field_bases['field_document_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2313,7 +2466,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_document_uuid'
+  // Exported field_base: 'field_document_uuid'.
   $field_bases['field_document_uuid'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2334,7 +2487,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_editorial_summary'
+  // Exported field_base: 'field_editorial_summary'.
   $field_bases['field_editorial_summary'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2353,7 +2506,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_email'
+  // Exported field_base: 'field_email'.
   $field_bases['field_email'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2368,7 +2521,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'email',
   );
 
-  // Exported field_base: 'field_event_attendance_statement'
+  // Exported field_base: 'field_event_attendance_statement'.
   $field_bases['field_event_attendance_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2394,7 +2547,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_event_category'
+  // Exported field_base: 'field_event_category'.
   $field_bases['field_event_category'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2420,7 +2573,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_event_date'
+  // Exported field_base: 'field_event_date'.
   $field_bases['field_event_date'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2450,7 +2603,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_event_detail'
+  // Exported field_base: 'field_event_detail'.
   $field_bases['field_event_detail'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2475,7 +2628,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_event_location'
+  // Exported field_base: 'field_event_location'.
   $field_bases['field_event_location'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2497,7 +2650,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_event_location_type'
+  // Exported field_base: 'field_event_location_type'.
   $field_bases['field_event_location_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2523,7 +2676,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_event_series'
+  // Exported field_base: 'field_event_series'.
   $field_bases['field_event_series'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2549,7 +2702,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_event_speakers'
+  // Exported field_base: 'field_event_speakers'.
   $field_bases['field_event_speakers'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2571,7 +2724,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_event_sponsors'
+  // Exported field_base: 'field_event_sponsors'.
   $field_bases['field_event_sponsors'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2593,7 +2746,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_event_status'
+  // Exported field_base: 'field_event_status'.
   $field_bases['field_event_status'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2621,7 +2774,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_event_who_attend'
+  // Exported field_base: 'field_event_who_attend'.
   $field_bases['field_event_who_attend'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2642,7 +2795,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_existing_node_fpp_ref'
+  // Exported field_base: 'field_existing_node_fpp_ref'.
   $field_bases['field_existing_node_fpp_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2676,7 +2829,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_existing_node_list_ref'
+  // Exported field_base: 'field_existing_node_list_ref'.
   $field_bases['field_existing_node_list_ref'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2710,7 +2863,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_faculty_advisor_other'
+  // Exported field_base: 'field_faculty_advisor_other'.
   $field_bases['field_faculty_advisor_other'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2739,7 +2892,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_faculty_advisors'
+  // Exported field_base: 'field_faculty_advisors'.
   $field_bases['field_faculty_advisors'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2761,7 +2914,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_faculty_director_positions'
+  // Exported field_base: 'field_faculty_director_positions'.
   $field_bases['field_faculty_director_positions'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2782,7 +2935,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_feature_type'
+  // Exported field_base: 'field_feature_type'.
   $field_bases['field_feature_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2807,7 +2960,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_featured_content_fpp_ref'
+  // Exported field_base: 'field_featured_content_fpp_ref'.
   $field_bases['field_featured_content_fpp_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2843,7 +2996,47 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_featured_insight_card_ref'
+  // Exported field_base: 'field_featured_event'.
+  $field_bases['field_featured_event'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_featured_event',
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'type' => 'none',
+        ),
+        'target_bundles' => array(
+          'announcement' => 'announcement',
+          'event' => 'event',
+          'idea_story' => 'idea_story',
+          'offsite_idea_story' => 'offsite_idea_story',
+          'offsite_school_story' => 'offsite_school_story',
+          'school_story' => 'school_story',
+        ),
+      ),
+      'target_type' => 'node',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
+  // Exported field_base: 'field_featured_insight_card_ref'.
   $field_bases['field_featured_insight_card_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2879,7 +3072,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_featured_item'
+  // Exported field_base: 'field_featured_item'.
   $field_bases['field_featured_item'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2901,7 +3094,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_featured_publication_ref'
+  // Exported field_base: 'field_featured_publication_ref'.
   $field_bases['field_featured_publication_ref'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -2936,7 +3129,28 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_feed_source'
+  // Exported field_base: 'field_featured_superhead'.
+  $field_bases['field_featured_superhead'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_featured_superhead',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'field_feed_source'.
   $field_bases['field_feed_source'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2960,7 +3174,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_file_conf_presentation'
+  // Exported field_base: 'field_file_conf_presentation'.
   $field_bases['field_file_conf_presentation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -2983,7 +3197,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_file_image_alignment'
+  // Exported field_base: 'field_file_image_alignment'.
   $field_bases['field_file_image_alignment'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3008,7 +3222,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_file_image_alt_text'
+  // Exported field_base: 'field_file_image_alt_text'.
   $field_bases['field_file_image_alt_text'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3029,7 +3243,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_file_image_show_caption'
+  // Exported field_base: 'field_file_image_show_caption'.
   $field_bases['field_file_image_show_caption'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3054,7 +3268,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_file_image_title_text'
+  // Exported field_base: 'field_file_image_title_text'.
   $field_bases['field_file_image_title_text'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3075,7 +3289,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_file_job_market_paper'
+  // Exported field_base: 'field_file_job_market_paper'.
   $field_bases['field_file_job_market_paper'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3098,7 +3312,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_file_research_statement'
+  // Exported field_base: 'field_file_research_statement'.
   $field_bases['field_file_research_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3121,7 +3335,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_file_single_public'
+  // Exported field_base: 'field_file_single_public'.
   $field_bases['field_file_single_public'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3144,7 +3358,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_file_teaching_statement'
+  // Exported field_base: 'field_file_teaching_statement'.
   $field_bases['field_file_teaching_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3167,7 +3381,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_file_unlimited_private'
+  // Exported field_base: 'field_file_unlimited_private'.
   $field_bases['field_file_unlimited_private'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -3190,7 +3404,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_file_unlimited_public'
+  // Exported field_base: 'field_file_unlimited_public'.
   $field_bases['field_file_unlimited_public'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -3213,7 +3427,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'file',
   );
 
-  // Exported field_base: 'field_files_private_setting'
+  // Exported field_base: 'field_files_private_setting'.
   $field_bases['field_files_private_setting'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3238,7 +3452,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_files_style'
+  // Exported field_base: 'field_files_style'.
   $field_bases['field_files_style'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3263,7 +3477,26 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_first_name'
+  // Exported field_base: 'field_financial_assist_statement'.
+  $field_bases['field_financial_assist_statement'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_financial_assist_statement',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
+  // Exported field_base: 'field_first_name'.
   $field_bases['field_first_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3284,7 +3517,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_formatting_help'
+  // Exported field_base: 'field_formatting_help'.
   $field_bases['field_formatting_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3311,7 +3544,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_free_case'
+  // Exported field_base: 'field_free_case'.
   $field_bases['field_free_case'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3336,7 +3569,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_greater_university_affil'
+  // Exported field_base: 'field_greater_university_affil'.
   $field_bases['field_greater_university_affil'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -3358,7 +3591,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_has_case_center'
+  // Exported field_base: 'field_has_case_center'.
   $field_bases['field_has_case_center'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3383,7 +3616,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_has_harvard_link'
+  // Exported field_base: 'field_has_harvard_link'.
   $field_bases['field_has_harvard_link'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3408,7 +3641,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_has_pdf'
+  // Exported field_base: 'field_has_pdf'.
   $field_bases['field_has_pdf'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3433,7 +3666,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_homepage_cta_bg_color'
+  // Exported field_base: 'field_homepage_cta_bg_color'.
   $field_bases['field_homepage_cta_bg_color'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3461,7 +3694,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_homepage_cta_text'
+  // Exported field_base: 'field_homepage_cta_text'.
   $field_bases['field_homepage_cta_text'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3482,7 +3715,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_house_ads_superhead'
+  // Exported field_base: 'field_house_ads_superhead'.
   $field_bases['field_house_ads_superhead'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3503,7 +3736,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_icon'
+  // Exported field_base: 'field_icon'.
   $field_bases['field_icon'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3530,7 +3763,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_idea_story_ref'
+  // Exported field_base: 'field_idea_story_ref'.
   $field_bases['field_idea_story_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3565,7 +3798,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_image_caption'
+  // Exported field_base: 'field_image_caption'.
   $field_bases['field_image_caption'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3586,7 +3819,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_image_cta_bg_color'
+  // Exported field_base: 'field_image_cta_bg_color'.
   $field_bases['field_image_cta_bg_color'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3614,7 +3847,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_image_cta_text'
+  // Exported field_base: 'field_image_cta_text'.
   $field_bases['field_image_cta_text'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3635,7 +3868,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_image_key_image'
+  // Exported field_base: 'field_image_key_image'.
   $field_bases['field_image_key_image'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3657,7 +3890,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_image_logo_single_public'
+  // Exported field_base: 'field_image_logo_single_public'.
   $field_bases['field_image_logo_single_public'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3679,7 +3912,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_image_single_public'
+  // Exported field_base: 'field_image_single_public'.
   $field_bases['field_image_single_public'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3701,7 +3934,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_industry'
+  // Exported field_base: 'field_industry'.
   $field_bases['field_industry'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -3727,7 +3960,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_infographic'
+  // Exported field_base: 'field_infographic'.
   $field_bases['field_infographic'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3749,7 +3982,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_insights_bus_tab_help'
+  // Exported field_base: 'field_insights_bus_tab_help'.
   $field_bases['field_insights_bus_tab_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3769,7 +4002,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_insights_tab_help'
+  // Exported field_base: 'field_insights_tab_help'.
   $field_bases['field_insights_tab_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3908,7 +4141,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_issue_number'
+  // Exported field_base: 'field_issue_number'.
   $field_bases['field_issue_number'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3929,7 +4162,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_item_id'
+  // Exported field_base: 'field_item_id'.
   $field_bases['field_item_id'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3950,7 +4183,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_job_display'
+  // Exported field_base: 'field_job_display'.
   $field_bases['field_job_display'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3976,7 +4209,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_job_market_paper_desc'
+  // Exported field_base: 'field_job_market_paper_desc'.
   $field_bases['field_job_market_paper_desc'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -3995,7 +4228,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_joint_appointment'
+  // Exported field_base: 'field_joint_appointment'.
   $field_bases['field_joint_appointment'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -4011,6 +4244,46 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'text',
     'settings' => array(
       'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'field_key_benefits_description'.
+  $field_bases['field_key_benefits_description'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_key_benefits_description',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
+  // Exported field_base: 'field_key_benefits_teaser'.
+  $field_bases['field_key_benefits_teaser'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_key_benefits_teaser',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 150,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -4079,7 +4352,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_last_name'
+  // Exported field_base: 'field_last_name'.
   $field_bases['field_last_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4126,6 +4399,49 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_learn_more_photo'.
+  $field_bases['field_learn_more_photo'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_learn_more_photo',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'image',
+    'settings' => array(
+      'default_image' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'image',
+  );
+
+  // Exported field_base: 'field_learn_more_video_title'.
+  $field_bases['field_learn_more_video_title'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_learn_more_video_title',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_learning_objective'.
   $field_bases['field_learning_objective'] = array(
     'active' => 1,
@@ -4145,7 +4461,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_leave_date'
+  // Exported field_base: 'field_leave_date'.
   $field_bases['field_leave_date'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4175,7 +4491,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_leave_statement'
+  // Exported field_base: 'field_leave_statement'.
   $field_bases['field_leave_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4196,7 +4512,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_leave_status'
+  // Exported field_base: 'field_leave_status'.
   $field_bases['field_leave_status'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4221,7 +4537,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_link_blog'
+  // Exported field_base: 'field_link_blog'.
   $field_bases['field_link_blog'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4250,7 +4566,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_center_single'
+  // Exported field_base: 'field_link_center_single'.
   $field_bases['field_link_center_single'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4279,7 +4595,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_conf_pres_unlimited'
+  // Exported field_base: 'field_link_conf_pres_unlimited'.
   $field_bases['field_link_conf_pres_unlimited'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4308,7 +4624,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_display_show_more'
+  // Exported field_base: 'field_link_display_show_more'.
   $field_bases['field_link_display_show_more'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4333,7 +4649,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_link_document'
+  // Exported field_base: 'field_link_document'.
   $field_bases['field_link_document'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4362,7 +4678,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_event_more_info'
+  // Exported field_base: 'field_link_event_more_info'.
   $field_bases['field_link_event_more_info'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4391,7 +4707,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_google_scholar'
+  // Exported field_base: 'field_link_google_scholar'.
   $field_bases['field_link_google_scholar'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4420,7 +4736,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_key_audio'
+  // Exported field_base: 'field_link_key_audio'.
   $field_bases['field_link_key_audio'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4449,7 +4765,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_key_video'
+  // Exported field_base: 'field_link_key_video'.
   $field_bases['field_link_key_video'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4478,7 +4794,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_linkedin'
+  // Exported field_base: 'field_link_linkedin'.
   $field_bases['field_link_linkedin'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4507,7 +4823,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_map'
+  // Exported field_base: 'field_link_map'.
   $field_bases['field_link_map'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4536,7 +4852,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_other_social'
+  // Exported field_base: 'field_link_other_social'.
   $field_bases['field_link_other_social'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -4565,7 +4881,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_related_unlimited'
+  // Exported field_base: 'field_link_related_unlimited'.
   $field_bases['field_link_related_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -4594,7 +4910,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_single'
+  // Exported field_base: 'field_link_single'.
   $field_bases['field_link_single'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4623,7 +4939,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_style'
+  // Exported field_base: 'field_link_style'.
   $field_bases['field_link_style'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4649,7 +4965,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_link_superhead'
+  // Exported field_base: 'field_link_superhead'.
   $field_bases['field_link_superhead'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4678,7 +4994,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_twitter'
+  // Exported field_base: 'field_link_twitter'.
   $field_bases['field_link_twitter'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4707,7 +5023,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_unlimited'
+  // Exported field_base: 'field_link_unlimited'.
   $field_bases['field_link_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -4736,7 +5052,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_website'
+  // Exported field_base: 'field_link_website'.
   $field_bases['field_link_website'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4765,7 +5081,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_link_where_buy_unlimited'
+  // Exported field_base: 'field_link_where_buy_unlimited'.
   $field_bases['field_link_where_buy_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -4794,7 +5110,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_location'
+  // Exported field_base: 'field_location'.
   $field_bases['field_location'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4815,7 +5131,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_medias_item_tab_help'
+  // Exported field_base: 'field_medias_item_tab_help'.
   $field_bases['field_medias_item_tab_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4835,7 +5151,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_middle_name'
+  // Exported field_base: 'field_middle_name'.
   $field_bases['field_middle_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4856,7 +5172,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_month'
+  // Exported field_base: 'field_month'.
   $field_bases['field_month'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4891,7 +5207,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_integer',
   );
 
-  // Exported field_base: 'field_msx_graduation_year'
+  // Exported field_base: 'field_msx_graduation_year'.
   $field_bases['field_msx_graduation_year'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4921,7 +5237,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_news_byline'
+  // Exported field_base: 'field_news_byline'.
   $field_bases['field_news_byline'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4942,7 +5258,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_news_type'
+  // Exported field_base: 'field_news_type'.
   $field_bases['field_news_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -4967,7 +5283,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_non_degree_course'
+  // Exported field_base: 'field_non_degree_course'.
   $field_bases['field_non_degree_course'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -4989,7 +5305,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_order_help_text'
+  // Exported field_base: 'field_order_help_text'.
   $field_bases['field_order_help_text'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5010,7 +5326,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_other_titles'
+  // Exported field_base: 'field_other_titles'.
   $field_bases['field_other_titles'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5029,6 +5345,25 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'translatable' => 0,
     'type' => 'text',
+  );
+
+  // Exported field_base: 'field_overview_description'.
+  $field_bases['field_overview_description'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_overview_description',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_overview_teaser'.
@@ -5073,7 +5408,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_paper_copy'
+  // Exported field_base: 'field_paper_copy'.
   $field_bases['field_paper_copy'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5099,7 +5434,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_part_of_business_magazine'
+  // Exported field_base: 'field_part_of_business_magazine'.
   $field_bases['field_part_of_business_magazine'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5124,7 +5459,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_part_of_rethink'
+  // Exported field_base: 'field_part_of_rethink'.
   $field_bases['field_part_of_rethink'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5149,7 +5484,28 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_pathauto_title_alias'
+  // Exported field_base: 'field_part_time_details'.
+  $field_bases['field_part_time_details'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_part_time_details',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'field_pathauto_title_alias'.
   $field_bases['field_pathauto_title_alias'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5164,7 +5520,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'pathauto_title_alias',
   );
 
-  // Exported field_base: 'field_permissions_statement'
+  // Exported field_base: 'field_permissions_statement'.
   $field_bases['field_permissions_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5185,7 +5541,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_person_description'
+  // Exported field_base: 'field_person_description'.
   $field_bases['field_person_description'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5207,7 +5563,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_person_fac_or_other'
+  // Exported field_base: 'field_person_fac_or_other'.
   $field_bases['field_person_fac_or_other'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5232,7 +5588,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_person_fac_other'
+  // Exported field_base: 'field_person_fac_other'.
   $field_bases['field_person_fac_other'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5254,7 +5610,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_person_fac_ref'
+  // Exported field_base: 'field_person_fac_ref'.
   $field_bases['field_person_fac_ref'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5290,7 +5646,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_person_fac_single_ref'
+  // Exported field_base: 'field_person_fac_single_ref'.
   $field_bases['field_person_fac_single_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5326,7 +5682,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_person_fac_staff_other'
+  // Exported field_base: 'field_person_fac_staff_other'.
   $field_bases['field_person_fac_staff_other'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5348,7 +5704,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_person_fac_staff_ref'
+  // Exported field_base: 'field_person_fac_staff_ref'.
   $field_bases['field_person_fac_staff_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5385,7 +5741,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_person_fields_visibility'
+  // Exported field_base: 'field_person_fields_visibility'.
   $field_bases['field_person_fields_visibility'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5415,7 +5771,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_person_ref'
+  // Exported field_base: 'field_person_ref'.
   $field_bases['field_person_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5451,7 +5807,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_person_ref_unlimited'
+  // Exported field_base: 'field_person_ref_unlimited'.
   $field_bases['field_person_ref_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5487,7 +5843,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_person_staff_ref'
+  // Exported field_base: 'field_person_staff_ref'.
   $field_bases['field_person_staff_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5523,7 +5879,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_person_title'
+  // Exported field_base: 'field_person_title'.
   $field_bases['field_person_title'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5544,7 +5900,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_persons_display_style'
+  // Exported field_base: 'field_persons_display_style'.
   $field_bases['field_persons_display_style'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5570,7 +5926,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_phd_citation'
+  // Exported field_base: 'field_phd_citation'.
   $field_bases['field_phd_citation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5591,7 +5947,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_phd_graduation_year'
+  // Exported field_base: 'field_phd_graduation_year'.
   $field_bases['field_phd_graduation_year'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5621,7 +5977,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_phd_research_interests'
+  // Exported field_base: 'field_phd_research_interests'.
   $field_bases['field_phd_research_interests'] = array(
     'active' => 1,
     'cardinality' => 4,
@@ -5642,7 +5998,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_phone'
+  // Exported field_base: 'field_phone'.
   $field_bases['field_phone'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5657,7 +6013,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'telephone',
   );
 
-  // Exported field_base: 'field_place_of_publication'
+  // Exported field_base: 'field_place_of_publication'.
   $field_bases['field_place_of_publication'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5678,7 +6034,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_pr_contact_unlimited'
+  // Exported field_base: 'field_pr_contact_unlimited'.
   $field_bases['field_pr_contact_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5704,7 +6060,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_price'
+  // Exported field_base: 'field_price'.
   $field_bases['field_price'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5725,7 +6081,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_product_type'
+  // Exported field_base: 'field_product_type'.
   $field_bases['field_product_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5752,7 +6108,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_professional_experience'
+  // Exported field_base: 'field_professional_experience'.
   $field_bases['field_professional_experience'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -5773,7 +6129,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_profile_visibility'
+  // Exported field_base: 'field_profile_visibility'.
   $field_bases['field_profile_visibility'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -5834,6 +6190,61 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
+  // Exported field_base: 'field_program_category'.
+  $field_bases['field_program_category'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_program_category',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'program_category',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_program_contact_link'.
+  $field_bases['field_program_contact_link'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_program_contact_link',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'link',
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'rel' => '',
+        'target' => 'default',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'link_field',
+  );
+
   // Exported field_base: 'field_program_detail'.
   $field_bases['field_program_detail'] = array(
     'active' => 1,
@@ -5857,6 +6268,41 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'translatable' => 0,
     'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_program_director_name'.
+  $field_bases['field_program_director_name'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_program_director_name',
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'type' => 'none',
+        ),
+        'target_bundles' => array(
+          'staff' => 'staff',
+        ),
+      ),
+      'target_type' => 'node',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
   );
 
   // Exported field_base: 'field_program_format'.
@@ -5959,6 +6405,31 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_program_small_teams'.
+  $field_bases['field_program_small_teams'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_program_small_teams',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => '',
+        1 => '',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_boolean',
+  );
+
   // Exported field_base: 'field_program_topics'.
   $field_bases['field_program_topics'] = array(
     'active' => 1,
@@ -6011,7 +6482,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_pub_book_title'
+  // Exported field_base: 'field_pub_book_title'.
   $field_bases['field_pub_book_title'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6032,7 +6503,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_pub_case_rp_ref'
+  // Exported field_base: 'field_pub_case_rp_ref'.
   $field_bases['field_pub_case_rp_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6069,7 +6540,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_pub_date_day'
+  // Exported field_base: 'field_pub_date_day'.
   $field_bases['field_pub_date_day'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6084,7 +6555,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'number_integer',
   );
 
-  // Exported field_base: 'field_pub_date_month'
+  // Exported field_base: 'field_pub_date_month'.
   $field_bases['field_pub_date_month'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6099,7 +6570,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'number_integer',
   );
 
-  // Exported field_base: 'field_publication_type'
+  // Exported field_base: 'field_publication_type'.
   $field_bases['field_publication_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6132,7 +6603,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_publications'
+  // Exported field_base: 'field_publications'.
   $field_bases['field_publications'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6154,7 +6625,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_publications_help'
+  // Exported field_base: 'field_publications_help'.
   $field_bases['field_publications_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6175,7 +6646,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_publications_tab_help'
+  // Exported field_base: 'field_publications_tab_help'.
   $field_bases['field_publications_tab_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6201,7 +6672,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_publisher'
+  // Exported field_base: 'field_publisher'.
   $field_bases['field_publisher'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6222,7 +6693,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_quote_author'
+  // Exported field_base: 'field_quote_author'.
   $field_bases['field_quote_author'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6243,7 +6714,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_rank'
+  // Exported field_base: 'field_rank'.
   $field_bases['field_rank'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6296,7 +6767,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_region'
+  // Exported field_base: 'field_region'.
   $field_bases['field_region'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6322,7 +6793,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_region_of_interest'
+  // Exported field_base: 'field_region_of_interest'.
   $field_bases['field_region_of_interest'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6348,7 +6819,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_register_time_zone'
+  // Exported field_base: 'field_register_time_zone'.
   $field_bases['field_register_time_zone'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6369,7 +6840,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'tzfield',
   );
 
-  // Exported field_base: 'field_register_url'
+  // Exported field_base: 'field_register_url'.
   $field_bases['field_register_url'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6398,7 +6869,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_registration'
+  // Exported field_base: 'field_registration'.
   $field_bases['field_registration'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6419,7 +6890,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_related_faculty'
+  // Exported field_base: 'field_related_faculty'.
   $field_bases['field_related_faculty'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6441,7 +6912,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_related_idea_story'
+  // Exported field_base: 'field_related_idea_story'.
   $field_bases['field_related_idea_story'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6480,7 +6951,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_related_other_content'
+  // Exported field_base: 'field_related_other_content'.
   $field_bases['field_related_other_content'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6516,7 +6987,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_related_other_label'
+  // Exported field_base: 'field_related_other_label'.
   $field_bases['field_related_other_label'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6537,7 +7008,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_related_other_unlimited'
+  // Exported field_base: 'field_related_other_unlimited'.
   $field_bases['field_related_other_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6559,7 +7030,42 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_required_fields'
+  // Exported field_base: 'field_related_programs'.
+  $field_bases['field_related_programs'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_related_programs',
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'type' => 'none',
+        ),
+        'target_bundles' => array(
+          'program' => 'program',
+        ),
+      ),
+      'target_type' => 'node',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
+  // Exported field_base: 'field_required_fields'.
   $field_bases['field_required_fields'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6581,7 +7087,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_research_databases'
+  // Exported field_base: 'field_research_databases'.
   $field_bases['field_research_databases'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6607,7 +7113,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_research_interests'
+  // Exported field_base: 'field_research_interests'.
   $field_bases['field_research_interests'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6628,7 +7134,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_research_paper_number'
+  // Exported field_base: 'field_research_paper_number'.
   $field_bases['field_research_paper_number'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6649,7 +7155,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_research_statement'
+  // Exported field_base: 'field_research_statement'.
   $field_bases['field_research_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6668,7 +7174,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_rethink_date'
+  // Exported field_base: 'field_rethink_date'.
   $field_bases['field_rethink_date'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6698,7 +7204,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_reunion_group_page_ref'
+  // Exported field_base: 'field_reunion_group_page_ref'.
   $field_bases['field_reunion_group_page_ref'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -6733,7 +7239,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_reunion_session_ref'
+  // Exported field_base: 'field_reunion_session_ref'.
   $field_bases['field_reunion_session_ref'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6768,7 +7274,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_review'
+  // Exported field_base: 'field_review'.
   $field_bases['field_review'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6787,7 +7293,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_reviewer'
+  // Exported field_base: 'field_reviewer'.
   $field_bases['field_reviewer'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6808,7 +7314,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_role'
+  // Exported field_base: 'field_role'.
   $field_bases['field_role'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6829,7 +7335,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_sad'
+  // Exported field_base: 'field_sad'.
   $field_bases['field_sad'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6854,7 +7360,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_salutation'
+  // Exported field_base: 'field_salutation'.
   $field_bases['field_salutation'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6875,7 +7381,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_saving_your_changes'
+  // Exported field_base: 'field_saving_your_changes'.
   $field_bases['field_saving_your_changes'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6898,7 +7404,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_schedule'
+  // Exported field_base: 'field_schedule'.
   $field_bases['field_schedule'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6917,7 +7423,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_school_news_tab_help'
+  // Exported field_base: 'field_school_news_tab_help'.
   $field_bases['field_school_news_tab_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6937,7 +7443,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_search_field'
+  // Exported field_base: 'field_search_field'.
   $field_bases['field_search_field'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6952,7 +7458,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'concat_field',
   );
 
-  // Exported field_base: 'field_season'
+  // Exported field_base: 'field_season'.
   $field_bases['field_season'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -6979,7 +7485,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_sections'
+  // Exported field_base: 'field_sections'.
   $field_bases['field_sections'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7005,7 +7511,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_selected_reviews'
+  // Exported field_base: 'field_selected_reviews'.
   $field_bases['field_selected_reviews'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7027,7 +7533,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_service_prof_category'
+  // Exported field_base: 'field_service_prof_category'.
   $field_bases['field_service_prof_category'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7048,7 +7554,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_service_profession_section'
+  // Exported field_base: 'field_service_profession_section'.
   $field_bases['field_service_profession_section'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7070,7 +7576,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_service_unlimited'
+  // Exported field_base: 'field_service_unlimited'.
   $field_bases['field_service_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7091,7 +7597,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_slideshow_slides'
+  // Exported field_base: 'field_slideshow_slides'.
   $field_bases['field_slideshow_slides'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7113,7 +7619,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_social_display_num'
+  // Exported field_base: 'field_social_display_num'.
   $field_bases['field_social_display_num'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7141,7 +7647,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_integer',
   );
 
-  // Exported field_base: 'field_social_twitter_title'
+  // Exported field_base: 'field_social_twitter_title'.
   $field_bases['field_social_twitter_title'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7162,7 +7668,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_soundcloud_url'
+  // Exported field_base: 'field_soundcloud_url'.
   $field_bases['field_soundcloud_url'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7183,7 +7689,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_speakers_person_type'
+  // Exported field_base: 'field_speakers_person_type'.
   $field_bases['field_speakers_person_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7208,7 +7714,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_sponsor'
+  // Exported field_base: 'field_sponsor'.
   $field_bases['field_sponsor'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7237,7 +7743,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_spotlight_person_fid'
+  // Exported field_base: 'field_spotlight_person_fid'.
   $field_bases['field_spotlight_person_fid'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7252,7 +7758,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'number_integer',
   );
 
-  // Exported field_base: 'field_spotlight_person_nid'
+  // Exported field_base: 'field_spotlight_person_nid'.
   $field_bases['field_spotlight_person_nid'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7267,7 +7773,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'number_integer',
   );
 
-  // Exported field_base: 'field_spotlight_person_type'
+  // Exported field_base: 'field_spotlight_person_type'.
   $field_bases['field_spotlight_person_type'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7295,7 +7801,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_staff_item'
+  // Exported field_base: 'field_staff_item'.
   $field_bases['field_staff_item'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7317,7 +7823,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_stanford_degrees_single'
+  // Exported field_base: 'field_stanford_degrees_single'.
   $field_bases['field_stanford_degrees_single'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7338,7 +7844,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_stanford_event'
+  // Exported field_base: 'field_stanford_event'.
   $field_bases['field_stanford_event'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7363,7 +7869,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_stanford_gsb_affiliation'
+  // Exported field_base: 'field_stanford_gsb_affiliation'.
   $field_bases['field_stanford_gsb_affiliation'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7385,7 +7891,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_story_title_ref'
+  // Exported field_base: 'field_story_title_ref'.
   $field_bases['field_story_title_ref'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7419,7 +7925,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_submit'
+  // Exported field_base: 'field_submit'.
   $field_bases['field_submit'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7436,7 +7942,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'submit_field',
   );
 
-  // Exported field_base: 'field_suffix_name'
+  // Exported field_base: 'field_suffix_name'.
   $field_bases['field_suffix_name'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7457,7 +7963,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_sunetid'
+  // Exported field_base: 'field_sunetid'.
   $field_bases['field_sunetid'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7478,7 +7984,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_superhead'
+  // Exported field_base: 'field_superhead'.
   $field_bases['field_superhead'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7497,7 +8003,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_tag'
+  // Exported field_base: 'field_tag'.
   $field_bases['field_tag'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7523,7 +8029,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_target_audience'
+  // Exported field_base: 'field_target_audience'.
   $field_bases['field_target_audience'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7549,7 +8055,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
-  // Exported field_base: 'field_taxonomy_markup'
+  // Exported field_base: 'field_taxonomy_markup'.
   $field_bases['field_taxonomy_markup'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7570,7 +8076,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_teaching_materials'
+  // Exported field_base: 'field_teaching_materials'.
   $field_bases['field_teaching_materials'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7592,7 +8098,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_teaching_statement'
+  // Exported field_base: 'field_teaching_statement'.
   $field_bases['field_teaching_statement'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7611,7 +8117,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_teaching_talks_help'
+  // Exported field_base: 'field_teaching_talks_help'.
   $field_bases['field_teaching_talks_help'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7637,7 +8143,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_text_equivalent'
+  // Exported field_base: 'field_text_equivalent'.
   $field_bases['field_text_equivalent'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7656,7 +8162,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_text_slide'
+  // Exported field_base: 'field_text_slide'.
   $field_bases['field_text_slide'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7675,7 +8181,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_text_style'
+  // Exported field_base: 'field_text_style'.
   $field_bases['field_text_style'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7701,7 +8207,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_time'
+  // Exported field_base: 'field_time'.
   $field_bases['field_time'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7731,7 +8237,33 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_time_zone'
+  // Exported field_base: 'field_time_commitment'.
+  $field_bases['field_time_commitment'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_time_commitment',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'time_commitment',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_time_zone'.
   $field_bases['field_time_zone'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7752,7 +8284,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'tzfield',
   );
 
-  // Exported field_base: 'field_title'
+  // Exported field_base: 'field_title'.
   $field_bases['field_title'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7773,7 +8305,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_title_appointment'
+  // Exported field_base: 'field_title_appointment'.
   $field_bases['field_title_appointment'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7794,7 +8326,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_title_position_single'
+  // Exported field_base: 'field_title_position_single'.
   $field_bases['field_title_position_single'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7815,7 +8347,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_title_position_unlimited'
+  // Exported field_base: 'field_title_position_unlimited'.
   $field_bases['field_title_position_unlimited'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -7836,7 +8368,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_topic'
+  // Exported field_base: 'field_topic'.
   $field_bases['field_topic'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7873,7 +8405,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_topic_page_url'
+  // Exported field_base: 'field_topic_page_url'.
   $field_bases['field_topic_page_url'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7902,7 +8434,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_twitter_search'
+  // Exported field_base: 'field_twitter_search'.
   $field_bases['field_twitter_search'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7923,7 +8455,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_twitter_url'
+  // Exported field_base: 'field_twitter_url'.
   $field_bases['field_twitter_url'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7952,7 +8484,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
-  // Exported field_base: 'field_twitter_widget_id'
+  // Exported field_base: 'field_twitter_widget_id'.
   $field_bases['field_twitter_widget_id'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7973,7 +8505,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_university'
+  // Exported field_base: 'field_university'.
   $field_bases['field_university'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -7994,7 +8526,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_update_your_photo'
+  // Exported field_base: 'field_update_your_photo'.
   $field_bases['field_update_your_photo'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8017,7 +8549,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_upload_pdfs'
+  // Exported field_base: 'field_upload_pdfs'.
   $field_bases['field_upload_pdfs'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8039,7 +8571,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_use_profile_img'
+  // Exported field_base: 'field_use_profile_img'.
   $field_bases['field_use_profile_img'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8064,7 +8596,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_video'
+  // Exported field_base: 'field_video'.
   $field_bases['field_video'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8086,7 +8618,26 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_video_url'
+  // Exported field_base: 'field_video_description'.
+  $field_bases['field_video_description'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_video_description',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
+  // Exported field_base: 'field_video_url'.
   $field_bases['field_video_url'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8101,7 +8652,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'video_embed_field',
   );
 
-  // Exported field_base: 'field_volume_number'
+  // Exported field_base: 'field_volume_number'.
   $field_bases['field_volume_number'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8122,7 +8673,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_who_to_contact'
+  // Exported field_base: 'field_who_to_contact'.
   $field_bases['field_who_to_contact'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8148,7 +8699,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'markup',
   );
 
-  // Exported field_base: 'field_witl_archive'
+  // Exported field_base: 'field_witl_archive'.
   $field_bases['field_witl_archive'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8173,7 +8724,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_witl_day_of_week_1'
+  // Exported field_base: 'field_witl_day_of_week_1'.
   $field_bases['field_witl_day_of_week_1'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8203,7 +8754,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_witl_day_of_week_2'
+  // Exported field_base: 'field_witl_day_of_week_2'.
   $field_bases['field_witl_day_of_week_2'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8233,7 +8784,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_witl_day_of_week_3'
+  // Exported field_base: 'field_witl_day_of_week_3'.
   $field_bases['field_witl_day_of_week_3'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8263,7 +8814,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_witl_facts'
+  // Exported field_base: 'field_witl_facts'.
   $field_bases['field_witl_facts'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8284,7 +8835,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_witl_facts_title'
+  // Exported field_base: 'field_witl_facts_title'.
   $field_bases['field_witl_facts_title'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8305,7 +8856,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_witl_journal_entry_1'
+  // Exported field_base: 'field_witl_journal_entry_1'.
   $field_bases['field_witl_journal_entry_1'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8327,7 +8878,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_witl_journal_entry_2'
+  // Exported field_base: 'field_witl_journal_entry_2'.
   $field_bases['field_witl_journal_entry_2'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8349,7 +8900,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_witl_journal_entry_3'
+  // Exported field_base: 'field_witl_journal_entry_3'.
   $field_bases['field_witl_journal_entry_3'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8371,7 +8922,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_witl_post_mba_goals'
+  // Exported field_base: 'field_witl_post_mba_goals'.
   $field_bases['field_witl_post_mba_goals'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8390,7 +8941,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_witl_under_photo_facts'
+  // Exported field_base: 'field_witl_under_photo_facts'.
   $field_bases['field_witl_under_photo_facts'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8411,7 +8962,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_work_in_progress'
+  // Exported field_base: 'field_work_in_progress'.
   $field_bases['field_work_in_progress'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8433,7 +8984,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_work_in_progress_desc'
+  // Exported field_base: 'field_work_in_progress_desc'.
   $field_bases['field_work_in_progress_desc'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8452,7 +9003,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_work_in_progress_title'
+  // Exported field_base: 'field_work_in_progress_title'.
   $field_bases['field_work_in_progress_title'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8473,7 +9024,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_working_papers'
+  // Exported field_base: 'field_working_papers'.
   $field_bases['field_working_papers'] = array(
     'active' => 1,
     'cardinality' => -1,
@@ -8495,7 +9046,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_year'
+  // Exported field_base: 'field_year'.
   $field_bases['field_year'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8525,7 +9076,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_year_of_publication'
+  // Exported field_base: 'field_year_of_publication'.
   $field_bases['field_year_of_publication'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8555,7 +9106,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_year_range'
+  // Exported field_base: 'field_year_range'.
   $field_bases['field_year_range'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8585,7 +9136,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'datetime',
   );
 
-  // Exported field_base: 'field_years'
+  // Exported field_base: 'field_years'.
   $field_bases['field_years'] = array(
     'active' => 1,
     'cardinality' => 1,
@@ -8606,7 +9157,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_youtube_embed_code'
+  // Exported field_base: 'field_youtube_embed_code'.
   $field_bases['field_youtube_embed_code'] = array(
     'active' => 1,
     'cardinality' => 1,
