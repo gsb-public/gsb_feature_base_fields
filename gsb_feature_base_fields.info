@@ -230,7 +230,6 @@ features[field_base][] = field_instance_label
 features[field_base][] = field_instance_text
 features[field_base][] = field_introduction
 features[field_base][] = field_is_application_open
-features[field_base][] = field_is_program_online
 features[field_base][] = field_issue_number
 features[field_base][] = field_item_id
 features[field_base][] = field_job_display

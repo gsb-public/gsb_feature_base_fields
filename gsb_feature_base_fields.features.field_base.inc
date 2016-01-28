@@ -4355,31 +4355,6 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
-  // Exported field_base: 'field_is_program_online'.
-  $field_bases['field_is_program_online'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_is_program_online',
-    'indexes' => array(
-      'value' => array(
-        0 => 'value',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'list',
-    'settings' => array(
-      'allowed_values' => array(
-        0 => '',
-        1 => '',
-      ),
-      'allowed_values_function' => '',
-    ),
-    'translatable' => 0,
-    'type' => 'list_boolean',
-  );
-
   // Exported field_base: 'field_issue_number'.
   $field_bases['field_issue_number'] = array(
     'active' => 1,
@@ -6592,7 +6567,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
   // Exported field_base: 'field_program_location'.
   $field_bases['field_program_location'] = array(
     'active' => 1,
-    'cardinality' => -1,
+    'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_program_location',
