@@ -323,6 +323,7 @@ features[field_base][] = field_program_instance
 features[field_base][] = field_program_location
 features[field_base][] = field_program_location_category
 features[field_base][] = field_program_location_link
+features[field_base][] = field_program_schedule
 features[field_base][] = field_program_single
 features[field_base][] = field_program_small_teams
 features[field_base][] = field_program_topics
