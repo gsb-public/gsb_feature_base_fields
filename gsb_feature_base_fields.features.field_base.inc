@@ -4259,7 +4259,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
       ),
       'repeat' => 0,
       'timezone_db' => '',
-      'todate' => 'required',
+      'todate' => 'optional',
       'tz_handling' => 'none',
     ),
     'translatable' => 0,
