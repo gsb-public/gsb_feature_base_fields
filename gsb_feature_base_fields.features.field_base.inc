@@ -6466,6 +6466,35 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_prequalification_url'.
+  $field_bases['field_prequalification_url'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_prequalification_url',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'link',
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'rel' => '',
+        'target' => 'default',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'link_field',
+  );
+
   // Exported field_base: 'field_price'.
   $field_bases['field_price'] = array(
     'active' => 1,
@@ -6697,8 +6726,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => 'Create a detail page with this information',
-        1 => 'Link to an existing page that provides the program details',
+        0 => 'Create a program overview page with this information.',
+        1 => 'Link to an existing page that provides program details.',
       ),
       'allowed_values_function' => '',
     ),
