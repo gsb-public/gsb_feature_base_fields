@@ -2814,16 +2814,23 @@ ScD|ScD
     'label' => 'Format',
     'required' => 0,
     'settings' => array(
+      'checkall' => array(
+        'checkall' => 0,
+        'checkall-check-all' => 1,
+        'checkall-toggle' => 1,
+        'checkall-uncheck-all' => 1,
+      ),
       'custom_add_another' => '',
       'custom_remove' => '',
-      'use_hierarchical_select_lite' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
+      'settings' => array(
+        'checkall' => FALSE,
+      ),
+      'type' => 'options_buttons',
       'weight' => 0,
     ),
     'workbench_access_field' => 0,
@@ -2860,8 +2867,10 @@ ScD|ScD
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
+      'settings' => array(
+        'checkall' => FALSE,
+      ),
+      'type' => 'options_buttons',
       'weight' => 1,
     ),
     'workbench_access_field' => 0,
