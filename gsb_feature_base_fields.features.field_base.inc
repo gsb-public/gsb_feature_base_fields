@@ -725,6 +725,27 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_additional_page_prefix'.
+  $field_bases['field_additional_page_prefix'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_additional_page_prefix',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h5><strong>Additional Page</strong></h5>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_additional_pages'.
   $field_bases['field_additional_pages'] = array(
     'active' => 1,
@@ -8672,6 +8693,27 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
       'markup' => array(
         'format' => 'gsb_wysiwyg_text',
         'value' => '<p><strong>Taxonomy</strong></p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
+  // Exported field_base: 'field_taxonomy_vtab_prefix'.
+  $field_bases['field_taxonomy_vtab_prefix'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_taxonomy_vtab_prefix',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<h5><strong>Taxonomy</strong></h5>
 ',
       ),
     ),
