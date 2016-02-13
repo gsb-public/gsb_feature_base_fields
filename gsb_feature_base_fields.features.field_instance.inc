@@ -2415,7 +2415,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -2524,7 +2524,7 @@ ScD|ScD
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -2648,7 +2648,7 @@ ScD|ScD
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 3,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
@@ -2712,7 +2712,7 @@ ScD|ScD
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 4,
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -2819,14 +2819,14 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_faculty_1-field_person_ref'.
-  $field_instances['field_collection_item-field_faculty_1-field_person_ref'] = array(
+  // 'field_collection_item-field_faculty_1-field_person_fac_single_ref'.
+  $field_instances['field_collection_item-field_faculty_1-field_person_fac_single_ref'] = array(
     'bundle' => 'field_faculty_1',
     'custom_add_another' => '',
     'custom_remove' => '',
@@ -2842,12 +2842,12 @@ ScD|ScD
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 1,
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_person_ref',
+    'field_name' => 'field_person_fac_single_ref',
     'label' => 'Faculty Name',
     'required' => 0,
     'settings' => array(
@@ -2864,7 +2864,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'entityreference_autocomplete',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -2971,7 +2971,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -3080,7 +3080,7 @@ ScD|ScD
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -3204,7 +3204,7 @@ ScD|ScD
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 3,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
@@ -3268,7 +3268,7 @@ ScD|ScD
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 4,
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -3375,14 +3375,14 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_faculty_2-field_person_ref'.
-  $field_instances['field_collection_item-field_faculty_2-field_person_ref'] = array(
+  // 'field_collection_item-field_faculty_2-field_person_fac_single_ref'.
+  $field_instances['field_collection_item-field_faculty_2-field_person_fac_single_ref'] = array(
     'bundle' => 'field_faculty_2',
     'custom_add_another' => '',
     'custom_remove' => '',
@@ -3398,12 +3398,12 @@ ScD|ScD
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 1,
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_person_ref',
+    'field_name' => 'field_person_fac_single_ref',
     'label' => 'Faculty Name',
     'required' => 0,
     'settings' => array(
@@ -3420,7 +3420,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'entityreference_autocomplete',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -3672,7 +3672,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -3781,7 +3781,7 @@ ScD|ScD
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 7,
+      'weight' => 8,
     ),
     'workbench_access_field' => 0,
   );
@@ -3833,7 +3833,7 @@ ScD|ScD
         'checkall' => FALSE,
       ),
       'type' => 'options_buttons',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -3957,7 +3957,7 @@ ScD|ScD
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 3,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
@@ -4021,7 +4021,7 @@ ScD|ScD
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 4,
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -4128,14 +4128,14 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_faculty_directors-field_person_ref'.
-  $field_instances['field_collection_item-field_faculty_directors-field_person_ref'] = array(
+  // 'field_collection_item-field_faculty_directors-field_person_fac_single_ref'.
+  $field_instances['field_collection_item-field_faculty_directors-field_person_fac_single_ref'] = array(
     'bundle' => 'field_faculty_directors',
     'custom_add_another' => '',
     'custom_remove' => '',
@@ -4151,12 +4151,12 @@ ScD|ScD
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 1,
+        'weight' => 8,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_person_ref',
+    'field_name' => 'field_person_fac_single_ref',
     'label' => 'Faculty Name',
     'required' => 0,
     'settings' => array(
@@ -4173,7 +4173,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'entityreference_autocomplete',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -4439,7 +4439,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -4548,7 +4548,7 @@ ScD|ScD
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -4672,7 +4672,7 @@ ScD|ScD
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 3,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
@@ -4736,7 +4736,7 @@ ScD|ScD
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 4,
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -4843,14 +4843,14 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_guest_speakers_advisors_fc-field_person_ref'.
-  $field_instances['field_collection_item-field_guest_speakers_advisors_fc-field_person_ref'] = array(
+  // 'field_collection_item-field_guest_speakers_advisors_fc-field_person_fac_single_ref'.
+  $field_instances['field_collection_item-field_guest_speakers_advisors_fc-field_person_fac_single_ref'] = array(
     'bundle' => 'field_guest_speakers_advisors_fc',
     'custom_add_another' => '',
     'custom_remove' => '',
@@ -4866,12 +4866,12 @@ ScD|ScD
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 1,
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_person_ref',
+    'field_name' => 'field_person_fac_single_ref',
     'label' => 'Faculty Name',
     'required' => 0,
     'settings' => array(
@@ -4888,7 +4888,7 @@ ScD|ScD
         'size' => 60,
       ),
       'type' => 'entityreference_autocomplete',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
