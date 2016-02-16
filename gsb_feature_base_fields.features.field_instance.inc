@@ -5177,7 +5177,11 @@ ScD|ScD
     'bundle' => 'field_program_location',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'tid' => 34921,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -5195,7 +5199,7 @@ ScD|ScD
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_program_format',
     'label' => 'Format',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'checkall' => array(
         'checkall' => 0,
@@ -5225,7 +5229,11 @@ ScD|ScD
     'bundle' => 'field_program_location',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'tid' => 34931,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -5240,11 +5248,16 @@ ScD|ScD
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_program_location_category',
     'label' => 'Location Category',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
+      'checkall' => array(
+        'checkall' => 0,
+        'checkall-check-all' => 1,
+        'checkall-toggle' => 1,
+        'checkall-uncheck-all' => 1,
+      ),
       'custom_add_another' => '',
       'custom_remove' => '',
-      'use_hierarchical_select_lite' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -5412,7 +5425,7 @@ ScD|ScD
         'increment' => 15,
         'input_format' => 'M j Y - g:i:sa',
         'input_format_custom' => '',
-        'label_position' => 'above',
+        'label_position' => 'none',
         'no_fieldset' => 0,
         'repeat_collapsed' => 0,
         'text_parts' => array(),

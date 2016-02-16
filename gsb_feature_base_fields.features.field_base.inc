@@ -1044,6 +1044,25 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_app_requirements_intro'.
+  $field_bases['field_app_requirements_intro'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_app_requirements_intro',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
   // Exported field_base: 'field_application_deadlines'.
   $field_bases['field_application_deadlines'] = array(
     'active' => 1,
@@ -4832,13 +4851,13 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_key_benefits_teaser'.
-  $field_bases['field_key_benefits_teaser'] = array(
+  // Exported field_base: 'field_key_benefits_intro'.
+  $field_bases['field_key_benefits_intro'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_key_benefits_teaser',
+    'field_name' => 'field_key_benefits_intro',
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -4846,11 +4865,9 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'locked' => 0,
     'module' => 'text',
-    'settings' => array(
-      'max_length' => 150,
-    ),
+    'settings' => array(),
     'translatable' => 0,
-    'type' => 'text',
+    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_key_program_topics'.
@@ -6039,13 +6056,13 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_overview_teaser'.
-  $field_bases['field_overview_teaser'] = array(
+  // Exported field_base: 'field_overview_intro'.
+  $field_bases['field_overview_intro'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_overview_teaser',
+    'field_name' => 'field_overview_intro',
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -6053,11 +6070,9 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'locked' => 0,
     'module' => 'text',
-    'settings' => array(
-      'max_length' => 150,
-    ),
+    'settings' => array(),
     'translatable' => 0,
-    'type' => 'text',
+    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_page_count'.
