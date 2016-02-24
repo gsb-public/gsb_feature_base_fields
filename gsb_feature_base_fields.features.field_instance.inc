@@ -2324,7 +2324,7 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -2436,12 +2436,9 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2482,15 +2479,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '170x170',
         ),
         'type' => 'image',
-        'weight' => 3,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2555,13 +2552,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
-        'weight' => 4,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2619,13 +2613,13 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2726,14 +2720,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'entityreference',
+        'label' => 'hidden',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
-          'link' => FALSE,
+          'links' => 0,
+          'view_mode' => 'faculty_one',
         ),
-        'type' => 'entityreference_label',
-        'weight' => 7,
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2771,7 +2766,7 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -2882,13 +2877,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 0,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -2929,15 +2921,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '170x170',
         ),
         'type' => 'image',
-        'weight' => 3,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3002,13 +2994,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
-        'weight' => 4,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3066,13 +3055,13 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3173,14 +3162,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'entityreference',
+        'label' => 'hidden',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
-          'link' => FALSE,
+          'links' => 0,
+          'view_mode' => 'faculty_two',
         ),
-        'type' => 'entityreference_label',
-        'weight' => 7,
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3224,7 +3214,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3322,13 +3312,14 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'entityreference',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
-          'link' => 1,
+          'links' => TRUE,
+          'view_mode' => 'default',
         ),
-        'type' => 'entityreference_label',
-        'weight' => 1,
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'field_collection_item',
@@ -3363,13 +3354,13 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3470,13 +3461,13 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3579,13 +3570,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 9,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3690,13 +3678,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 5,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 8,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3743,12 +3728,9 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 9,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3789,15 +3771,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '170x170',
         ),
         'type' => 'image',
-        'weight' => 7,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -3862,12 +3844,9 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 6,
       ),
     ),
@@ -3926,13 +3905,13 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -4033,14 +4012,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'entityreference',
+        'label' => 'hidden',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
-          'link' => FALSE,
+          'links' => 0,
+          'view_mode' => 'faculty_leadership',
         ),
-        'type' => 'entityreference_label',
-        'weight' => 8,
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -4237,7 +4217,7 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -4348,13 +4328,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 0,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -4395,15 +4372,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '170x170',
         ),
         'type' => 'image',
-        'weight' => 3,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -4468,13 +4445,10 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
-        'weight' => 4,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -4532,13 +4506,13 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 4,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -4639,14 +4613,15 @@ ScD|ScD
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'entityreference',
+        'label' => 'hidden',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
-          'link' => FALSE,
+          'links' => 0,
+          'view_mode' => 'guest_speakers_advisors',
         ),
-        'type' => 'entityreference_label',
-        'weight' => 7,
+        'type' => 'entityreference_entity_view',
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
