@@ -94,7 +94,6 @@ features[field_base][] = field_act_situation
 features[field_base][] = field_act_status
 features[field_base][] = field_act_useful_item
 features[field_base][] = field_action
-features[field_base][] = field_additional_page_prefix
 features[field_base][] = field_additional_pages
 features[field_base][] = field_address
 features[field_base][] = field_affiliations_help

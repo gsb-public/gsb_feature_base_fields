@@ -746,27 +746,6 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_additional_page_prefix'.
-  $field_bases['field_additional_page_prefix'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_additional_page_prefix',
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'markup',
-    'settings' => array(
-      'markup' => array(
-        'format' => 'gsb_wysiwyg_text',
-        'value' => '<h5><strong>Additional Page</strong></h5>
-',
-      ),
-    ),
-    'translatable' => 0,
-    'type' => 'markup',
-  );
-
   // Exported field_base: 'field_additional_pages'.
   $field_bases['field_additional_pages'] = array(
     'active' => 1,
@@ -1407,7 +1386,7 @@ function gsb_feature_base_fields_field_default_field_bases() {
       'allowed_values' => array(
         'no_brochure_download' => 'No Brochure Download button',
         'brochure_link_pdf' => 'Link button to brochure PDF',
-        'brochure_link_ee_lead_form' => 'Link button to Executive Education lead form',
+        'brochure_link_ee_lead_form' => 'Link button to APower-based lead form',
         'brochure_link_other' => 'Link button to other URL',
       ),
       'allowed_values_function' => '',
@@ -3580,8 +3559,6 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         'target_bundles' => array(
           'announcement' => 'announcement',
           'event' => 'event',
-          'idea_story' => 'idea_story',
-          'offsite_idea_story' => 'offsite_idea_story',
           'offsite_school_story' => 'offsite_school_story',
           'school_story' => 'school_story',
         ),
@@ -7236,8 +7213,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => 'Create a program overview page with this information.',
-        1 => 'Link to an existing page that provides program details.',
+        0 => 'Create a program overview, faculty, participants, and curriculum page for this program.',
+        1 => 'Link to an existing page for this program.',
       ),
       'allowed_values_function' => '',
     ),
