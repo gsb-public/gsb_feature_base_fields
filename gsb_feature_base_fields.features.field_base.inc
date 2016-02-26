@@ -1389,6 +1389,33 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'markup',
   );
 
+  // Exported field_base: 'field_brochure_options'.
+  $field_bases['field_brochure_options'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_brochure_options',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'no_brochure_download' => 'No Brochure Download button',
+        'brochure_link_pdf' => 'Link button to brochure PDF',
+        'brochure_link_ee_lead_form' => 'Link button to Executive Education lead form',
+        'brochure_link_other' => 'Link button to other URL',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_brochure_pdf'.
   $field_bases['field_brochure_pdf'] = array(
     'active' => 1,
