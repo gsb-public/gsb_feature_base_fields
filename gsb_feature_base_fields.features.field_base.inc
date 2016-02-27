@@ -2863,6 +2863,69 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
+  // Exported field_base: 'field_edit_curriculum_page'.
+  $field_bases['field_edit_curriculum_page'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_edit_curriculum_page',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p>link</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
+  // Exported field_base: 'field_edit_faculty_page'.
+  $field_bases['field_edit_faculty_page'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_edit_faculty_page',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p>link</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
+  // Exported field_base: 'field_edit_participants_page'.
+  $field_bases['field_edit_participants_page'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_edit_participants_page',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'markup',
+    'settings' => array(
+      'markup' => array(
+        'format' => 'gsb_wysiwyg_text',
+        'value' => '<p>link</p>
+',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'markup',
+  );
+
   // Exported field_base: 'field_editorial_summary'.
   $field_bases['field_editorial_summary'] = array(
     'active' => 1,
