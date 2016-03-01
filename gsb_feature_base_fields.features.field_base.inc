@@ -5108,27 +5108,6 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_learn_more_video_title'.
-  $field_bases['field_learn_more_video_title'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_learn_more_video_title',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(
-      'max_length' => 255,
-    ),
-    'translatable' => 0,
-    'type' => 'text',
-  );
-
   // Exported field_base: 'field_learning_objective'.
   $field_bases['field_learning_objective'] = array(
     'active' => 1,
@@ -9771,25 +9750,6 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'translatable' => 0,
     'type' => 'field_collection',
-  );
-
-  // Exported field_base: 'field_video_description'.
-  $field_bases['field_video_description'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_video_description',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_video_url'.
