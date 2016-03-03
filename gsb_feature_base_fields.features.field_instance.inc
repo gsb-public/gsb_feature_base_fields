@@ -3312,13 +3312,12 @@ ScD|ScD
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'gsb_feature_existing_node_list_fpp',
+        'module' => 'entityreference',
         'settings' => array(
           'conditions' => array(),
-          'links' => TRUE,
-          'view_mode' => 'default',
+          'link' => 1,
         ),
-        'type' => 'entityreference_entity_view',
+        'type' => 'entityreference_label',
         'weight' => 0,
       ),
     ),
