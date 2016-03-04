@@ -105,7 +105,6 @@ features[field_base][] = field_alumni_session_ref
 features[field_base][] = field_alumni_story
 features[field_base][] = field_alumni_team_member
 features[field_base][] = field_apower_id
-features[field_base][] = field_app_requirements_intro
 features[field_base][] = field_application_deadlines
 features[field_base][] = field_application_requirements
 features[field_base][] = field_application_requirements_b
