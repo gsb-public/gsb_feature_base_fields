@@ -2746,6 +2746,31 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_boolean',
   );
 
+  // Exported field_base: 'field_display_on_finder_select'.
+  $field_bases['field_display_on_finder_select'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_display_on_finder_select',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'visible' => 'Visible',
+        'hidden' => 'Hidden',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_display_option'.
   $field_bases['field_display_option'] = array(
     'active' => 1,
