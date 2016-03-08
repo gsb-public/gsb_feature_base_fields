@@ -4824,11 +4824,7 @@ ScD|ScD
     'bundle' => 'field_program_location',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => array(
-      0 => array(
-        'tid' => 34921,
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -4876,11 +4872,7 @@ ScD|ScD
     'bundle' => 'field_program_location',
     'custom_add_another' => '',
     'custom_remove' => '',
-    'default_value' => array(
-      0 => array(
-        'tid' => 34931,
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
