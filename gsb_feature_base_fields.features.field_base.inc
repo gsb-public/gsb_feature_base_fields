@@ -7215,6 +7215,31 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'link_field',
   );
 
+  // Exported field_base: 'field_program_contact_options'.
+  $field_bases['field_program_contact_options'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_program_contact_options',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'display_a_person' => 'Display a person',
+        'link_to_page' => 'Link to page',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_program_date'.
   $field_bases['field_program_date'] = array(
     'active' => 1,
