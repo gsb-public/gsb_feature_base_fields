@@ -4228,7 +4228,7 @@ ScD|ScD
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_academic_title',
-    'label' => 'Academic Title',
+    'label' => 'Title',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
