@@ -1399,6 +1399,32 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'file',
   );
 
+  // Exported field_base: 'field_brochure_program_topics'.
+  $field_bases['field_brochure_program_topics'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_brochure_program_topics',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'program_topic',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
   // Exported field_base: 'field_bus_website_categories'.
   $field_bases['field_bus_website_categories'] = array(
     'active' => 1,
