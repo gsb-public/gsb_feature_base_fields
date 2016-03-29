@@ -6802,7 +6802,7 @@ ScD|ScD
     'ds_extras_field_template' => '',
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_body',
-    'label' => 'Video description',
+    'label' => 'Video Description',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
