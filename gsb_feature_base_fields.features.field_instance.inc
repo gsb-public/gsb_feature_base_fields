@@ -7270,7 +7270,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'research_pager' => array(
         'label' => 'above',
@@ -7358,7 +7358,7 @@ ScD|ScD
           'text' => 'PDF',
         ),
         'type' => 'gsb_field_formatter_download_link',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'research_pager' => array(
         'label' => 'above',
