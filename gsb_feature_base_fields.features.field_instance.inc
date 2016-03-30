@@ -7270,7 +7270,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'research_pager' => array(
         'label' => 'above',
@@ -7449,7 +7449,7 @@ ScD|ScD
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
     ),
     'ds_extras_field_template' => '',
