@@ -610,6 +610,7 @@ features[taxonomy][] = event_series
 features[taxonomy][] = program_category
 features[taxonomy][] = time_commitment
 features[variable][] = field_bundle_settings_field_collection_item__field_act_project_team_role
+features[variable][] = field_bundle_settings_field_collection_item__field_application_deadlines
 features[variable][] = field_bundle_settings_field_collection_item__field_authors
 features[variable][] = field_bundle_settings_field_collection_item__field_conf_presentations_section
 features[variable][] = field_bundle_settings_field_collection_item__field_event_location

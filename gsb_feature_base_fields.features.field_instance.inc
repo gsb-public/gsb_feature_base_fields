@@ -7604,9 +7604,9 @@ ScD|ScD
   t('Title/Position');
   t('URL');
   t('University');
+  t('Video Description');
   t('Video Title');
   t('Video URL');
-  t('Video description');
   t('View Map');
   t('Year(s)');
 
