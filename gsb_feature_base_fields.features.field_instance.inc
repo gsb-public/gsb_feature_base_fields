@@ -2496,7 +2496,7 @@ ScD|ScD
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'custom_add_another' => '',
       'custom_remove' => '',
       'default_image' => 0,
@@ -2938,7 +2938,7 @@ ScD|ScD
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'custom_add_another' => '',
       'custom_remove' => '',
       'default_image' => 0,
@@ -3787,7 +3787,7 @@ ScD|ScD
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'custom_add_another' => '',
       'custom_remove' => '',
       'default_image' => 0,
@@ -4388,7 +4388,7 @@ ScD|ScD
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'custom_add_another' => '',
       'custom_remove' => '',
       'default_image' => 0,
