@@ -9016,6 +9016,21 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
+  // Exported field_base: 'field_stackla_display'.
+  $field_bases['field_stackla_display'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_stackla_display',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'stackla_field',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'stackla_field',
+  );
+
   // Exported field_base: 'field_staff_item'.
   $field_bases['field_staff_item'] = array(
     'active' => 1,
