@@ -4336,6 +4336,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
       'allowed_values' => array(
         'none' => 'N/A',
         'image' => 'Image',
+        'slideshow' => 'Slideshow',
       ),
       'allowed_values_function' => '',
     ),
