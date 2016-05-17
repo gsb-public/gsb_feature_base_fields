@@ -6135,6 +6135,58 @@ ScD|ScD
   );
 
   // Exported field_instance:
+  // 'field_collection_item-field_slideshow_slides-field_slideshow_style'.
+  $field_instances['field_collection_item-field_slideshow_slides-field_slideshow_style'] = array(
+    'bundle' => 'field_slideshow_slides',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => array(
+      0 => array(
+        'value' => 'white',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'list_default',
+        'weight' => 5,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_slideshow_style',
+    'label' => 'Style',
+    'required' => 1,
+    'settings' => array(
+      'checkall' => array(
+        'checkall' => 0,
+        'checkall-check-all' => 1,
+        'checkall-toggle' => 1,
+        'checkall-uncheck-all' => 1,
+      ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'checkall' => FALSE,
+      ),
+      'type' => 'options_select',
+      'weight' => 40,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance:
   // 'field_collection_item-field_slideshow_slides-field_superhead'.
   $field_instances['field_collection_item-field_slideshow_slides-field_superhead'] = array(
     'bundle' => 'field_slideshow_slides',
@@ -7593,6 +7645,7 @@ ScD|ScD
   t('Speaker URL');
   t('Sponsor Logo');
   t('Sponsor Name');
+  t('Style');
   t('Superhead');
   t('Superhead Link');
   t('Team Member');

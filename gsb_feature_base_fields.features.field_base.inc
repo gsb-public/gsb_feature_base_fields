@@ -8892,6 +8892,35 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_slideshow_style'.
+  $field_bases['field_slideshow_style'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_slideshow_style',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'white' => 'White',
+        'blue' => 'Blue',
+        'purple' => 'Purple',
+        'brightteal' => 'Bright Teal',
+        'pink' => 'Pink',
+        'charcoal' => 'Charcoal',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_social_display_num'.
   $field_bases['field_social_display_num'] = array(
     'active' => 1,
