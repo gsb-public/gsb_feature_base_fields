@@ -470,6 +470,7 @@ features[field_base][] = field_video
 features[field_base][] = field_video_url
 features[field_base][] = field_volume_number
 features[field_base][] = field_who_to_contact
+features[field_base][] = field_widget_code
 features[field_base][] = field_witl_archive
 features[field_base][] = field_witl_day_of_week_1
 features[field_base][] = field_witl_day_of_week_2
