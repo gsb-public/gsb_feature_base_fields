@@ -431,7 +431,6 @@ features[field_base][] = field_sponsor
 features[field_base][] = field_spotlight_person_fid
 features[field_base][] = field_spotlight_person_nid
 features[field_base][] = field_spotlight_person_type
-features[field_base][] = field_stackla_display
 features[field_base][] = field_staff_item
 features[field_base][] = field_stanford_degrees_single
 features[field_base][] = field_stanford_event
