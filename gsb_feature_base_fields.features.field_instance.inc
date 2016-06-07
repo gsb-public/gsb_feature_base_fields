@@ -3790,7 +3790,7 @@ ScD|ScD
       'alt_field' => 1,
       'custom_add_another' => '',
       'custom_remove' => '',
-      'default_image' => 91431,
+      'default_image' => 92031,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'filefield_paths' => array(
