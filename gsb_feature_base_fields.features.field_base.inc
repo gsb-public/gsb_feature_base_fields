@@ -9103,6 +9103,28 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'list_text',
   );
 
+  // Exported field_base: 'field_stackla_name'.
+  $field_bases['field_stackla_name'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_stackla_name',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
   // Exported field_base: 'field_staff_item'.
   $field_bases['field_staff_item'] = array(
     'active' => 1,
@@ -10030,25 +10052,6 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'translatable' => 0,
     'type' => 'markup',
-  );
-
-  // Exported field_base: 'field_widget_code'.
-  $field_bases['field_widget_code'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_widget_code',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_witl_archive'.
