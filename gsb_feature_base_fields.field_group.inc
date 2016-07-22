@@ -73,7 +73,7 @@ function gsb_feature_base_fields_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Name wrapper',
-    'weight' => '3',
+    'weight' => '2',
     'children' => array(
       0 => 'field_other_name',
     ),

@@ -350,7 +350,8 @@ function gsb_feature_base_fields_ds_layout_settings_info() {
         3 => 'group_wrapper_name',
         4 => 'field_academic_title',
         5 => 'field_other_name',
-        6 => 'field_description',
+        6 => 'gsb_faculty_director_other_title_program',
+        7 => 'field_description',
       ),
     ),
     'fields' => array(
@@ -360,6 +361,7 @@ function gsb_feature_base_fields_ds_layout_settings_info() {
       'group_wrapper_name' => 'ds_content',
       'field_academic_title' => 'ds_content',
       'field_other_name' => 'ds_content',
+      'gsb_faculty_director_other_title_program' => 'ds_content',
       'field_description' => 'ds_content',
     ),
     'classes' => array(),
