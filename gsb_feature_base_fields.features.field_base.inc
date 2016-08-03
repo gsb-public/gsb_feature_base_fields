@@ -7836,16 +7836,17 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
+        'other_acad_publication' => 'Academic Publication',
         'book' => 'Book',
         'book_chapter' => 'Book Chapter',
         'case' => 'Case',
+        'core_concept' => 'Core Concept',
         'journal_article' => 'Journal Article',
         'quick_guide' => 'Quick Guide',
         'research_spotlight' => 'Research Spotlight',
         'stanford_closer_look' => 'Stanford Closer Look',
         'survey' => 'Survey',
         'working_paper' => 'Working Paper',
-        'other_acad_publication' => 'Academic Publication',
       ),
       'allowed_values_function' => '',
     ),
