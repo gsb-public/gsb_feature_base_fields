@@ -17,6 +17,14 @@ function gsb_feature_base_fields_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'seed_region' => array(
+      'name' => 'Seed Region',
+      'machine_name' => 'seed_region',
+      'description' => '',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
     'time_commitment' => array(
       'name' => 'Time Commitment',
       'machine_name' => 'time_commitment',
