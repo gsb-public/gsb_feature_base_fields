@@ -26,7 +26,7 @@ function gsb_feature_base_fields_taxonomy_default_vocabularies() {
       'weight' => 0,
     ),
     'time_commitment' => array(
-      'name' => 'Time Commitment',
+      'name' => 'Program Time Commitment',
       'machine_name' => 'time_commitment',
       'description' => '',
       'hierarchy' => 0,
