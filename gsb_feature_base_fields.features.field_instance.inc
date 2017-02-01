@@ -612,6 +612,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 1,
+          'use_content_language' => TRUE,
           'view_mode' => 'alumni_name',
         ),
         'type' => 'entityreference_entity_view',
@@ -1999,6 +2000,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'people_fpp',
         ),
         'type' => 'entityreference_entity_view',
@@ -2725,6 +2727,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'faculty_one',
         ),
         'type' => 'entityreference_entity_view',
@@ -3167,6 +3170,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'faculty_two',
         ),
         'type' => 'entityreference_entity_view',
@@ -4016,6 +4020,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'faculty_leadership',
         ),
         'type' => 'entityreference_entity_view',
@@ -4617,6 +4622,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'guest_speakers_advisors',
         ),
         'type' => 'entityreference_entity_view',
@@ -5348,6 +5354,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'people_fpp',
         ),
         'type' => 'entityreference_entity_view',
@@ -5439,6 +5446,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'idea_story_related',
         ),
         'type' => 'entityreference_entity_view',
