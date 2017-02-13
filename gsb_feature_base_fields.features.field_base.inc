@@ -1133,10 +1133,10 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'Not yet available' => 'Not yet available',
-        'Open' => 'Open',
-        'Extended' => 'Extended',
-        'Closed' => 'Closed',
+        3 => 'Not yet available',
+        2 => 'Open',
+        1 => 'Extended',
+        4 => 'Closed',
       ),
       'allowed_values_function' => '',
     ),
@@ -10196,6 +10196,31 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     ),
     'translatable' => 0,
     'type' => 'text',
+  );
+
+  // Exported field_base: 'field_waitlist_only'.
+  $field_bases['field_waitlist_only'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_waitlist_only',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => '',
+        1 => '',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_boolean',
   );
 
   // Exported field_base: 'field_who_to_contact'.
