@@ -3806,6 +3806,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         'target_bundles' => array(
           'announcement' => 'announcement',
           'event' => 'event',
+          'idea_story' => 'idea_story',
+          'offsite_idea_story' => 'offsite_idea_story',
           'offsite_school_story' => 'offsite_school_story',
           'school_story' => 'school_story',
         ),
