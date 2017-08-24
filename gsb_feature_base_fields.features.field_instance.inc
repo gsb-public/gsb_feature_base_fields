@@ -5959,7 +5959,7 @@ ScD|ScD
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'compress',
         ),
         'type' => 'image',
         'weight' => 0,
