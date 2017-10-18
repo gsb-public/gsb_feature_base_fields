@@ -3766,7 +3766,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         ),
         'view' => array(
           'args' => array(
-            0 => 'announcement+book+event+idea_story+offsite_idea_story+offsite_school_story+school_story+admission_event',
+            0 => 'announcement+book+event+idea_story+offsite_school_story+school_story+admission_event',
           ),
           'display_name' => 'entityreference_1',
           'view_name' => 'gsb_related_other_content_autocomplete',
