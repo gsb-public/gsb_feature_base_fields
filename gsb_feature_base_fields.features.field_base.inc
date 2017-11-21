@@ -4425,8 +4425,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => '',
-        1 => '',
+        0 => 'No Blog',
+        1 => 'Has Blog',
       ),
       'allowed_values_function' => '',
     ),
@@ -4525,8 +4525,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => '',
-        1 => '',
+        0 => 'Only profiles without Twitter',
+        1 => 'Only profiles with Twitter',
       ),
       'allowed_values_function' => '',
     ),
