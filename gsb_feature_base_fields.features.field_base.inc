@@ -4425,8 +4425,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        0 => 'No Blog',
-        1 => 'Has Blog',
+        0 => 'Only profiles without Blog',
+        1 => 'Only profiles with Blog',
       ),
       'allowed_values_function' => '',
     ),
