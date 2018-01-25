@@ -869,6 +869,7 @@ ScD|ScD
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
+          'bypass_access' => FALSE,
           'conditions' => array(
             0 => array(
               'condition' => 'hide_no_string',
@@ -887,6 +888,7 @@ ScD|ScD
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
+          'bypass_access' => FALSE,
           'conditions' => array(),
           'link' => 0,
         ),
@@ -3318,6 +3320,7 @@ ScD|ScD
         'label' => 'hidden',
         'module' => 'entityreference',
         'settings' => array(
+          'bypass_access' => FALSE,
           'conditions' => array(),
           'link' => 1,
         ),
