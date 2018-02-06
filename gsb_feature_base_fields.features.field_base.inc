@@ -2008,7 +2008,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'field_collection',
     'settings' => array(
       'hide_blank_items' => 1,
-      'hide_initial_item' => 0,
+      'hide_initial_item' => FALSE,
       'path' => '',
     ),
     'translatable' => 0,
@@ -5900,8 +5900,8 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'settings' => array(
       'allowed_values' => array(
         'black-bar' => 'Black bar',
-        'green-bar' => 'Green with Header',
-        'stanford-links' => 'Stanford University Links',
+        'green-bar' => 'Green',
+        'stanford-links' => 'Stanford University',
       ),
       'allowed_values_function' => '',
     ),
