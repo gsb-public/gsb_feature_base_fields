@@ -5162,6 +5162,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         0 => 'value',
       ),
     ),
+    'label' => 'Job Market Paper',
     'locked' => 0,
     'module' => 'field_collection',
     'settings' => array(
