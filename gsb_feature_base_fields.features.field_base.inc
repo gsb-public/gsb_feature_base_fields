@@ -871,6 +871,31 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
+  // Exported field_base: 'field_alumni_directory_link'.
+  $field_bases['field_alumni_directory_link'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_alumni_directory_link',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => '',
+        1 => '',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_boolean',
+  );
+
   // Exported field_base: 'field_alumni_program'.
   $field_bases['field_alumni_program'] = array(
     'active' => 1,
@@ -7572,6 +7597,41 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_program',
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'type' => 'none',
+        ),
+        'target_bundles' => array(
+          'program' => 'program',
+        ),
+      ),
+      'target_type' => 'node',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
+  // Exported field_base: 'field_program_attended'.
+  $field_bases['field_program_attended'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_program_attended',
     'indexes' => array(
       'target_id' => array(
         0 => 'target_id',
