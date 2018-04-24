@@ -17,6 +17,14 @@ function gsb_feature_base_fields_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'field_of_study' => array(
+      'name' => 'Field of Study',
+      'machine_name' => 'field_of_study',
+      'description' => '',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
     'program_category' => array(
       'name' => 'Program Category',
       'machine_name' => 'program_category',
