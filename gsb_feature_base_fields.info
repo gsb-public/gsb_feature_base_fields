@@ -621,7 +621,6 @@ features[field_instance][] = taxonomy_term-research_databases-field_default_chec
 features[taxonomy][] = department
 features[taxonomy][] = event_series
 features[taxonomy][] = field_of_study
-features[taxonomy][] = person_type_execed
 features[taxonomy][] = program_category
 features[taxonomy][] = region_interest
 features[taxonomy][] = seed_region
