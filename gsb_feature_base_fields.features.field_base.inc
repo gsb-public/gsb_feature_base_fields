@@ -4650,13 +4650,10 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
+        'green' => 'Green (new)',
         'blue' => 'Blue',
-        'teal' => 'Teal',
-        'lime' => 'Lime',
         'purple' => 'Purple',
-        'pink' => 'Pink',
-        'white' => 'White',
-        'charcoal' => 'Charcoal',
+        'Pink' => 'Pink',
       ),
       'allowed_values_function' => '',
     ),
