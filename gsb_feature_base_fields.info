@@ -257,7 +257,6 @@ features[field_base][] = field_homepage_image_color
 features[field_base][] = field_homepage_image_desktop
 features[field_base][] = field_homepage_image_mobile
 features[field_base][] = field_homepage_image_tablet
-features[field_base][] = field_homepage_image_text
 features[field_base][] = field_homepage_image_url
 features[field_base][] = field_homepage_video_file
 features[field_base][] = field_homepage_video_text
