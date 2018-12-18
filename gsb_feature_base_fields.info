@@ -288,6 +288,7 @@ features[field_base][] = field_job_display
 features[field_base][] = field_job_market_paper
 features[field_base][] = field_job_market_paper_desc
 features[field_base][] = field_joint_appointment
+features[field_base][] = field_kaltura_video_id
 features[field_base][] = field_key_benefits_description
 features[field_base][] = field_key_benefits_intro
 features[field_base][] = field_key_program_topics
