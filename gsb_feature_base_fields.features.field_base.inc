@@ -5144,6 +5144,7 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
       'allowed_values' => array(
         'Image' => 'Image',
         'Video' => 'Video',
+        'KalturaVideo' => 'Kaltura Video',
       ),
       'allowed_values_function' => '',
     ),
