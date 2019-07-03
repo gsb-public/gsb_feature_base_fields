@@ -5219,6 +5219,25 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_infogram_embed_code'.
+  $field_bases['field_infogram_embed_code'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_infogram_embed_code',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
   // Exported field_base: 'field_infographic'.
   $field_bases['field_infographic'] = array(
     'active' => 1,
