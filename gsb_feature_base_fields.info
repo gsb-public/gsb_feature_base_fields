@@ -274,6 +274,7 @@ features[field_base][] = field_image_or_video
 features[field_base][] = field_image_single_public
 features[field_base][] = field_included_in_tuition
 features[field_base][] = field_industry
+features[field_base][] = field_infogram_data_id
 features[field_base][] = field_infogram_embed_code
 features[field_base][] = field_infographic
 features[field_base][] = field_insights_bus_tab_help
