@@ -1230,7 +1230,20 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'computed_field',
     'settings' => array(
-      'code' => '$entity_field[0][\'value\'] = "asdf";',
+      'code' => '$entity_field[0][\'value\'] = \'
+<div class="art19-web-player awp-medium"
+     data-embed-enabled="false"
+     data-border-enabled="false"
+     data-background-color="#8B8681"
+     data-shadow="false"
+     data-progress-color="#8c1515"
+     data-primary-color="#8c1515"
+     data-share-enabled="false"
+     data-subscribe-enabled="false"
+     data-download-enabled="false"
+     data-episode-id="d6089ab9-4c91-4c44-be14-818f91b39b91">
+</div>
+\';',
       'database' => array(
         'data_default' => '',
         'data_index' => 0,
