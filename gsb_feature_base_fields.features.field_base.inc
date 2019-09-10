@@ -1230,18 +1230,19 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'locked' => 0,
     'module' => 'computed_field',
     'settings' => array(
-      'code' => '$entity_field[0][\'value\'] = \'
+      'code' => '$field_art_19_data_id = field_get_items($entity_type, $entity, "field_art_19_data_id");
+$entity_field[0][\'value\'] = \'
 <div class="art19-web-player awp-medium"
      data-embed-enabled="false"
      data-border-enabled="false"
-     data-background-color="#8B8681"
+     data-background-color="#1B2B32"
      data-shadow="false"
-     data-progress-color="#8c1515"
+     data-progress-color="#DAD9D6"
      data-primary-color="#8c1515"
      data-share-enabled="false"
      data-subscribe-enabled="false"
      data-download-enabled="false"
-     data-episode-id="d6089ab9-4c91-4c44-be14-818f91b39b91">
+     data-episode-id=\'.$field_art_19_data_id[0][\'value\'].\'>
 </div>
 \';',
       'database' => array(
