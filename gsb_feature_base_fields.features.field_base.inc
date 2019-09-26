@@ -799,6 +799,27 @@ function gsb_feature_base_fields_field_default_field_bases() {
     'type' => 'addressfield',
   );
 
+  // Exported field_base: 'field_admission_statement'.
+  $field_bases['field_admission_statement'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_admission_statement',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_affiliations_help'.
   $field_bases['field_affiliations_help'] = array(
     'active' => 1,
