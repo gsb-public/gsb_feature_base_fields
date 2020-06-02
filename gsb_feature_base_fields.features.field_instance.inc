@@ -1423,15 +1423,7 @@ ScD|ScD
         'label' => 'hidden',
         'module' => 'gsb_field_formatter',
         'settings' => array(
-          'conditions' => array(
-            0 => array(
-              'condition' => 'hide_if_string',
-              'configuration' => array(
-                'string' => 'Online',
-                'target' => 'field_event_location_type',
-              ),
-            ),
-          ),
+          'conditions' => array(),
           'display_address_line1' => 0,
           'display_address_line2' => 0,
           'display_city' => 1,
