@@ -3528,7 +3528,6 @@ $entity_field[0][\'value\'] = \'<script src="http://static.getchute.com/display-
         'Completed' => 'Completed',
         'Closed' => 'Closed',
         'Waitlisted' => 'Waitlisted',
-        'Waitlist Reg Only' => 'Waitlist Reg Only',
         'Full' => 'Full',
         'Denied' => 'Denied',
       ),
